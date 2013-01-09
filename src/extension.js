@@ -122,6 +122,8 @@ const WeatherMenuButton = new Lang.Class({
         this._old_position_in_panel = this._position_in_panel;
         this._comment_in_panel = this._settings.get_boolean(WEATHER_SHOW_COMMENT_IN_PANEL_KEY);
         this._refresh_interval = this._settings.get_int(WEATHER_REFRESH_INTERVAL);
+        this._latitude = 0;
+        this._longitude = 0;
 
         // Watch settings for changes
         let load_settings_and_refresh_weather = Lang.bind(this, function() {
@@ -273,10 +275,16 @@ const WeatherMenuButton = new Lang.Class({
     get_weather_url: function() {
         let server = 'http://query.yahooapis.com/v1/public/yql?format=json&q=';
         let query = 'select link,location,wind,atmosphere,units,'+
-            'item.condition,item.forecast,astronomy from weather.forecast '+
+            'item.condition,item.forecast,item.lat,item.long,astronomy from weather.forecast '+
             'where location="' + this._woeid + '" and u="' +
             this.unit_to_url() + '"';
         return server + query;
+    },
+
+    get_solstice_url: function() {
+        let url = 'http://sidensolhverv.dk/api/v1/calculate?lat='+ this._latitude + '&lng=' + this._longitude;
+        global.log("Solstice JSON url: " + url);
+        return url;
     },
 
     get_weather_icon: function(code) {
@@ -522,19 +530,19 @@ const WeatherMenuButton = new Lang.Class({
     },
 
     get_pressure_state : function(state) {
-	switch(parseInt(state, 3)) {
-	case PressureTendency.STEADY:
-	    return '\u2933';
-	    break;
+        switch(parseInt(state, 3)) {
+            case PressureTendency.STEADY:
+                return '\u2933';
+                break;
 
-	case  PressureTendency.RISING:
-	    return '\u2934';
-	    break;
+            case  PressureTendency.RISING:
+                return '\u2934';
+                break;
 
-	case  PressureTendency.FALLING:
-	    return '\u2935';
-	    break;
-	}
+            case  PressureTendency.FALLING:
+                return '\u2935';
+                break;
+        }
         /* Should not be reached. */
         return '\u2933';
     },
@@ -545,18 +553,25 @@ const WeatherMenuButton = new Lang.Class({
         let message = Soup.Message.new('GET', url);
         _httpSession.queue_message(message, function(session, message) {
             let jp = new Json.Parser();
-            jp.load_from_data(message.response_body.data, -1);
-            fun.call(here, jp.get_root().get_object());
+            try {
+                jp.load_from_data(message.response_body.data, -1);
+                fun.call(here, jp.get_root().get_object());
+            } catch (e) {
+                fun.call(here, null);
+            }
         });
     },
 
     refreshWeather: function(recurse) {
         this.load_json_async(this.get_weather_url(), function(json) {
+            if (json == null) return;
 
             try {
                 let weather = json.get_object_member('query').get_object_member('results').get_object_member('channel');
                 let weather_c = weather.get_object_member('item').get_object_member('condition');
                 let forecast = weather.get_object_member('item').get_array_member('forecast').get_elements();
+                this._latitude = weather.get_object_member('item').get_string_member('lat'); 
+                this._longitude = weather.get_object_member('item').get_string_member('long'); 
 
                 let location = weather.get_object_member('location').get_string_member('city');
                 if (this._city != null && this._city.length > 0)
@@ -642,12 +657,37 @@ const WeatherMenuButton = new Lang.Class({
                         this._sunrise_actor = this.createSunriseSunsetLabels();
                         this._sunrise_box.add_actor(this._sunrise_actor);
                     }
+                    if (this._solstice_actor == null) {
+                        this._solstice_actor = this.createSolsticeLabels();
+                        bb.add_actor(this._solstice_actor);
+                    }
+
                     this._currentWeatherSunrise.text = sunrise.toUpperCase();
                     this._currentWeatherSunset.text = sunset.toUpperCase();
+                    this.load_json_async(this.get_solstice_url(), function(json) {
+                        if (json == null) {
+                            json = {"solstice":"21.12 2012","hours":"0","minutes":"0","difference":"0"};
+                        }
+                        let solsticeMessage = json.hours + json.minutes >= 0 ? "Gained " : "Lost ";
+                        solsticeMessage += json.hours;
+                        solsticeMessage += "h";
+                        solsticeMessage += json.minutes;
+                        solsticeMessage += "m since ";
+                        solsticeMessage += json.solstice;
+                        solsticeMessage += " (";
+                        solsticeMessage += json.difference;
+                        solsticeMessage += "m since yesterday)";
+                        this._addedSinceSolstice.text = solsticeMessage;
+                    });
                 } else {
                     if (this._sunrise_actor != null) {
                         this._sunrise_actor.destroy();
                         this._sunrise_actor = null;
+                    }
+
+                    if (this._solstice_actor != null) {
+                        this._solstice_actor.destroy();
+                        this._solstice_actor = null;
                     }
                 }
                 // Refresh forecast
@@ -675,6 +715,7 @@ const WeatherMenuButton = new Lang.Class({
                 } else if (this._topBox.contains(this._weatherInfo)) {
                     this._topBox.remove_actor(this._weatherInfo);
                 }
+
 
             } catch(e) {
                 global.log('A ' + e.name + ' has occured: ' + e.message);
@@ -728,6 +769,18 @@ const WeatherMenuButton = new Lang.Class({
         return ab;
     },
 
+    createSolsticeLabels: function() {
+        this._addedSinceSolstice = new St.Label({ text: '-' });
+
+        let ab = new St.BoxLayout({
+            style_class: 'weather-current-astronomy'
+        });
+
+        ab.add_actor(this._addedSinceSolstice);
+
+        return ab;
+    },
+
     rebuildCurrentWeatherUi: function() {
         this.destroyCurrentWeather();
 
@@ -764,9 +817,13 @@ const WeatherMenuButton = new Lang.Class({
         bb.add_actor(this._currentWeatherSummary);
 
         this._sunrise_actor = null;
+        this._solstice_actor = null;
         if (this._show_sunrise) {
             this._sunrise_actor = this.createSunriseSunsetLabels();
             bb.add_actor(this._sunrise_actor);
+
+            this._solstice_actor = this.createSolsticeLabels();
+            bb.add_actor(this._solstice_actor);
         }
         /* We need the box so we can destroy/create the labels when
            the user wants to. */
