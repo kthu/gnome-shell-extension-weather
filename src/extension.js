@@ -659,7 +659,7 @@ const WeatherMenuButton = new Lang.Class({
                     }
                     if (this._solstice_actor == null) {
                         this._solstice_actor = this.createSolsticeLabels();
-                        bb.add_actor(this._solstice_actor);
+                        this._sunrise_box.add_actor(this._solstice_actor);
                     }
 
                     this._currentWeatherSunrise.text = sunrise.toUpperCase();
