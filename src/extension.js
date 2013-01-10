@@ -666,7 +666,7 @@ const WeatherMenuButton = new Lang.Class({
                     this._currentWeatherSunrise.text = sunrise.toUpperCase();
                     this._currentWeatherSunset.text = sunset.toUpperCase();
 
-                    if (new Date().getTime() - this._solisticeRefreshTimestamp > 720000) {
+                    if (Date.now() - this._solisticeRefreshTimestamp > 720000) {
                         this.load_json_async(this.get_solstice_url(), function(json) {
                             if (json == null) {
                                 return;
@@ -682,6 +682,7 @@ const WeatherMenuButton = new Lang.Class({
                             solsticeMessage += json.get_int_member('difference');
                             solsticeMessage += "m since yesterday)";
                             this._addedSinceSolstice.text = solsticeMessage;
+                            this._solisticeRefreshTimestamp = Date.now();
                         });
                     }
                 } else {
