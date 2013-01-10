@@ -124,6 +124,7 @@ const WeatherMenuButton = new Lang.Class({
         this._refresh_interval = this._settings.get_int(WEATHER_REFRESH_INTERVAL);
         this._latitude = 0;
         this._longitude = 0;
+        this._solisticeRefreshTimestamp = 0;
 
         // Watch settings for changes
         let load_settings_and_refresh_weather = Lang.bind(this, function() {
@@ -664,22 +665,25 @@ const WeatherMenuButton = new Lang.Class({
 
                     this._currentWeatherSunrise.text = sunrise.toUpperCase();
                     this._currentWeatherSunset.text = sunset.toUpperCase();
-                    this.load_json_async(this.get_solstice_url(), function(json) {
-                        if (json == null) {
-                            return;
-                        }
 
-                        let solsticeMessage = json.get_int_member('hours') + json.get_int_member('minutes') >= 0 ? "Gained " : "Lost ";
-                        solsticeMessage += json.get_int_member('hours');
-                        solsticeMessage += "h";
-                        solsticeMessage += json.get_int_member('minutes');
-                        solsticeMessage += "m since ";
-                        solsticeMessage += json.get_string_member('solstice');
-                        solsticeMessage += " (";
-                        solsticeMessage += json.get_int_member('difference');
-                        solsticeMessage += "m since yesterday)";
-                        this._addedSinceSolstice.text = solsticeMessage;
-                    });
+                    if (new Date().getTime() - this._solisticeRefreshTimestamp > 720000) {
+                        this.load_json_async(this.get_solstice_url(), function(json) {
+                            if (json == null) {
+                                return;
+                            }
+
+                            let solsticeMessage = json.get_int_member('hours') + json.get_int_member('minutes') >= 0 ? "Gained " : "Lost ";
+                            solsticeMessage += json.get_int_member('hours');
+                            solsticeMessage += "h";
+                            solsticeMessage += json.get_int_member('minutes');
+                            solsticeMessage += "m since ";
+                            solsticeMessage += json.get_string_member('solstice');
+                            solsticeMessage += " (";
+                            solsticeMessage += json.get_int_member('difference');
+                            solsticeMessage += "m since yesterday)";
+                            this._addedSinceSolstice.text = solsticeMessage;
+                        });
+                    }
                 } else {
                     if (this._sunrise_actor != null) {
                         this._sunrise_actor.destroy();
