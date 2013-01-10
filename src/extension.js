@@ -666,16 +666,17 @@ const WeatherMenuButton = new Lang.Class({
                     this._currentWeatherSunset.text = sunset.toUpperCase();
                     this.load_json_async(this.get_solstice_url(), function(json) {
                         if (json == null) {
-                            json = {"solstice":"21.12 2012","hours":"0","minutes":"0","difference":"0"};
+                            return;
                         }
-                        let solsticeMessage = json.hours + json.minutes >= 0 ? "Gained " : "Lost ";
-                        solsticeMessage += json.hours;
+
+                        let solsticeMessage = json.get_int_member('hours') + json.get_int_member('minutes') >= 0 ? "Gained " : "Lost ";
+                        solsticeMessage += json.get_int_member('hours');
                         solsticeMessage += "h";
-                        solsticeMessage += json.minutes;
+                        solsticeMessage += json.get_int_member('minutes');
                         solsticeMessage += "m since ";
-                        solsticeMessage += json.solstice;
+                        solsticeMessage += json.get_string_member('solstice');
                         solsticeMessage += " (";
-                        solsticeMessage += json.difference;
+                        solsticeMessage += json.get_int_member('difference');
                         solsticeMessage += "m since yesterday)";
                         this._addedSinceSolstice.text = solsticeMessage;
                     });
