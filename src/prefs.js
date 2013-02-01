@@ -306,7 +306,7 @@ const Widget = new GObject.Class({
                                              buttons: Gtk.ButtonsType.CLOSE,
                                              text: 'The UI file \"' + SEARCH_WOEID_UI +
                                              '\" seems to be missing.\nWe cannot ' +
-                                             'search for WOEIDs.' });
+                                             'search for Location IDs.' });
         dialog.run();
         dialog.destroy();
     },

@@ -74,12 +74,13 @@ in action in the Screenshots page.
 Location
 --------
 
-The GNOME Shell Weather Extension uses WOEIDs to know what weather
-data should be requested. The preferences for the extension includes
-a WOEID searcher: you only need to click in the "Search for WOEID"
-button, enter the name of your town or city, and press ENTER or
-click in the "Search" button. A list of locations that matches your
-search will fill the combo box so you can select the correct one.
+The GNOME Shell Weather Extension uses Yahoo!'s Location IDs to know
+what weather data should be requested. The preferences for the
+extension includes a Location ID searcher: you only need to click in
+the "Search for Location ID" button, enter the name of your town or
+city, and press ENTER or click in the "Search" button. A list of
+locations that matches your search will fill the combo box so you
+can select the correct one.
 
 License
 -------
