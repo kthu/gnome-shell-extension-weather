@@ -188,7 +188,7 @@ const WeatherMenuButton = new Lang.Class({
         });
 
         // Label
-        this._weatherInfo = new St.Label({ text: _('...') });
+        this._weatherInfo = new St.Label({ text: _("...") });
 
         // Panel menu item - the current class
         let menuAlignment = 0.25;
@@ -404,100 +404,100 @@ const WeatherMenuButton = new Lang.Class({
     get_weather_condition: function(code) {
         switch (parseInt(code, 10)){
         case 0: // tornado
-            return _('Tornado');
+            return _("Tornado");
         case 1: // tropical storm
-            return _('Tropical storm');
+            return _("Tropical storm");
         case 2: // hurricane
-            return _('Hurricane');
+            return _("Hurricane");
         case 3: // severe thunderstorms
-            return _('Severe thunderstorms');
+            return _("Severe thunderstorms");
         case 4: // thunderstorms
-            return _('Thunderstorms');
+            return _("Thunderstorms");
         case 5: // mixed rain and snow
-            return _('Mixed rain and snow');
+            return _("Mixed rain and snow");
         case 6: // mixed rain and sleet
-            return _('Mixed rain and sleet');
+            return _("Mixed rain and sleet");
         case 7: // mixed snow and sleet
-            return _('Mixed snow and sleet');
+            return _("Mixed snow and sleet");
         case 8: // freezing drizzle
-            return _('Freezing drizzle');
+            return _("Freezing drizzle");
         case 9: // drizzle
-            return _('Drizzle');
+            return _("Drizzle");
         case 10: // freezing rain
-            return _('Freezing rain');
+            return _("Freezing rain");
         case 11: // showers
-            return _('Showers');
+            return _("Showers");
         case 12: // showers
-            return _('Showers');
+            return _("Showers");
         case 13: // snow flurries
-            return _('Snow flurries');
+            return _("Snow flurries");
         case 14: // light snow showers
-            return _('Light snow showers');
+            return _("Light snow showers");
         case 15: // blowing snow
-            return _('Blowing snow');
+            return _("Blowing snow");
         case 16: // snow
-            return _('Snow');
+            return _("Snow");
         case 17: // hail
-            return _('Hail');
+            return _("Hail");
         case 18: // sleet
-            return _('Sleet');
+            return _("Sleet");
         case 19: // dust
-            return _('Dust');
+            return _("Dust");
         case 20: // foggy
-            return _('Foggy');
+            return _("Foggy");
         case 21: // haze
-            return _('Haze');
+            return _("Haze");
         case 22: // smoky
-            return _('Smoky');
+            return _("Smoky");
         case 23: // blustery
-            return _('Blustery');
+            return _("Blustery");
         case 24: // windy
-            return _('Windy');
+            return _("Windy");
         case 25: // cold
-            return _('Cold');
+            return _("Cold");
         case 26: // cloudy
-            return _('Cloudy');
+            return _("Cloudy");
         case 27: // mostly cloudy (night)
         case 28: // mostly cloudy (day)
-            return _('Mostly cloudy');
+            return _("Mostly cloudy");
         case 29: // partly cloudy (night)
         case 30: // partly cloudy (day)
-            return _('Partly cloudy');
+            return _("Partly cloudy");
         case 31: // clear (night)
-            return _('Clear');
+            return _("Clear");
         case 32: // sunny
-            return _('Sunny');
+            return _("Sunny");
         case 33: // fair (night)
         case 34: // fair (day)
-            return _('Fair');
+            return _("Fair");
         case 35: // mixed rain and hail
-            return _('Mixed rain and hail');
+            return _("Mixed rain and hail");
         case 36: // hot
-            return _('Hot');
+            return _("Hot");
         case 37: // isolated thunderstorms
-            return _('Isolated thunderstorms');
+            return _("Isolated thunderstorms");
         case 38: // scattered thunderstorms
         case 39: // scattered thunderstorms
-            return _('Scattered thunderstorms');
+            return _("Scattered thunderstorms");
         case 40: // scattered showers
-            return _('Scattered showers');
+            return _("Scattered showers");
         case 41: // heavy snow
-            return _('Heavy snow');
+            return _("Heavy snow");
         case 42: // scattered snow showers
-            return _('Scattered snow showers');
+            return _("Scattered snow showers");
         case 43: // heavy snow
-            return _('Heavy snow');
+            return _("Heavy snow");
         case 44: // partly cloudy
-            return _('Partly cloudy');
+            return _("Partly cloudy");
         case 45: // thundershowers
-            return _('Thundershowers');
+            return _("Thundershowers");
         case 46: // snow showers
-            return _('Snow showers');
+            return _("Snow showers");
         case 47: // isolated thundershowers
-            return _('Isolated thundershowers');
+            return _("Isolated thundershowers");
         case 3200: // not available
         default:
-            return _('Not available');
+            return _("Not available");
         }
     },
 
@@ -512,12 +512,12 @@ const WeatherMenuButton = new Lang.Class({
     },
 
     get_locale_day: function(abr) {
-        let days = [_('Monday'), _('Tuesday'), _('Wednesday'), _('Thursday'), _('Friday'), _('Saturday'), _('Sunday')];
+        let days = [_("Monday"), _("Tuesday"), _("Wednesday"), _("Thursday"), _("Friday"), _("Saturday"), _("Sunday")];
         return days[this.parse_day(abr)];
     },
 
     get_compass_direction: function(deg) {
-        let directions = [_('N'), _('NE'), _('E'), _('SE'), _('S'), _('SW'), _('W'), _('NW')];
+        let directions = [_("N"), _("NE"), _("E"), _("SE"), _("S"), _("SW"), _("W"), _("NW")];
         return directions[Math.round(deg / 45) % directions.length];
     },
 
@@ -651,7 +651,7 @@ const WeatherMenuButton = new Lang.Class({
                     }
                 }
                 // Refresh forecast
-                let date_string = [_('Today'), _('Tomorrow')];
+                let date_string = [_("Today"), _("Tomorrow")];
                 for (let i = 0; i <= 1; i++) {
                     let forecastUi = this._forecast[i];
                     let forecastData = forecast[i].get_object();
@@ -703,8 +703,8 @@ const WeatherMenuButton = new Lang.Class({
     showLoadingUi: function() {
         this.destroyCurrentWeather();
         this.destroyFutureWeather();
-        this._currentWeather.set_child(new St.Label({ text: _('Loading current weather ...') }));
-        this._futureWeather.set_child(new St.Label({ text: _('Loading future weather ...') }));
+        this._currentWeather.set_child(new St.Label({ text: _("Loading current weather ...") }));
+        this._futureWeather.set_child(new St.Label({ text: _("Loading future weather ...") }));
     },
 
     createSunriseSunsetLabels: function() {
@@ -715,9 +715,9 @@ const WeatherMenuButton = new Lang.Class({
             style_class: 'weather-current-astronomy'
         });
 
-        let ab_sunriselabel = new St.Label({ text: _('Sunrise') + ': ' });
+        let ab_sunriselabel = new St.Label({ text: _("Sunrise") + ': ' });
         let ab_spacerlabel = new St.Label({ text: '   ' });
-        let ab_sunsetlabel = new St.Label({ text: _('Sunset') + ': ' });
+        let ab_sunsetlabel = new St.Label({ text: _("Sunset") + ': ' });
 
         ab.add_actor(ab_sunriselabel);
         ab.add_actor(this._currentWeatherSunrise);
@@ -740,13 +740,13 @@ const WeatherMenuButton = new Lang.Class({
 
         // The summary of the current weather
         this._currentWeatherSummary = new St.Label({
-            text: _('Loading ...'),
+            text: _("Loading ..."),
             style_class: 'weather-current-summary'
         });
 
         // The location name and link to the details page
         this._currentWeatherLocation = new St.Button({ reactive: true,
-                                                   label: _('Please wait') });
+                                                   label: _("Please wait") });
         this._currentWeatherLocation.connect('clicked', Lang.bind(this, function() {
             if (this._currentWeatherLocation.url == null)
                 return;
@@ -792,13 +792,13 @@ const WeatherMenuButton = new Lang.Class({
         rb.add_actor(rb_captions);
         rb.add_actor(rb_values);
 
-        rb_captions.add_actor(new St.Label({text: _('Wind chill:')}));
+        rb_captions.add_actor(new St.Label({text: _("Wind chill:")}));
         rb_values.add_actor(this._currentWeatherChill);
-        rb_captions.add_actor(new St.Label({text: _('Humidity:')}));
+        rb_captions.add_actor(new St.Label({text: _("Humidity:")}));
         rb_values.add_actor(this._currentWeatherHumidity);
-        rb_captions.add_actor(new St.Label({text: _('Pressure:')}));
+        rb_captions.add_actor(new St.Label({text: _("Pressure:")}));
         rb_values.add_actor(this._currentWeatherPressure);
-        rb_captions.add_actor(new St.Label({text: _('Wind:')}));
+        rb_captions.add_actor(new St.Label({text: _("Wind:")}));
         rb_values.add_actor(this._currentWeatherWind);
 
         let xb = new St.BoxLayout();
