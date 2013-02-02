@@ -6,7 +6,7 @@ uuid = weather@gnome-shell-extensions.gnome.org
 
 extensiondir = $(topextensiondir)/$(uuid)
 
-dist_extension_DATA = stylesheet.css prefs.xml search.xml
+dist_extension_DATA = stylesheet.css prefs.ui search.ui
 nodist_extension_DATA = metadata.json $(EXTRA_EXTENSION)
 
 EXTRA_DIST = metadata.json.in
