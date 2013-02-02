@@ -1,5 +1,5 @@
-data/org.gnome.shell.extensions.weather.gschema.xml.in
-data/prefs.xml
-data/search.xml
+[type gettext/schema]data/org.gnome.shell.extensions.weather.gschema.xml.in
+[type: gettext/glade]data/prefs.ui
+[type: gettext/glade]data/search.ui
 src/extension.js
 src/prefs.js
