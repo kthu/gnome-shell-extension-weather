@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-30 16:08+0200\n"
+"POT-Creation-Date: 2013-02-01 22:47-0600\n"
 "PO-Revision-Date: 2011-07-25 18:39+0300\n"
 "Last-Translator: Jesse Jaara <jesse.jaara@gmail.com>\n"
 "Language-Team: suomi <>\n"
@@ -18,10 +18,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-
-#, python-format
-msgid "Schema \"%s\" not found."
-msgstr ""
 
 msgid "..."
 msgstr "..."
@@ -209,20 +205,21 @@ msgstr "Ladataan säätietoja"
 msgid "Loading future weather ..."
 msgstr "Ladataan huomisen säätietoja"
 
-msgid "Loading ..."
-msgstr "Ladataan..."
-
-msgid "Please wait"
-msgstr "Odota"
-
 msgid "Sunrise"
 msgstr ""
 
 msgid "Sunset"
 msgstr ""
 
-msgid "Temperature:"
-msgstr "Lämpötila"
+msgid "Loading ..."
+msgstr "Ladataan..."
+
+msgid "Please wait"
+msgstr "Odota"
+
+#, fuzzy
+msgid "Wind chill:"
+msgstr "Tuulen nopeus:"
 
 msgid "Humidity:"
 msgstr "Kosteusprosentti:"
@@ -232,3 +229,140 @@ msgstr "Ilmanpaine:"
 
 msgid "Wind:"
 msgstr "Tuulen nopeus:"
+
+msgid "Schema "
+msgstr ""
+
+msgid "UI file \""
+msgstr ""
+
+msgid "<b>_Location ID:</b>"
+msgstr ""
+
+#, fuzzy
+msgid "_Temperature unit:"
+msgstr "Lämpötila"
+
+msgid "Wind _speed unit:"
+msgstr ""
+
+msgid "_Position in panel:"
+msgstr ""
+
+msgid "_Override location label:"
+msgstr ""
+
+msgid "Search for Location ID"
+msgstr ""
+
+msgid "T_ranslate weather conditions"
+msgstr ""
+
+msgid "Show s_unrise/sunset times"
+msgstr ""
+
+msgid "Use s_ymbolic icons"
+msgstr ""
+
+msgid "Show te_xt in panel"
+msgstr ""
+
+msgid "Include weather _conditions"
+msgstr ""
+
+msgid "Search for WOEID"
+msgstr ""
+
+msgid "Location:"
+msgstr ""
+
+msgid "_Search"
+msgstr ""
+
+msgid "Units"
+msgstr ""
+
+msgid ""
+"Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
+"'fahrenheit'."
+msgstr ""
+
+msgid "Wind Speed Units"
+msgstr ""
+
+msgid ""
+"Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
+"or 'knots'."
+msgstr ""
+
+msgid "Yahoo WOEID"
+msgstr ""
+
+msgid ""
+"Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
+"used to retrieve the corresponding weather+forecast information."
+msgstr ""
+
+msgid "City to be displayed"
+msgstr ""
+
+msgid ""
+"Optionally, you can override the displayed city. This one is displayed "
+"instead of the one from the Yahoo service."
+msgstr ""
+
+msgid "Whether to translate the weather condition"
+msgstr ""
+
+msgid ""
+"Whether to translate the weather condition. If enabled, the condition is "
+"translated based on the weather code. If disabled, the condition string from "
+"Yahoo is taken. Note: Enabling the translation sometimes results in loss of "
+"accuracy, e.g., the condition string \"PM Thunderstorms\" cannot be "
+"expressed in terms of weather codes."
+msgstr ""
+
+msgid "Whether to display sunrise / sunset times"
+msgstr ""
+
+msgid ""
+"Whether to display sunrise and sunset times for today in current weather"
+msgstr ""
+
+msgid "Whether to use symbolic icons"
+msgstr ""
+
+msgid "Whether to use symbolic icons instead of full-colored icons."
+msgstr ""
+
+msgid "Whether to show the text in the panel."
+msgstr ""
+
+msgid ""
+"Whether to show the weather condition text (aka. comment) together with the "
+"temperature in the panel (requires restart). If only weather condition text "
+"is undesired, consider show-comment-in-panel option."
+msgstr ""
+
+msgid "Whether to show the comment in the panel."
+msgstr ""
+
+msgid ""
+"Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
+"\"Clear\") in the panel. Note that the temperature is still shown (if "
+"undesired, consider show-text-in-panel option)."
+msgstr ""
+
+msgid "Position in panel"
+msgstr ""
+
+msgid ""
+"Set the position of this GNOME Shell extension in the panel to either "
+"'center', 'left' or 'right' (requires restart)."
+msgstr ""
+
+msgid "Refresh interval in seconds"
+msgstr ""
+
+msgid "The interval in seconds to refresh the weather information."
+msgstr ""
