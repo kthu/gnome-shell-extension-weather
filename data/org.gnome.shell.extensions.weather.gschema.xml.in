@@ -53,7 +53,7 @@
     <key name="show-text-in-panel" type="b">
       <default>true</default>
       <_summary>Whether to show the text in the panel.</_summary>
-      <_description>Whether to show the weather condition text (aka. comment) together with the temperature in the panel (requires restart). If only weather condition text is undesired, consider show-comment-in-panel option.</_description>
+      <_description>Whether to show the weather condition text (aka. comment) together with the temperature in the panel. If only weather condition text is undesired, consider show-comment-in-panel option.</_description>
     </key>
     <key name="show-comment-in-panel" type="b">
       <default>false</default>
@@ -63,7 +63,7 @@
     <key name="position-in-panel" enum="org.gnome.shell.extensions.weather.position">
       <default>'center'</default>
       <_summary>Position in panel</_summary>
-      <_description>Set the position of this GNOME Shell extension in the panel to either 'center', 'left' or 'right' (requires restart).</_description>
+      <_description>Set the position of this GNOME Shell extension in the panel to either 'center', 'left' or 'right'.</_description>
     </key>
     <key name="refresh-interval" type="i">
       <default>240</default>
