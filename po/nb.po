@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-01 22:47-0600\n"
+"POT-Creation-Date: 2013-02-02 00:34-0600\n"
 "PO-Revision-Date: 2011-06-02 23:04+0200\n"
 "Last-Translator: Stian Ellingsen <stiell@stiell.org>\n"
 "Language: nb\n"
@@ -15,301 +15,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "..."
-msgstr "…"
-
-msgid "Tornado"
-msgstr "Tornado"
-
-msgid "Tropical storm"
-msgstr "Tropisk storm"
-
-msgid "Hurricane"
-msgstr "Orkan"
-
-msgid "Severe thunderstorms"
-msgstr "Kraftig tordenvær"
-
-msgid "Thunderstorms"
-msgstr "Tordenvær"
-
-msgid "Mixed rain and snow"
-msgstr "Regn og snø"
-
-msgid "Mixed rain and sleet"
-msgstr "Regn og sludd"
-
-msgid "Mixed snow and sleet"
-msgstr "Snø og sludd"
-
-msgid "Freezing drizzle"
-msgstr "Underkjølt yr"
-
-msgid "Drizzle"
-msgstr "Yr"
-
-msgid "Freezing rain"
-msgstr "Underkjølt regn"
-
-msgid "Showers"
-msgstr "Regnbyger"
-
-msgid "Snow flurries"
-msgstr "Lett snøfall"
-
-msgid "Light snow showers"
-msgstr "Lette snøbyger"
-
-msgid "Blowing snow"
-msgstr "Snøføyke"
-
-msgid "Snow"
-msgstr "Snø"
-
-msgid "Hail"
-msgstr "Hagl"
-
-msgid "Sleet"
-msgstr "Sludd"
-
-msgid "Dust"
-msgstr "Støv"
-
-msgid "Foggy"
-msgstr "Tåke"
-
-msgid "Haze"
-msgstr "Dis"
-
-msgid "Smoky"
-msgstr "Røyk"
-
-msgid "Blustery"
-msgstr "Vindbyger"
-
-msgid "Windy"
-msgstr "Vind"
-
-msgid "Cold"
-msgstr "Kaldt"
-
-msgid "Cloudy"
-msgstr "Skyet"
-
-msgid "Mostly cloudy"
-msgstr "Stort sett skyet"
-
-msgid "Partly cloudy"
-msgstr "Delvis skyet"
-
-msgid "Clear"
-msgstr "Klarvær"
-
-msgid "Sunny"
-msgstr "Sol"
-
-msgid "Fair"
-msgstr "Lettskyet"
-
-msgid "Mixed rain and hail"
-msgstr "Regn og hagl"
-
-msgid "Hot"
-msgstr "Varmt"
-
-msgid "Isolated thunderstorms"
-msgstr "Lokalt tordenvær"
-
-msgid "Scattered thunderstorms"
-msgstr "Spredt tordenvær"
-
-msgid "Scattered showers"
-msgstr "Spredte regnbyger"
-
-msgid "Heavy snow"
-msgstr "Kraftig snøfall"
-
-msgid "Scattered snow showers"
-msgstr "Spredte snøbyger"
-
-msgid "Thundershowers"
-msgstr "Tordenbyger"
-
-msgid "Snow showers"
-msgstr "Snøbyger"
-
-msgid "Isolated thundershowers"
-msgstr "Lokale tordenbyger"
-
-msgid "Not available"
-msgstr "Ikke tilgjengelig"
-
-msgid "Monday"
-msgstr "mandag"
-
-msgid "Tuesday"
-msgstr "tirsdag"
-
-msgid "Wednesday"
-msgstr "onsdag"
-
-msgid "Thursday"
-msgstr "torsdag"
-
-msgid "Friday"
-msgstr "fredag"
-
-msgid "Saturday"
-msgstr "lørdag"
-
-msgid "Sunday"
-msgstr "søndag"
-
-msgid "N"
-msgstr ""
-
-msgid "NE"
-msgstr ""
-
-msgid "E"
-msgstr ""
-
-msgid "SE"
-msgstr ""
-
-msgid "S"
-msgstr ""
-
-msgid "SW"
-msgstr ""
-
-msgid "W"
-msgstr ""
-
-msgid "NW"
-msgstr ""
-
-msgid "Today"
-msgstr "I dag"
-
-msgid "Tomorrow"
-msgstr "I morgen"
-
-msgid "Loading current weather ..."
-msgstr "Laster værobservasjon …"
-
-msgid "Loading future weather ..."
-msgstr "Laster værvarsel …"
-
-msgid "Sunrise"
-msgstr ""
-
-msgid "Sunset"
-msgstr ""
-
-msgid "Loading ..."
-msgstr "Laster …"
-
-msgid "Please wait"
-msgstr "Vent litt"
-
-#, fuzzy
-msgid "Wind chill:"
-msgstr "Vind:"
-
-msgid "Humidity:"
-msgstr "Fuktighet:"
-
-msgid "Pressure:"
-msgstr "Lufttrykk:"
-
-msgid "Wind:"
-msgstr "Vind:"
-
-msgid "Schema "
-msgstr ""
-
-msgid "UI file \""
-msgstr ""
-
-msgid "<b>_Location ID:</b>"
-msgstr ""
-
-#, fuzzy
-msgid "_Temperature unit:"
-msgstr "Temperatur:"
-
-msgid "Wind _speed unit:"
-msgstr ""
-
-msgid "_Position in panel:"
-msgstr ""
-
-msgid "_Override location label:"
-msgstr ""
-
-msgid "Search for Location ID"
-msgstr ""
-
-msgid "T_ranslate weather conditions"
-msgstr ""
-
-msgid "Show s_unrise/sunset times"
-msgstr ""
-
-msgid "Use s_ymbolic icons"
-msgstr ""
-
-msgid "Show te_xt in panel"
-msgstr ""
-
-msgid "Include weather _conditions"
-msgstr ""
-
-msgid "Search for WOEID"
-msgstr ""
-
-msgid "Location:"
-msgstr ""
-
-msgid "_Search"
-msgstr ""
-
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "Whether to translate the weather condition"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
 "Whether to translate the weather condition. If enabled, the condition is "
 "translated based on the weather code. If disabled, the condition string from "
@@ -318,47 +68,497 @@ msgid ""
 "expressed in terms of weather codes."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to display sunrise / sunset times"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to use symbolic icons"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid "Whether to use symbolic icons instead of full-colored icons."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to show the text in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel (requires restart). If only weather condition text "
 "is undesired, consider show-comment-in-panel option."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the comment in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Position in panel"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right' (requires restart)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Refresh interval in seconds"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid "The interval in seconds to refresh the weather information."
+msgstr ""
+
+#: ../data/prefs.ui.h:1
+msgid "Center"
+msgstr ""
+
+#: ../data/prefs.ui.h:2
+msgid "Right"
+msgstr ""
+
+#: ../data/prefs.ui.h:3
+msgid "Left"
+msgstr ""
+
+#: ../data/prefs.ui.h:4
+msgid "Celsius"
+msgstr ""
+
+#: ../data/prefs.ui.h:5
+msgid "Farenheit"
+msgstr ""
+
+#: ../data/prefs.ui.h:6
+msgid "kph"
+msgstr ""
+
+#: ../data/prefs.ui.h:7
+msgid "mph"
+msgstr ""
+
+#: ../data/prefs.ui.h:8
+msgid "m/s"
+msgstr ""
+
+#: ../data/prefs.ui.h:9
+msgid "knots"
+msgstr ""
+
+#: ../data/prefs.ui.h:10
+msgid "<b>_Location ID:</b>"
+msgstr ""
+
+#: ../data/prefs.ui.h:11
+#, fuzzy
+msgid "_Temperature unit:"
+msgstr "Temperatur:"
+
+#: ../data/prefs.ui.h:12
+msgid "Wind _speed unit:"
+msgstr ""
+
+#: ../data/prefs.ui.h:13
+msgid "_Position in panel:"
+msgstr ""
+
+#: ../data/prefs.ui.h:14
+msgid "_Override location label:"
+msgstr ""
+
+#: ../data/prefs.ui.h:15
+msgid "Search for Location ID"
+msgstr ""
+
+#: ../data/prefs.ui.h:16
+msgid "T_ranslate weather conditions"
+msgstr ""
+
+#: ../data/prefs.ui.h:17
+msgid "Show s_unrise/sunset times"
+msgstr ""
+
+#: ../data/prefs.ui.h:18
+msgid "Use s_ymbolic icons"
+msgstr ""
+
+#: ../data/prefs.ui.h:19
+msgid "Show te_xt in panel"
+msgstr ""
+
+#: ../data/prefs.ui.h:20
+msgid "Include weather _conditions"
+msgstr ""
+
+#: ../data/search.ui.h:1
+msgid "Search for WOEID"
+msgstr ""
+
+#: ../data/search.ui.h:2
+msgid "Location:"
+msgstr ""
+
+#: ../data/search.ui.h:3
+msgid "_Search"
+msgstr ""
+
+#. Label
+#: ../src/extension.js:191
+msgid "..."
+msgstr "…"
+
+#. tornado
+#: ../src/extension.js:407
+msgid "Tornado"
+msgstr "Tornado"
+
+#. tropical storm
+#: ../src/extension.js:409
+msgid "Tropical storm"
+msgstr "Tropisk storm"
+
+#. hurricane
+#: ../src/extension.js:411
+msgid "Hurricane"
+msgstr "Orkan"
+
+#. severe thunderstorms
+#: ../src/extension.js:413
+msgid "Severe thunderstorms"
+msgstr "Kraftig tordenvær"
+
+#. thunderstorms
+#: ../src/extension.js:415
+msgid "Thunderstorms"
+msgstr "Tordenvær"
+
+#. mixed rain and snow
+#: ../src/extension.js:417
+msgid "Mixed rain and snow"
+msgstr "Regn og snø"
+
+#. mixed rain and sleet
+#: ../src/extension.js:419
+msgid "Mixed rain and sleet"
+msgstr "Regn og sludd"
+
+#. mixed snow and sleet
+#: ../src/extension.js:421
+msgid "Mixed snow and sleet"
+msgstr "Snø og sludd"
+
+#. freezing drizzle
+#: ../src/extension.js:423
+msgid "Freezing drizzle"
+msgstr "Underkjølt yr"
+
+#. drizzle
+#: ../src/extension.js:425
+msgid "Drizzle"
+msgstr "Yr"
+
+#. freezing rain
+#: ../src/extension.js:427
+msgid "Freezing rain"
+msgstr "Underkjølt regn"
+
+#. showers
+#: ../src/extension.js:429 ../src/extension.js:431
+msgid "Showers"
+msgstr "Regnbyger"
+
+#. snow flurries
+#: ../src/extension.js:433
+msgid "Snow flurries"
+msgstr "Lett snøfall"
+
+#. light snow showers
+#: ../src/extension.js:435
+msgid "Light snow showers"
+msgstr "Lette snøbyger"
+
+#. blowing snow
+#: ../src/extension.js:437
+msgid "Blowing snow"
+msgstr "Snøføyke"
+
+#. snow
+#: ../src/extension.js:439
+msgid "Snow"
+msgstr "Snø"
+
+#. hail
+#: ../src/extension.js:441
+msgid "Hail"
+msgstr "Hagl"
+
+#. sleet
+#: ../src/extension.js:443
+msgid "Sleet"
+msgstr "Sludd"
+
+#. dust
+#: ../src/extension.js:445
+msgid "Dust"
+msgstr "Støv"
+
+#. foggy
+#: ../src/extension.js:447
+msgid "Foggy"
+msgstr "Tåke"
+
+#. haze
+#: ../src/extension.js:449
+msgid "Haze"
+msgstr "Dis"
+
+#. smoky
+#: ../src/extension.js:451
+msgid "Smoky"
+msgstr "Røyk"
+
+#. blustery
+#: ../src/extension.js:453
+msgid "Blustery"
+msgstr "Vindbyger"
+
+#. windy
+#: ../src/extension.js:455
+msgid "Windy"
+msgstr "Vind"
+
+#. cold
+#: ../src/extension.js:457
+msgid "Cold"
+msgstr "Kaldt"
+
+#. cloudy
+#: ../src/extension.js:459
+msgid "Cloudy"
+msgstr "Skyet"
+
+#. mostly cloudy (night)
+#. mostly cloudy (day)
+#: ../src/extension.js:462
+msgid "Mostly cloudy"
+msgstr "Stort sett skyet"
+
+#. partly cloudy (night)
+#. partly cloudy (day)
+#. partly cloudy
+#: ../src/extension.js:465 ../src/extension.js:491
+msgid "Partly cloudy"
+msgstr "Delvis skyet"
+
+#. clear (night)
+#: ../src/extension.js:467
+msgid "Clear"
+msgstr "Klarvær"
+
+#. sunny
+#: ../src/extension.js:469
+msgid "Sunny"
+msgstr "Sol"
+
+#. fair (night)
+#. fair (day)
+#: ../src/extension.js:472
+msgid "Fair"
+msgstr "Lettskyet"
+
+#. mixed rain and hail
+#: ../src/extension.js:474
+msgid "Mixed rain and hail"
+msgstr "Regn og hagl"
+
+#. hot
+#: ../src/extension.js:476
+msgid "Hot"
+msgstr "Varmt"
+
+#. isolated thunderstorms
+#: ../src/extension.js:478
+msgid "Isolated thunderstorms"
+msgstr "Lokalt tordenvær"
+
+#. scattered thunderstorms
+#. scattered thunderstorms
+#: ../src/extension.js:481
+msgid "Scattered thunderstorms"
+msgstr "Spredt tordenvær"
+
+#. scattered showers
+#: ../src/extension.js:483
+msgid "Scattered showers"
+msgstr "Spredte regnbyger"
+
+#. heavy snow
+#: ../src/extension.js:485 ../src/extension.js:489
+msgid "Heavy snow"
+msgstr "Kraftig snøfall"
+
+#. scattered snow showers
+#: ../src/extension.js:487
+msgid "Scattered snow showers"
+msgstr "Spredte snøbyger"
+
+#. thundershowers
+#: ../src/extension.js:493
+msgid "Thundershowers"
+msgstr "Tordenbyger"
+
+#. snow showers
+#: ../src/extension.js:495
+msgid "Snow showers"
+msgstr "Snøbyger"
+
+#. isolated thundershowers
+#: ../src/extension.js:497
+msgid "Isolated thundershowers"
+msgstr "Lokale tordenbyger"
+
+#: ../src/extension.js:500
+msgid "Not available"
+msgstr "Ikke tilgjengelig"
+
+#: ../src/extension.js:515
+msgid "Monday"
+msgstr "mandag"
+
+#: ../src/extension.js:515
+msgid "Tuesday"
+msgstr "tirsdag"
+
+#: ../src/extension.js:515
+msgid "Wednesday"
+msgstr "onsdag"
+
+#: ../src/extension.js:515
+msgid "Thursday"
+msgstr "torsdag"
+
+#: ../src/extension.js:515
+msgid "Friday"
+msgstr "fredag"
+
+#: ../src/extension.js:515
+msgid "Saturday"
+msgstr "lørdag"
+
+#: ../src/extension.js:515
+msgid "Sunday"
+msgstr "søndag"
+
+#: ../src/extension.js:520
+msgid "N"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "NE"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "E"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "SE"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "S"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "SW"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "W"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "NW"
+msgstr ""
+
+#. Refresh forecast
+#: ../src/extension.js:654
+msgid "Today"
+msgstr "I dag"
+
+#: ../src/extension.js:654
+msgid "Tomorrow"
+msgstr "I morgen"
+
+#: ../src/extension.js:706
+msgid "Loading current weather ..."
+msgstr "Laster værobservasjon …"
+
+#: ../src/extension.js:707
+msgid "Loading future weather ..."
+msgstr "Laster værvarsel …"
+
+#: ../src/extension.js:718
+msgid "Sunrise"
+msgstr ""
+
+#: ../src/extension.js:720
+msgid "Sunset"
+msgstr ""
+
+#: ../src/extension.js:743
+msgid "Loading ..."
+msgstr "Laster …"
+
+#: ../src/extension.js:749
+msgid "Please wait"
+msgstr "Vent litt"
+
+#: ../src/extension.js:795
+#, fuzzy
+msgid "Wind chill:"
+msgstr "Vind:"
+
+#: ../src/extension.js:797
+msgid "Humidity:"
+msgstr "Fuktighet:"
+
+#: ../src/extension.js:799
+msgid "Pressure:"
+msgstr "Lufttrykk:"
+
+#: ../src/extension.js:801
+msgid "Wind:"
+msgstr "Vind:"
+
+#: ../src/prefs.js:152
+msgid "Schema "
+msgstr ""
+
+#: ../src/prefs.js:152
+msgid " not found."
+msgstr ""
+
+#: ../src/prefs.js:159
+msgid "UI file '"
+msgstr ""
+
+#: ../src/prefs.js:159
+msgid "' not found."
 msgstr ""

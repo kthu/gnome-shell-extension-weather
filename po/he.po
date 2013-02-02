@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-01 22:47-0600\n"
+"POT-Creation-Date: 2013-02-02 00:34-0600\n"
 "PO-Revision-Date: 2012-01-31 21:37+0200\n"
 "Last-Translator: Yaron Sheffer <yaronf@gmx.com>\n"
 "Language-Team: Hebrew <none@example.com>\n"
@@ -17,301 +17,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-msgid "..."
-msgstr "..."
-
-msgid "Tornado"
-msgstr "טורנדו"
-
-msgid "Tropical storm"
-msgstr "סופה טרופית"
-
-msgid "Hurricane"
-msgstr "הוריקן"
-
-msgid "Severe thunderstorms"
-msgstr "סופות רעמים קשות"
-
-msgid "Thunderstorms"
-msgstr "סופות רעמים"
-
-msgid "Mixed rain and snow"
-msgstr "גשם מעורב בשלג"
-
-msgid "Mixed rain and sleet"
-msgstr "גשם ושלג מימי"
-
-msgid "Mixed snow and sleet"
-msgstr "שלג מימי בחלקו"
-
-msgid "Freezing drizzle"
-msgstr "טפטוף קפוא"
-
-msgid "Drizzle"
-msgstr "טפטוף"
-
-msgid "Freezing rain"
-msgstr "גשם קפוא"
-
-msgid "Showers"
-msgstr "ממטרים"
-
-msgid "Snow flurries"
-msgstr "מטחי שלג קצרים"
-
-msgid "Light snow showers"
-msgstr "ממטרי שלג קלים"
-
-msgid "Blowing snow"
-msgstr "שלג מנשב"
-
-msgid "Snow"
-msgstr "שלג"
-
-msgid "Hail"
-msgstr "ברד"
-
-msgid "Sleet"
-msgstr "שלג מימי"
-
-msgid "Dust"
-msgstr "אבק"
-
-msgid "Foggy"
-msgstr "מעורפל"
-
-msgid "Haze"
-msgstr "אובך"
-
-msgid "Smoky"
-msgstr "מלא עשן"
-
-msgid "Blustery"
-msgstr "סוער"
-
-msgid "Windy"
-msgstr "סוער"
-
-msgid "Cold"
-msgstr "קר"
-
-msgid "Cloudy"
-msgstr "מעונן"
-
-msgid "Mostly cloudy"
-msgstr "מעונן ברובו"
-
-msgid "Partly cloudy"
-msgstr "מעונן חלקית"
-
-msgid "Clear"
-msgstr "בהיר"
-
-msgid "Sunny"
-msgstr "שמשי"
-
-msgid "Fair"
-msgstr "נאה"
-
-msgid "Mixed rain and hail"
-msgstr "גשם מעורב בברד"
-
-msgid "Hot"
-msgstr "חם"
-
-msgid "Isolated thunderstorms"
-msgstr "סופות רעמים בודדות"
-
-msgid "Scattered thunderstorms"
-msgstr "סופות רעמים מקומיות"
-
-msgid "Scattered showers"
-msgstr "ממטרים מקומיים"
-
-msgid "Heavy snow"
-msgstr "שלג כבד"
-
-msgid "Scattered snow showers"
-msgstr "ממטרי שלג מקומיים"
-
-msgid "Thundershowers"
-msgstr "סופות רעמים"
-
-msgid "Snow showers"
-msgstr "ממטרי שלג"
-
-msgid "Isolated thundershowers"
-msgstr "סופות רעמים בודדות"
-
-msgid "Not available"
-msgstr "לא זמין"
-
-msgid "Monday"
-msgstr "יום ב"
-
-msgid "Tuesday"
-msgstr "יום ג"
-
-msgid "Wednesday"
-msgstr "יום ד"
-
-msgid "Thursday"
-msgstr "יום ה"
-
-msgid "Friday"
-msgstr "יום ו"
-
-msgid "Saturday"
-msgstr "שבת"
-
-msgid "Sunday"
-msgstr "יום א"
-
-msgid "N"
-msgstr ""
-
-msgid "NE"
-msgstr ""
-
-msgid "E"
-msgstr ""
-
-msgid "SE"
-msgstr ""
-
-msgid "S"
-msgstr ""
-
-msgid "SW"
-msgstr ""
-
-msgid "W"
-msgstr ""
-
-msgid "NW"
-msgstr ""
-
-msgid "Today"
-msgstr "היום"
-
-msgid "Tomorrow"
-msgstr "מחר"
-
-msgid "Loading current weather ..."
-msgstr "טוען מזג אויר עכשווי..."
-
-msgid "Loading future weather ..."
-msgstr "טוען מזג אויר עתידי..."
-
-msgid "Sunrise"
-msgstr ""
-
-msgid "Sunset"
-msgstr ""
-
-msgid "Loading ..."
-msgstr "טוען..."
-
-msgid "Please wait"
-msgstr "נא להמתין"
-
-#, fuzzy
-msgid "Wind chill:"
-msgstr "רוח:"
-
-msgid "Humidity:"
-msgstr "לחות:"
-
-msgid "Pressure:"
-msgstr "לחץ ברומטרי:"
-
-msgid "Wind:"
-msgstr "רוח:"
-
-msgid "Schema "
-msgstr ""
-
-msgid "UI file \""
-msgstr ""
-
-msgid "<b>_Location ID:</b>"
-msgstr ""
-
-#, fuzzy
-msgid "_Temperature unit:"
-msgstr "טמפרטורה:"
-
-msgid "Wind _speed unit:"
-msgstr ""
-
-msgid "_Position in panel:"
-msgstr ""
-
-msgid "_Override location label:"
-msgstr ""
-
-msgid "Search for Location ID"
-msgstr ""
-
-msgid "T_ranslate weather conditions"
-msgstr ""
-
-msgid "Show s_unrise/sunset times"
-msgstr ""
-
-msgid "Use s_ymbolic icons"
-msgstr ""
-
-msgid "Show te_xt in panel"
-msgstr ""
-
-msgid "Include weather _conditions"
-msgstr ""
-
-msgid "Search for WOEID"
-msgstr ""
-
-msgid "Location:"
-msgstr ""
-
-msgid "_Search"
-msgstr ""
-
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "Whether to translate the weather condition"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
 "Whether to translate the weather condition. If enabled, the condition is "
 "translated based on the weather code. If disabled, the condition string from "
@@ -320,47 +70,497 @@ msgid ""
 "expressed in terms of weather codes."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to display sunrise / sunset times"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to use symbolic icons"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid "Whether to use symbolic icons instead of full-colored icons."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to show the text in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel (requires restart). If only weather condition text "
 "is undesired, consider show-comment-in-panel option."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the comment in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Position in panel"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right' (requires restart)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Refresh interval in seconds"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid "The interval in seconds to refresh the weather information."
+msgstr ""
+
+#: ../data/prefs.ui.h:1
+msgid "Center"
+msgstr ""
+
+#: ../data/prefs.ui.h:2
+msgid "Right"
+msgstr ""
+
+#: ../data/prefs.ui.h:3
+msgid "Left"
+msgstr ""
+
+#: ../data/prefs.ui.h:4
+msgid "Celsius"
+msgstr ""
+
+#: ../data/prefs.ui.h:5
+msgid "Farenheit"
+msgstr ""
+
+#: ../data/prefs.ui.h:6
+msgid "kph"
+msgstr ""
+
+#: ../data/prefs.ui.h:7
+msgid "mph"
+msgstr ""
+
+#: ../data/prefs.ui.h:8
+msgid "m/s"
+msgstr ""
+
+#: ../data/prefs.ui.h:9
+msgid "knots"
+msgstr ""
+
+#: ../data/prefs.ui.h:10
+msgid "<b>_Location ID:</b>"
+msgstr ""
+
+#: ../data/prefs.ui.h:11
+#, fuzzy
+msgid "_Temperature unit:"
+msgstr "טמפרטורה:"
+
+#: ../data/prefs.ui.h:12
+msgid "Wind _speed unit:"
+msgstr ""
+
+#: ../data/prefs.ui.h:13
+msgid "_Position in panel:"
+msgstr ""
+
+#: ../data/prefs.ui.h:14
+msgid "_Override location label:"
+msgstr ""
+
+#: ../data/prefs.ui.h:15
+msgid "Search for Location ID"
+msgstr ""
+
+#: ../data/prefs.ui.h:16
+msgid "T_ranslate weather conditions"
+msgstr ""
+
+#: ../data/prefs.ui.h:17
+msgid "Show s_unrise/sunset times"
+msgstr ""
+
+#: ../data/prefs.ui.h:18
+msgid "Use s_ymbolic icons"
+msgstr ""
+
+#: ../data/prefs.ui.h:19
+msgid "Show te_xt in panel"
+msgstr ""
+
+#: ../data/prefs.ui.h:20
+msgid "Include weather _conditions"
+msgstr ""
+
+#: ../data/search.ui.h:1
+msgid "Search for WOEID"
+msgstr ""
+
+#: ../data/search.ui.h:2
+msgid "Location:"
+msgstr ""
+
+#: ../data/search.ui.h:3
+msgid "_Search"
+msgstr ""
+
+#. Label
+#: ../src/extension.js:191
+msgid "..."
+msgstr "..."
+
+#. tornado
+#: ../src/extension.js:407
+msgid "Tornado"
+msgstr "טורנדו"
+
+#. tropical storm
+#: ../src/extension.js:409
+msgid "Tropical storm"
+msgstr "סופה טרופית"
+
+#. hurricane
+#: ../src/extension.js:411
+msgid "Hurricane"
+msgstr "הוריקן"
+
+#. severe thunderstorms
+#: ../src/extension.js:413
+msgid "Severe thunderstorms"
+msgstr "סופות רעמים קשות"
+
+#. thunderstorms
+#: ../src/extension.js:415
+msgid "Thunderstorms"
+msgstr "סופות רעמים"
+
+#. mixed rain and snow
+#: ../src/extension.js:417
+msgid "Mixed rain and snow"
+msgstr "גשם מעורב בשלג"
+
+#. mixed rain and sleet
+#: ../src/extension.js:419
+msgid "Mixed rain and sleet"
+msgstr "גשם ושלג מימי"
+
+#. mixed snow and sleet
+#: ../src/extension.js:421
+msgid "Mixed snow and sleet"
+msgstr "שלג מימי בחלקו"
+
+#. freezing drizzle
+#: ../src/extension.js:423
+msgid "Freezing drizzle"
+msgstr "טפטוף קפוא"
+
+#. drizzle
+#: ../src/extension.js:425
+msgid "Drizzle"
+msgstr "טפטוף"
+
+#. freezing rain
+#: ../src/extension.js:427
+msgid "Freezing rain"
+msgstr "גשם קפוא"
+
+#. showers
+#: ../src/extension.js:429 ../src/extension.js:431
+msgid "Showers"
+msgstr "ממטרים"
+
+#. snow flurries
+#: ../src/extension.js:433
+msgid "Snow flurries"
+msgstr "מטחי שלג קצרים"
+
+#. light snow showers
+#: ../src/extension.js:435
+msgid "Light snow showers"
+msgstr "ממטרי שלג קלים"
+
+#. blowing snow
+#: ../src/extension.js:437
+msgid "Blowing snow"
+msgstr "שלג מנשב"
+
+#. snow
+#: ../src/extension.js:439
+msgid "Snow"
+msgstr "שלג"
+
+#. hail
+#: ../src/extension.js:441
+msgid "Hail"
+msgstr "ברד"
+
+#. sleet
+#: ../src/extension.js:443
+msgid "Sleet"
+msgstr "שלג מימי"
+
+#. dust
+#: ../src/extension.js:445
+msgid "Dust"
+msgstr "אבק"
+
+#. foggy
+#: ../src/extension.js:447
+msgid "Foggy"
+msgstr "מעורפל"
+
+#. haze
+#: ../src/extension.js:449
+msgid "Haze"
+msgstr "אובך"
+
+#. smoky
+#: ../src/extension.js:451
+msgid "Smoky"
+msgstr "מלא עשן"
+
+#. blustery
+#: ../src/extension.js:453
+msgid "Blustery"
+msgstr "סוער"
+
+#. windy
+#: ../src/extension.js:455
+msgid "Windy"
+msgstr "סוער"
+
+#. cold
+#: ../src/extension.js:457
+msgid "Cold"
+msgstr "קר"
+
+#. cloudy
+#: ../src/extension.js:459
+msgid "Cloudy"
+msgstr "מעונן"
+
+#. mostly cloudy (night)
+#. mostly cloudy (day)
+#: ../src/extension.js:462
+msgid "Mostly cloudy"
+msgstr "מעונן ברובו"
+
+#. partly cloudy (night)
+#. partly cloudy (day)
+#. partly cloudy
+#: ../src/extension.js:465 ../src/extension.js:491
+msgid "Partly cloudy"
+msgstr "מעונן חלקית"
+
+#. clear (night)
+#: ../src/extension.js:467
+msgid "Clear"
+msgstr "בהיר"
+
+#. sunny
+#: ../src/extension.js:469
+msgid "Sunny"
+msgstr "שמשי"
+
+#. fair (night)
+#. fair (day)
+#: ../src/extension.js:472
+msgid "Fair"
+msgstr "נאה"
+
+#. mixed rain and hail
+#: ../src/extension.js:474
+msgid "Mixed rain and hail"
+msgstr "גשם מעורב בברד"
+
+#. hot
+#: ../src/extension.js:476
+msgid "Hot"
+msgstr "חם"
+
+#. isolated thunderstorms
+#: ../src/extension.js:478
+msgid "Isolated thunderstorms"
+msgstr "סופות רעמים בודדות"
+
+#. scattered thunderstorms
+#. scattered thunderstorms
+#: ../src/extension.js:481
+msgid "Scattered thunderstorms"
+msgstr "סופות רעמים מקומיות"
+
+#. scattered showers
+#: ../src/extension.js:483
+msgid "Scattered showers"
+msgstr "ממטרים מקומיים"
+
+#. heavy snow
+#: ../src/extension.js:485 ../src/extension.js:489
+msgid "Heavy snow"
+msgstr "שלג כבד"
+
+#. scattered snow showers
+#: ../src/extension.js:487
+msgid "Scattered snow showers"
+msgstr "ממטרי שלג מקומיים"
+
+#. thundershowers
+#: ../src/extension.js:493
+msgid "Thundershowers"
+msgstr "סופות רעמים"
+
+#. snow showers
+#: ../src/extension.js:495
+msgid "Snow showers"
+msgstr "ממטרי שלג"
+
+#. isolated thundershowers
+#: ../src/extension.js:497
+msgid "Isolated thundershowers"
+msgstr "סופות רעמים בודדות"
+
+#: ../src/extension.js:500
+msgid "Not available"
+msgstr "לא זמין"
+
+#: ../src/extension.js:515
+msgid "Monday"
+msgstr "יום ב"
+
+#: ../src/extension.js:515
+msgid "Tuesday"
+msgstr "יום ג"
+
+#: ../src/extension.js:515
+msgid "Wednesday"
+msgstr "יום ד"
+
+#: ../src/extension.js:515
+msgid "Thursday"
+msgstr "יום ה"
+
+#: ../src/extension.js:515
+msgid "Friday"
+msgstr "יום ו"
+
+#: ../src/extension.js:515
+msgid "Saturday"
+msgstr "שבת"
+
+#: ../src/extension.js:515
+msgid "Sunday"
+msgstr "יום א"
+
+#: ../src/extension.js:520
+msgid "N"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "NE"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "E"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "SE"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "S"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "SW"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "W"
+msgstr ""
+
+#: ../src/extension.js:520
+msgid "NW"
+msgstr ""
+
+#. Refresh forecast
+#: ../src/extension.js:654
+msgid "Today"
+msgstr "היום"
+
+#: ../src/extension.js:654
+msgid "Tomorrow"
+msgstr "מחר"
+
+#: ../src/extension.js:706
+msgid "Loading current weather ..."
+msgstr "טוען מזג אויר עכשווי..."
+
+#: ../src/extension.js:707
+msgid "Loading future weather ..."
+msgstr "טוען מזג אויר עתידי..."
+
+#: ../src/extension.js:718
+msgid "Sunrise"
+msgstr ""
+
+#: ../src/extension.js:720
+msgid "Sunset"
+msgstr ""
+
+#: ../src/extension.js:743
+msgid "Loading ..."
+msgstr "טוען..."
+
+#: ../src/extension.js:749
+msgid "Please wait"
+msgstr "נא להמתין"
+
+#: ../src/extension.js:795
+#, fuzzy
+msgid "Wind chill:"
+msgstr "רוח:"
+
+#: ../src/extension.js:797
+msgid "Humidity:"
+msgstr "לחות:"
+
+#: ../src/extension.js:799
+msgid "Pressure:"
+msgstr "לחץ ברומטרי:"
+
+#: ../src/extension.js:801
+msgid "Wind:"
+msgstr "רוח:"
+
+#: ../src/prefs.js:152
+msgid "Schema "
+msgstr ""
+
+#: ../src/prefs.js:152
+msgid " not found."
+msgstr ""
+
+#: ../src/prefs.js:159
+msgid "UI file '"
+msgstr ""
+
+#: ../src/prefs.js:159
+msgid "' not found."
 msgstr ""

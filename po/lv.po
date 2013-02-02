@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-01 22:47-0600\n"
+"POT-Creation-Date: 2013-02-02 00:34-0600\n"
 "PO-Revision-Date: 2012-04-04 14:18+0300\n"
 "Last-Translator: Reinis Danne <rei4dan@gmail.com>\n"
 "Language-Team: \n"
@@ -21,301 +21,51 @@ msgstr ""
 "X-Poedit-Country: Latvia\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-msgid "..."
-msgstr "..."
-
-msgid "Tornado"
-msgstr "Tornado"
-
-msgid "Tropical storm"
-msgstr "Tropiskā vētra"
-
-msgid "Hurricane"
-msgstr "Viesuļvētra"
-
-msgid "Severe thunderstorms"
-msgstr "Spēcīgs pērkona negaiss"
-
-msgid "Thunderstorms"
-msgstr "Pērkona negaiss"
-
-msgid "Mixed rain and snow"
-msgstr "Lietus un sniegs"
-
-msgid "Mixed rain and sleet"
-msgstr "Slapjdraņķis"
-
-msgid "Mixed snow and sleet"
-msgstr "Sniegs un slapjš sniegs"
-
-msgid "Freezing drizzle"
-msgstr "Sasalstoša smidzināšana"
-
-msgid "Drizzle"
-msgstr "Smidzina"
-
-msgid "Freezing rain"
-msgstr "Sasalstošs lietus"
-
-msgid "Showers"
-msgstr "Lietusgāzes"
-
-msgid "Snow flurries"
-msgstr "Sniegputenis"
-
-msgid "Light snow showers"
-msgstr "Viegla snigšana"
-
-msgid "Blowing snow"
-msgstr "Sniega putenis"
-
-msgid "Snow"
-msgstr "Sniegs"
-
-msgid "Hail"
-msgstr "Krusa"
-
-msgid "Sleet"
-msgstr "Slapjš sniegs"
-
-msgid "Dust"
-msgstr "Putekļi"
-
-msgid "Foggy"
-msgstr "Miglains"
-
-msgid "Haze"
-msgstr "Dūmaka"
-
-msgid "Smoky"
-msgstr "Dūmaka"
-
-msgid "Blustery"
-msgstr "Brāzmains"
-
-msgid "Windy"
-msgstr "Vējains"
-
-msgid "Cold"
-msgstr "Auksts"
-
-msgid "Cloudy"
-msgstr "Apmācies"
-
-msgid "Mostly cloudy"
-msgstr "Pārsvarā apmācies"
-
-msgid "Partly cloudy"
-msgstr "Daļēji apmācies"
-
-msgid "Clear"
-msgstr "Skaidrs"
-
-msgid "Sunny"
-msgstr "Saulains"
-
-msgid "Fair"
-msgstr "Skaidrs"
-
-msgid "Mixed rain and hail"
-msgstr "Lietus un krusa"
-
-msgid "Hot"
-msgstr "Karsts"
-
-msgid "Isolated thunderstorms"
-msgstr "Atsevišķi pērkona negaisi"
-
-msgid "Scattered thunderstorms"
-msgstr "Vietām pērkona negaiss"
-
-msgid "Scattered showers"
-msgstr "Vietām lietusgāzes"
-
-msgid "Heavy snow"
-msgstr "Spēcīgs sniegs"
-
-msgid "Scattered snow showers"
-msgstr "Vietām sniega putenis"
-
-msgid "Thundershowers"
-msgstr "Pērkona negaiss"
-
-msgid "Snow showers"
-msgstr "Sniegs"
-
-msgid "Isolated thundershowers"
-msgstr "Atsevišķi pērkona negaisi"
-
-msgid "Not available"
-msgstr "Nav pieejams"
-
-msgid "Monday"
-msgstr "Pirmdiena"
-
-msgid "Tuesday"
-msgstr "Otrdiena"
-
-msgid "Wednesday"
-msgstr "Trešdiena"
-
-msgid "Thursday"
-msgstr "Ceturtdiena"
-
-msgid "Friday"
-msgstr "Piektdiena"
-
-msgid "Saturday"
-msgstr "Sestdiena"
-
-msgid "Sunday"
-msgstr "Svētdiena"
-
-msgid "N"
-msgstr "Z"
-
-msgid "NE"
-msgstr "ZA"
-
-msgid "E"
-msgstr "A"
-
-msgid "SE"
-msgstr "DA"
-
-msgid "S"
-msgstr "D"
-
-msgid "SW"
-msgstr "DR"
-
-msgid "W"
-msgstr "R"
-
-msgid "NW"
-msgstr "ZR"
-
-msgid "Today"
-msgstr "Šodien"
-
-msgid "Tomorrow"
-msgstr "Rīt"
-
-msgid "Loading current weather ..."
-msgstr "Ielādē pašreizējos laikapstākļus ..."
-
-msgid "Loading future weather ..."
-msgstr "Ielādē gaidāmos laikapstākļus ..."
-
-msgid "Sunrise"
-msgstr "Saullēkts"
-
-msgid "Sunset"
-msgstr "Saulriets"
-
-msgid "Loading ..."
-msgstr "Ielādē ..."
-
-msgid "Please wait"
-msgstr "Lūdzu uzgaidiet"
-
-#, fuzzy
-msgid "Wind chill:"
-msgstr "Vējš:"
-
-msgid "Humidity:"
-msgstr "Mitrums:"
-
-msgid "Pressure:"
-msgstr "Spiediens:"
-
-msgid "Wind:"
-msgstr "Vējš:"
-
-msgid "Schema "
-msgstr ""
-
-msgid "UI file \""
-msgstr ""
-
-msgid "<b>_Location ID:</b>"
-msgstr ""
-
-#, fuzzy
-msgid "_Temperature unit:"
-msgstr "Temperatūra:"
-
-msgid "Wind _speed unit:"
-msgstr ""
-
-msgid "_Position in panel:"
-msgstr ""
-
-msgid "_Override location label:"
-msgstr ""
-
-msgid "Search for Location ID"
-msgstr ""
-
-msgid "T_ranslate weather conditions"
-msgstr ""
-
-msgid "Show s_unrise/sunset times"
-msgstr ""
-
-msgid "Use s_ymbolic icons"
-msgstr ""
-
-msgid "Show te_xt in panel"
-msgstr ""
-
-msgid "Include weather _conditions"
-msgstr ""
-
-msgid "Search for WOEID"
-msgstr ""
-
-msgid "Location:"
-msgstr ""
-
-msgid "_Search"
-msgstr ""
-
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "Whether to translate the weather condition"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
 "Whether to translate the weather condition. If enabled, the condition is "
 "translated based on the weather code. If disabled, the condition string from "
@@ -324,50 +74,499 @@ msgid ""
 "expressed in terms of weather codes."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to display sunrise / sunset times"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to use symbolic icons"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid "Whether to use symbolic icons instead of full-colored icons."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to show the text in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel (requires restart). If only weather condition text "
 "is undesired, consider show-comment-in-panel option."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the comment in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Position in panel"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right' (requires restart)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Refresh interval in seconds"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid "The interval in seconds to refresh the weather information."
 msgstr ""
 
-#~ msgid "Schema \"%s\" not found."
-#~ msgstr "Shēma \"%s\" nav atrasta."
+#: ../data/prefs.ui.h:1
+msgid "Center"
+msgstr ""
+
+#: ../data/prefs.ui.h:2
+msgid "Right"
+msgstr ""
+
+#: ../data/prefs.ui.h:3
+msgid "Left"
+msgstr ""
+
+#: ../data/prefs.ui.h:4
+msgid "Celsius"
+msgstr ""
+
+#: ../data/prefs.ui.h:5
+msgid "Farenheit"
+msgstr ""
+
+#: ../data/prefs.ui.h:6
+msgid "kph"
+msgstr ""
+
+#: ../data/prefs.ui.h:7
+msgid "mph"
+msgstr ""
+
+#: ../data/prefs.ui.h:8
+msgid "m/s"
+msgstr ""
+
+#: ../data/prefs.ui.h:9
+msgid "knots"
+msgstr ""
+
+#: ../data/prefs.ui.h:10
+msgid "<b>_Location ID:</b>"
+msgstr ""
+
+#: ../data/prefs.ui.h:11
+#, fuzzy
+msgid "_Temperature unit:"
+msgstr "Temperatūra:"
+
+#: ../data/prefs.ui.h:12
+msgid "Wind _speed unit:"
+msgstr ""
+
+#: ../data/prefs.ui.h:13
+msgid "_Position in panel:"
+msgstr ""
+
+#: ../data/prefs.ui.h:14
+msgid "_Override location label:"
+msgstr ""
+
+#: ../data/prefs.ui.h:15
+msgid "Search for Location ID"
+msgstr ""
+
+#: ../data/prefs.ui.h:16
+msgid "T_ranslate weather conditions"
+msgstr ""
+
+#: ../data/prefs.ui.h:17
+msgid "Show s_unrise/sunset times"
+msgstr ""
+
+#: ../data/prefs.ui.h:18
+msgid "Use s_ymbolic icons"
+msgstr ""
+
+#: ../data/prefs.ui.h:19
+msgid "Show te_xt in panel"
+msgstr ""
+
+#: ../data/prefs.ui.h:20
+msgid "Include weather _conditions"
+msgstr ""
+
+#: ../data/search.ui.h:1
+msgid "Search for WOEID"
+msgstr ""
+
+#: ../data/search.ui.h:2
+msgid "Location:"
+msgstr ""
+
+#: ../data/search.ui.h:3
+msgid "_Search"
+msgstr ""
+
+#. Label
+#: ../src/extension.js:191
+msgid "..."
+msgstr "..."
+
+#. tornado
+#: ../src/extension.js:407
+msgid "Tornado"
+msgstr "Tornado"
+
+#. tropical storm
+#: ../src/extension.js:409
+msgid "Tropical storm"
+msgstr "Tropiskā vētra"
+
+#. hurricane
+#: ../src/extension.js:411
+msgid "Hurricane"
+msgstr "Viesuļvētra"
+
+#. severe thunderstorms
+#: ../src/extension.js:413
+msgid "Severe thunderstorms"
+msgstr "Spēcīgs pērkona negaiss"
+
+#. thunderstorms
+#: ../src/extension.js:415
+msgid "Thunderstorms"
+msgstr "Pērkona negaiss"
+
+#. mixed rain and snow
+#: ../src/extension.js:417
+msgid "Mixed rain and snow"
+msgstr "Lietus un sniegs"
+
+#. mixed rain and sleet
+#: ../src/extension.js:419
+msgid "Mixed rain and sleet"
+msgstr "Slapjdraņķis"
+
+#. mixed snow and sleet
+#: ../src/extension.js:421
+msgid "Mixed snow and sleet"
+msgstr "Sniegs un slapjš sniegs"
+
+#. freezing drizzle
+#: ../src/extension.js:423
+msgid "Freezing drizzle"
+msgstr "Sasalstoša smidzināšana"
+
+#. drizzle
+#: ../src/extension.js:425
+msgid "Drizzle"
+msgstr "Smidzina"
+
+#. freezing rain
+#: ../src/extension.js:427
+msgid "Freezing rain"
+msgstr "Sasalstošs lietus"
+
+#. showers
+#: ../src/extension.js:429 ../src/extension.js:431
+msgid "Showers"
+msgstr "Lietusgāzes"
+
+#. snow flurries
+#: ../src/extension.js:433
+msgid "Snow flurries"
+msgstr "Sniegputenis"
+
+#. light snow showers
+#: ../src/extension.js:435
+msgid "Light snow showers"
+msgstr "Viegla snigšana"
+
+#. blowing snow
+#: ../src/extension.js:437
+msgid "Blowing snow"
+msgstr "Sniega putenis"
+
+#. snow
+#: ../src/extension.js:439
+msgid "Snow"
+msgstr "Sniegs"
+
+#. hail
+#: ../src/extension.js:441
+msgid "Hail"
+msgstr "Krusa"
+
+#. sleet
+#: ../src/extension.js:443
+msgid "Sleet"
+msgstr "Slapjš sniegs"
+
+#. dust
+#: ../src/extension.js:445
+msgid "Dust"
+msgstr "Putekļi"
+
+#. foggy
+#: ../src/extension.js:447
+msgid "Foggy"
+msgstr "Miglains"
+
+#. haze
+#: ../src/extension.js:449
+msgid "Haze"
+msgstr "Dūmaka"
+
+#. smoky
+#: ../src/extension.js:451
+msgid "Smoky"
+msgstr "Dūmaka"
+
+#. blustery
+#: ../src/extension.js:453
+msgid "Blustery"
+msgstr "Brāzmains"
+
+#. windy
+#: ../src/extension.js:455
+msgid "Windy"
+msgstr "Vējains"
+
+#. cold
+#: ../src/extension.js:457
+msgid "Cold"
+msgstr "Auksts"
+
+#. cloudy
+#: ../src/extension.js:459
+msgid "Cloudy"
+msgstr "Apmācies"
+
+#. mostly cloudy (night)
+#. mostly cloudy (day)
+#: ../src/extension.js:462
+msgid "Mostly cloudy"
+msgstr "Pārsvarā apmācies"
+
+#. partly cloudy (night)
+#. partly cloudy (day)
+#. partly cloudy
+#: ../src/extension.js:465 ../src/extension.js:491
+msgid "Partly cloudy"
+msgstr "Daļēji apmācies"
+
+#. clear (night)
+#: ../src/extension.js:467
+msgid "Clear"
+msgstr "Skaidrs"
+
+#. sunny
+#: ../src/extension.js:469
+msgid "Sunny"
+msgstr "Saulains"
+
+#. fair (night)
+#. fair (day)
+#: ../src/extension.js:472
+msgid "Fair"
+msgstr "Skaidrs"
+
+#. mixed rain and hail
+#: ../src/extension.js:474
+msgid "Mixed rain and hail"
+msgstr "Lietus un krusa"
+
+#. hot
+#: ../src/extension.js:476
+msgid "Hot"
+msgstr "Karsts"
+
+#. isolated thunderstorms
+#: ../src/extension.js:478
+msgid "Isolated thunderstorms"
+msgstr "Atsevišķi pērkona negaisi"
+
+#. scattered thunderstorms
+#. scattered thunderstorms
+#: ../src/extension.js:481
+msgid "Scattered thunderstorms"
+msgstr "Vietām pērkona negaiss"
+
+#. scattered showers
+#: ../src/extension.js:483
+msgid "Scattered showers"
+msgstr "Vietām lietusgāzes"
+
+#. heavy snow
+#: ../src/extension.js:485 ../src/extension.js:489
+msgid "Heavy snow"
+msgstr "Spēcīgs sniegs"
+
+#. scattered snow showers
+#: ../src/extension.js:487
+msgid "Scattered snow showers"
+msgstr "Vietām sniega putenis"
+
+#. thundershowers
+#: ../src/extension.js:493
+msgid "Thundershowers"
+msgstr "Pērkona negaiss"
+
+#. snow showers
+#: ../src/extension.js:495
+msgid "Snow showers"
+msgstr "Sniegs"
+
+#. isolated thundershowers
+#: ../src/extension.js:497
+msgid "Isolated thundershowers"
+msgstr "Atsevišķi pērkona negaisi"
+
+#: ../src/extension.js:500
+msgid "Not available"
+msgstr "Nav pieejams"
+
+#: ../src/extension.js:515
+msgid "Monday"
+msgstr "Pirmdiena"
+
+#: ../src/extension.js:515
+msgid "Tuesday"
+msgstr "Otrdiena"
+
+#: ../src/extension.js:515
+msgid "Wednesday"
+msgstr "Trešdiena"
+
+#: ../src/extension.js:515
+msgid "Thursday"
+msgstr "Ceturtdiena"
+
+#: ../src/extension.js:515
+msgid "Friday"
+msgstr "Piektdiena"
+
+#: ../src/extension.js:515
+msgid "Saturday"
+msgstr "Sestdiena"
+
+#: ../src/extension.js:515
+msgid "Sunday"
+msgstr "Svētdiena"
+
+#: ../src/extension.js:520
+msgid "N"
+msgstr "Z"
+
+#: ../src/extension.js:520
+msgid "NE"
+msgstr "ZA"
+
+#: ../src/extension.js:520
+msgid "E"
+msgstr "A"
+
+#: ../src/extension.js:520
+msgid "SE"
+msgstr "DA"
+
+#: ../src/extension.js:520
+msgid "S"
+msgstr "D"
+
+#: ../src/extension.js:520
+msgid "SW"
+msgstr "DR"
+
+#: ../src/extension.js:520
+msgid "W"
+msgstr "R"
+
+#: ../src/extension.js:520
+msgid "NW"
+msgstr "ZR"
+
+#. Refresh forecast
+#: ../src/extension.js:654
+msgid "Today"
+msgstr "Šodien"
+
+#: ../src/extension.js:654
+msgid "Tomorrow"
+msgstr "Rīt"
+
+#: ../src/extension.js:706
+msgid "Loading current weather ..."
+msgstr "Ielādē pašreizējos laikapstākļus ..."
+
+#: ../src/extension.js:707
+msgid "Loading future weather ..."
+msgstr "Ielādē gaidāmos laikapstākļus ..."
+
+#: ../src/extension.js:718
+msgid "Sunrise"
+msgstr "Saullēkts"
+
+#: ../src/extension.js:720
+msgid "Sunset"
+msgstr "Saulriets"
+
+#: ../src/extension.js:743
+msgid "Loading ..."
+msgstr "Ielādē ..."
+
+#: ../src/extension.js:749
+msgid "Please wait"
+msgstr "Lūdzu uzgaidiet"
+
+#: ../src/extension.js:795
+#, fuzzy
+msgid "Wind chill:"
+msgstr "Vējš:"
+
+#: ../src/extension.js:797
+msgid "Humidity:"
+msgstr "Mitrums:"
+
+#: ../src/extension.js:799
+msgid "Pressure:"
+msgstr "Spiediens:"
+
+#: ../src/extension.js:801
+msgid "Wind:"
+msgstr "Vējš:"
+
+#: ../src/prefs.js:152
+msgid "Schema "
+msgstr ""
+
+#: ../src/prefs.js:152
+#, fuzzy
+msgid " not found."
+msgstr "Shēma \"%s\" nav atrasta."
+
+#: ../src/prefs.js:159
+msgid "UI file '"
+msgstr ""
+
+#: ../src/prefs.js:159
+#, fuzzy
+msgid "' not found."
+msgstr "Shēma \"%s\" nav atrasta."

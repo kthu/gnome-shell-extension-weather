@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: simon 04-gnome-shell-extension-weather-452bcfe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-01 22:47-0600\n"
+"POT-Creation-Date: 2013-02-02 00:34-0600\n"
 "PO-Revision-Date: 2011-12-02 14:44+0800\n"
 "Last-Translator: Tao Zhu <bill_zt@sina.com>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -17,301 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "..."
-msgstr "..."
-
-msgid "Tornado"
-msgstr "龙卷风"
-
-msgid "Tropical storm"
-msgstr "热带风暴"
-
-msgid "Hurricane"
-msgstr "飓风"
-
-msgid "Severe thunderstorms"
-msgstr "雷暴"
-
-msgid "Thunderstorms"
-msgstr "雷阵雨"
-
-msgid "Mixed rain and snow"
-msgstr "雨夹雪"
-
-msgid "Mixed rain and sleet"
-msgstr "雨夹雪"
-
-msgid "Mixed snow and sleet"
-msgstr "雨夹雪"
-
-msgid "Freezing drizzle"
-msgstr "冻雨"
-
-msgid "Drizzle"
-msgstr "小雨"
-
-msgid "Freezing rain"
-msgstr "冻雨"
-
-msgid "Showers"
-msgstr "阵雨"
-
-msgid "Snow flurries"
-msgstr "阵雪"
-
-msgid "Light snow showers"
-msgstr "小雪"
-
-msgid "Blowing snow"
-msgstr "暴雪"
-
-msgid "Snow"
-msgstr "雪"
-
-msgid "Hail"
-msgstr "冰雹"
-
-msgid "Sleet"
-msgstr "雨夹雪"
-
-msgid "Dust"
-msgstr "扬沙"
-
-msgid "Foggy"
-msgstr "雾"
-
-msgid "Haze"
-msgstr "霾"
-
-msgid "Smoky"
-msgstr "烟雾"
-
-msgid "Blustery"
-msgstr "大风"
-
-msgid "Windy"
-msgstr "刮风"
-
-msgid "Cold"
-msgstr "冷"
-
-msgid "Cloudy"
-msgstr "多云"
-
-msgid "Mostly cloudy"
-msgstr "多云"
-
-msgid "Partly cloudy"
-msgstr "晴转多云 "
-
-msgid "Clear"
-msgstr "晴"
-
-msgid "Sunny"
-msgstr "晴"
-
-msgid "Fair"
-msgstr "晴"
-
-msgid "Mixed rain and hail"
-msgstr "冰雹"
-
-msgid "Hot"
-msgstr "炎热"
-
-msgid "Isolated thunderstorms"
-msgstr "局地雷阵雨"
-
-msgid "Scattered thunderstorms"
-msgstr "零星雷阵雨"
-
-msgid "Scattered showers"
-msgstr "零星小雪"
-
-msgid "Heavy snow"
-msgstr "大雪"
-
-msgid "Scattered snow showers"
-msgstr "零星阵雪"
-
-msgid "Thundershowers"
-msgstr "雷阵雨"
-
-msgid "Snow showers"
-msgstr "阵雪"
-
-msgid "Isolated thundershowers"
-msgstr "局地雷阵雨"
-
-msgid "Not available"
-msgstr "不可用"
-
-msgid "Monday"
-msgstr "星期一"
-
-msgid "Tuesday"
-msgstr "星期二"
-
-msgid "Wednesday"
-msgstr "星期三"
-
-msgid "Thursday"
-msgstr "星期四"
-
-msgid "Friday"
-msgstr "星期五"
-
-msgid "Saturday"
-msgstr "星期六"
-
-msgid "Sunday"
-msgstr "星期日"
-
-msgid "N"
-msgstr "北"
-
-msgid "NE"
-msgstr "东北"
-
-msgid "E"
-msgstr "东"
-
-msgid "SE"
-msgstr "东南"
-
-msgid "S"
-msgstr "南"
-
-msgid "SW"
-msgstr "西南"
-
-msgid "W"
-msgstr "西"
-
-msgid "NW"
-msgstr "西北"
-
-msgid "Today"
-msgstr "今天"
-
-msgid "Tomorrow"
-msgstr "明天"
-
-msgid "Loading current weather ..."
-msgstr "正在加载当前天气 ..."
-
-msgid "Loading future weather ..."
-msgstr "正在加载预报天气 ..."
-
-msgid "Sunrise"
-msgstr "日出"
-
-msgid "Sunset"
-msgstr "日落"
-
-msgid "Loading ..."
-msgstr "正在加载 ..."
-
-msgid "Please wait"
-msgstr "请等待"
-
-#, fuzzy
-msgid "Wind chill:"
-msgstr "风力："
-
-msgid "Humidity:"
-msgstr "湿度："
-
-msgid "Pressure:"
-msgstr "气压："
-
-msgid "Wind:"
-msgstr "风力："
-
-msgid "Schema "
-msgstr ""
-
-msgid "UI file \""
-msgstr ""
-
-msgid "<b>_Location ID:</b>"
-msgstr ""
-
-#, fuzzy
-msgid "_Temperature unit:"
-msgstr "温度："
-
-msgid "Wind _speed unit:"
-msgstr ""
-
-msgid "_Position in panel:"
-msgstr ""
-
-msgid "_Override location label:"
-msgstr ""
-
-msgid "Search for Location ID"
-msgstr ""
-
-msgid "T_ranslate weather conditions"
-msgstr ""
-
-msgid "Show s_unrise/sunset times"
-msgstr ""
-
-msgid "Use s_ymbolic icons"
-msgstr ""
-
-msgid "Show te_xt in panel"
-msgstr ""
-
-msgid "Include weather _conditions"
-msgstr ""
-
-msgid "Search for WOEID"
-msgstr ""
-
-msgid "Location:"
-msgstr ""
-
-msgid "_Search"
-msgstr ""
-
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "Whether to translate the weather condition"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
 "Whether to translate the weather condition. If enabled, the condition is "
 "translated based on the weather code. If disabled, the condition string from "
@@ -320,50 +70,499 @@ msgid ""
 "expressed in terms of weather codes."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to display sunrise / sunset times"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to use symbolic icons"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid "Whether to use symbolic icons instead of full-colored icons."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to show the text in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel (requires restart). If only weather condition text "
 "is undesired, consider show-comment-in-panel option."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the comment in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Position in panel"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right' (requires restart)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Refresh interval in seconds"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid "The interval in seconds to refresh the weather information."
 msgstr ""
 
-#~ msgid "Schema \"%s\" not found."
-#~ msgstr "未找到方案“%s”。"
+#: ../data/prefs.ui.h:1
+msgid "Center"
+msgstr ""
+
+#: ../data/prefs.ui.h:2
+msgid "Right"
+msgstr ""
+
+#: ../data/prefs.ui.h:3
+msgid "Left"
+msgstr ""
+
+#: ../data/prefs.ui.h:4
+msgid "Celsius"
+msgstr ""
+
+#: ../data/prefs.ui.h:5
+msgid "Farenheit"
+msgstr ""
+
+#: ../data/prefs.ui.h:6
+msgid "kph"
+msgstr ""
+
+#: ../data/prefs.ui.h:7
+msgid "mph"
+msgstr ""
+
+#: ../data/prefs.ui.h:8
+msgid "m/s"
+msgstr ""
+
+#: ../data/prefs.ui.h:9
+msgid "knots"
+msgstr ""
+
+#: ../data/prefs.ui.h:10
+msgid "<b>_Location ID:</b>"
+msgstr ""
+
+#: ../data/prefs.ui.h:11
+#, fuzzy
+msgid "_Temperature unit:"
+msgstr "温度："
+
+#: ../data/prefs.ui.h:12
+msgid "Wind _speed unit:"
+msgstr ""
+
+#: ../data/prefs.ui.h:13
+msgid "_Position in panel:"
+msgstr ""
+
+#: ../data/prefs.ui.h:14
+msgid "_Override location label:"
+msgstr ""
+
+#: ../data/prefs.ui.h:15
+msgid "Search for Location ID"
+msgstr ""
+
+#: ../data/prefs.ui.h:16
+msgid "T_ranslate weather conditions"
+msgstr ""
+
+#: ../data/prefs.ui.h:17
+msgid "Show s_unrise/sunset times"
+msgstr ""
+
+#: ../data/prefs.ui.h:18
+msgid "Use s_ymbolic icons"
+msgstr ""
+
+#: ../data/prefs.ui.h:19
+msgid "Show te_xt in panel"
+msgstr ""
+
+#: ../data/prefs.ui.h:20
+msgid "Include weather _conditions"
+msgstr ""
+
+#: ../data/search.ui.h:1
+msgid "Search for WOEID"
+msgstr ""
+
+#: ../data/search.ui.h:2
+msgid "Location:"
+msgstr ""
+
+#: ../data/search.ui.h:3
+msgid "_Search"
+msgstr ""
+
+#. Label
+#: ../src/extension.js:191
+msgid "..."
+msgstr "..."
+
+#. tornado
+#: ../src/extension.js:407
+msgid "Tornado"
+msgstr "龙卷风"
+
+#. tropical storm
+#: ../src/extension.js:409
+msgid "Tropical storm"
+msgstr "热带风暴"
+
+#. hurricane
+#: ../src/extension.js:411
+msgid "Hurricane"
+msgstr "飓风"
+
+#. severe thunderstorms
+#: ../src/extension.js:413
+msgid "Severe thunderstorms"
+msgstr "雷暴"
+
+#. thunderstorms
+#: ../src/extension.js:415
+msgid "Thunderstorms"
+msgstr "雷阵雨"
+
+#. mixed rain and snow
+#: ../src/extension.js:417
+msgid "Mixed rain and snow"
+msgstr "雨夹雪"
+
+#. mixed rain and sleet
+#: ../src/extension.js:419
+msgid "Mixed rain and sleet"
+msgstr "雨夹雪"
+
+#. mixed snow and sleet
+#: ../src/extension.js:421
+msgid "Mixed snow and sleet"
+msgstr "雨夹雪"
+
+#. freezing drizzle
+#: ../src/extension.js:423
+msgid "Freezing drizzle"
+msgstr "冻雨"
+
+#. drizzle
+#: ../src/extension.js:425
+msgid "Drizzle"
+msgstr "小雨"
+
+#. freezing rain
+#: ../src/extension.js:427
+msgid "Freezing rain"
+msgstr "冻雨"
+
+#. showers
+#: ../src/extension.js:429 ../src/extension.js:431
+msgid "Showers"
+msgstr "阵雨"
+
+#. snow flurries
+#: ../src/extension.js:433
+msgid "Snow flurries"
+msgstr "阵雪"
+
+#. light snow showers
+#: ../src/extension.js:435
+msgid "Light snow showers"
+msgstr "小雪"
+
+#. blowing snow
+#: ../src/extension.js:437
+msgid "Blowing snow"
+msgstr "暴雪"
+
+#. snow
+#: ../src/extension.js:439
+msgid "Snow"
+msgstr "雪"
+
+#. hail
+#: ../src/extension.js:441
+msgid "Hail"
+msgstr "冰雹"
+
+#. sleet
+#: ../src/extension.js:443
+msgid "Sleet"
+msgstr "雨夹雪"
+
+#. dust
+#: ../src/extension.js:445
+msgid "Dust"
+msgstr "扬沙"
+
+#. foggy
+#: ../src/extension.js:447
+msgid "Foggy"
+msgstr "雾"
+
+#. haze
+#: ../src/extension.js:449
+msgid "Haze"
+msgstr "霾"
+
+#. smoky
+#: ../src/extension.js:451
+msgid "Smoky"
+msgstr "烟雾"
+
+#. blustery
+#: ../src/extension.js:453
+msgid "Blustery"
+msgstr "大风"
+
+#. windy
+#: ../src/extension.js:455
+msgid "Windy"
+msgstr "刮风"
+
+#. cold
+#: ../src/extension.js:457
+msgid "Cold"
+msgstr "冷"
+
+#. cloudy
+#: ../src/extension.js:459
+msgid "Cloudy"
+msgstr "多云"
+
+#. mostly cloudy (night)
+#. mostly cloudy (day)
+#: ../src/extension.js:462
+msgid "Mostly cloudy"
+msgstr "多云"
+
+#. partly cloudy (night)
+#. partly cloudy (day)
+#. partly cloudy
+#: ../src/extension.js:465 ../src/extension.js:491
+msgid "Partly cloudy"
+msgstr "晴转多云 "
+
+#. clear (night)
+#: ../src/extension.js:467
+msgid "Clear"
+msgstr "晴"
+
+#. sunny
+#: ../src/extension.js:469
+msgid "Sunny"
+msgstr "晴"
+
+#. fair (night)
+#. fair (day)
+#: ../src/extension.js:472
+msgid "Fair"
+msgstr "晴"
+
+#. mixed rain and hail
+#: ../src/extension.js:474
+msgid "Mixed rain and hail"
+msgstr "冰雹"
+
+#. hot
+#: ../src/extension.js:476
+msgid "Hot"
+msgstr "炎热"
+
+#. isolated thunderstorms
+#: ../src/extension.js:478
+msgid "Isolated thunderstorms"
+msgstr "局地雷阵雨"
+
+#. scattered thunderstorms
+#. scattered thunderstorms
+#: ../src/extension.js:481
+msgid "Scattered thunderstorms"
+msgstr "零星雷阵雨"
+
+#. scattered showers
+#: ../src/extension.js:483
+msgid "Scattered showers"
+msgstr "零星小雪"
+
+#. heavy snow
+#: ../src/extension.js:485 ../src/extension.js:489
+msgid "Heavy snow"
+msgstr "大雪"
+
+#. scattered snow showers
+#: ../src/extension.js:487
+msgid "Scattered snow showers"
+msgstr "零星阵雪"
+
+#. thundershowers
+#: ../src/extension.js:493
+msgid "Thundershowers"
+msgstr "雷阵雨"
+
+#. snow showers
+#: ../src/extension.js:495
+msgid "Snow showers"
+msgstr "阵雪"
+
+#. isolated thundershowers
+#: ../src/extension.js:497
+msgid "Isolated thundershowers"
+msgstr "局地雷阵雨"
+
+#: ../src/extension.js:500
+msgid "Not available"
+msgstr "不可用"
+
+#: ../src/extension.js:515
+msgid "Monday"
+msgstr "星期一"
+
+#: ../src/extension.js:515
+msgid "Tuesday"
+msgstr "星期二"
+
+#: ../src/extension.js:515
+msgid "Wednesday"
+msgstr "星期三"
+
+#: ../src/extension.js:515
+msgid "Thursday"
+msgstr "星期四"
+
+#: ../src/extension.js:515
+msgid "Friday"
+msgstr "星期五"
+
+#: ../src/extension.js:515
+msgid "Saturday"
+msgstr "星期六"
+
+#: ../src/extension.js:515
+msgid "Sunday"
+msgstr "星期日"
+
+#: ../src/extension.js:520
+msgid "N"
+msgstr "北"
+
+#: ../src/extension.js:520
+msgid "NE"
+msgstr "东北"
+
+#: ../src/extension.js:520
+msgid "E"
+msgstr "东"
+
+#: ../src/extension.js:520
+msgid "SE"
+msgstr "东南"
+
+#: ../src/extension.js:520
+msgid "S"
+msgstr "南"
+
+#: ../src/extension.js:520
+msgid "SW"
+msgstr "西南"
+
+#: ../src/extension.js:520
+msgid "W"
+msgstr "西"
+
+#: ../src/extension.js:520
+msgid "NW"
+msgstr "西北"
+
+#. Refresh forecast
+#: ../src/extension.js:654
+msgid "Today"
+msgstr "今天"
+
+#: ../src/extension.js:654
+msgid "Tomorrow"
+msgstr "明天"
+
+#: ../src/extension.js:706
+msgid "Loading current weather ..."
+msgstr "正在加载当前天气 ..."
+
+#: ../src/extension.js:707
+msgid "Loading future weather ..."
+msgstr "正在加载预报天气 ..."
+
+#: ../src/extension.js:718
+msgid "Sunrise"
+msgstr "日出"
+
+#: ../src/extension.js:720
+msgid "Sunset"
+msgstr "日落"
+
+#: ../src/extension.js:743
+msgid "Loading ..."
+msgstr "正在加载 ..."
+
+#: ../src/extension.js:749
+msgid "Please wait"
+msgstr "请等待"
+
+#: ../src/extension.js:795
+#, fuzzy
+msgid "Wind chill:"
+msgstr "风力："
+
+#: ../src/extension.js:797
+msgid "Humidity:"
+msgstr "湿度："
+
+#: ../src/extension.js:799
+msgid "Pressure:"
+msgstr "气压："
+
+#: ../src/extension.js:801
+msgid "Wind:"
+msgstr "风力："
+
+#: ../src/prefs.js:152
+msgid "Schema "
+msgstr ""
+
+#: ../src/prefs.js:152
+#, fuzzy
+msgid " not found."
+msgstr "未找到方案“%s”。"
+
+#: ../src/prefs.js:159
+msgid "UI file '"
+msgstr ""
+
+#: ../src/prefs.js:159
+#, fuzzy
+msgid "' not found."
+msgstr "未找到方案“%s”。"

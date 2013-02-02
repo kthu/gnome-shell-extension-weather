@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-01 22:47-0600\n"
+"POT-Creation-Date: 2013-02-02 00:34-0600\n"
 "PO-Revision-Date: 2012-03-29 13:43+0100\n"
 "Last-Translator: David Štancl <dstancl@dstancl.cz>\n"
 "Language-Team: cs_CZ <czech@li.org>\n"
@@ -16,301 +16,51 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "..."
-msgstr "..."
-
-msgid "Tornado"
-msgstr "Tornádo"
-
-msgid "Tropical storm"
-msgstr "Tropická bouře"
-
-msgid "Hurricane"
-msgstr "Hurikán"
-
-msgid "Severe thunderstorms"
-msgstr "Četné bouřky"
-
-msgid "Thunderstorms"
-msgstr "Bouřky"
-
-msgid "Mixed rain and snow"
-msgstr "Sníh s deštěm"
-
-msgid "Mixed rain and sleet"
-msgstr "Déšť a plískanice"
-
-msgid "Mixed snow and sleet"
-msgstr "Sníh a plískanice"
-
-msgid "Freezing drizzle"
-msgstr "Namrzající mrholení"
-
-msgid "Drizzle"
-msgstr "Mrholení"
-
-msgid "Freezing rain"
-msgstr "Namrzající déšť"
-
-msgid "Showers"
-msgstr "Přeháňky"
-
-msgid "Snow flurries"
-msgstr "Sněhové přívaly"
-
-msgid "Light snow showers"
-msgstr "Mírné sněžení"
-
-msgid "Blowing snow"
-msgstr "Husté sněžení"
-
-msgid "Snow"
-msgstr "Sněžení"
-
-msgid "Hail"
-msgstr "Kroupy"
-
-msgid "Sleet"
-msgstr "Plískanice"
-
-msgid "Dust"
-msgstr "Prašno"
-
-msgid "Foggy"
-msgstr "Mlha"
-
-msgid "Haze"
-msgstr "Opar"
-
-msgid "Smoky"
-msgstr "Kouřmo"
-
-msgid "Blustery"
-msgstr "Bouřlivě"
-
-msgid "Windy"
-msgstr "Větrno"
-
-msgid "Cold"
-msgstr "Chladno"
-
-msgid "Cloudy"
-msgstr "Zataženo"
-
-msgid "Mostly cloudy"
-msgstr "Oblačno"
-
-msgid "Partly cloudy"
-msgstr "Polojasno"
-
-msgid "Clear"
-msgstr "Jasno"
-
-msgid "Sunny"
-msgstr "Slunečno"
-
-msgid "Fair"
-msgstr "Pěkně"
-
-msgid "Mixed rain and hail"
-msgstr "Déšť s kroupami"
-
-msgid "Hot"
-msgstr "Horko"
-
-msgid "Isolated thunderstorms"
-msgstr "Osamocené bouřky"
-
-msgid "Scattered thunderstorms"
-msgstr "Občasné bouřky"
-
-msgid "Scattered showers"
-msgstr "Občasné přeháňky"
-
-msgid "Heavy snow"
-msgstr "Husté sněžení"
-
-msgid "Scattered snow showers"
-msgstr "Občasné sněžení"
-
-msgid "Thundershowers"
-msgstr "Bouřky s přeháňkami"
-
-msgid "Snow showers"
-msgstr "Sněhové přeháňky"
-
-msgid "Isolated thundershowers"
-msgstr "Osamocené bouřky s deštěm"
-
-msgid "Not available"
-msgstr "Není k dispozici"
-
-msgid "Monday"
-msgstr "Pondělí"
-
-msgid "Tuesday"
-msgstr "Úterý"
-
-msgid "Wednesday"
-msgstr "Středa"
-
-msgid "Thursday"
-msgstr "Čtvrtek"
-
-msgid "Friday"
-msgstr "Pátek"
-
-msgid "Saturday"
-msgstr "Sobota"
-
-msgid "Sunday"
-msgstr "Neděle"
-
-msgid "N"
-msgstr "S"
-
-msgid "NE"
-msgstr "SV"
-
-msgid "E"
-msgstr "V"
-
-msgid "SE"
-msgstr "JV"
-
-msgid "S"
-msgstr "J"
-
-msgid "SW"
-msgstr "JZ"
-
-msgid "W"
-msgstr "Z"
-
-msgid "NW"
-msgstr "SZ"
-
-msgid "Today"
-msgstr "Dnes"
-
-msgid "Tomorrow"
-msgstr "Zítra"
-
-msgid "Loading current weather ..."
-msgstr "Načítá se aktuální počasí ..."
-
-msgid "Loading future weather ..."
-msgstr "Načítá se předpověď ..."
-
-msgid "Sunrise"
-msgstr "Východ"
-
-msgid "Sunset"
-msgstr "Západ"
-
-msgid "Loading ..."
-msgstr "Načítá se ..."
-
-msgid "Please wait"
-msgstr "Čekejte"
-
-#, fuzzy
-msgid "Wind chill:"
-msgstr "Vítr:"
-
-msgid "Humidity:"
-msgstr "Vlhkost:"
-
-msgid "Pressure:"
-msgstr "Tlak:"
-
-msgid "Wind:"
-msgstr "Vítr:"
-
-msgid "Schema "
-msgstr ""
-
-msgid "UI file \""
-msgstr ""
-
-msgid "<b>_Location ID:</b>"
-msgstr ""
-
-#, fuzzy
-msgid "_Temperature unit:"
-msgstr "Teplota:"
-
-msgid "Wind _speed unit:"
-msgstr ""
-
-msgid "_Position in panel:"
-msgstr ""
-
-msgid "_Override location label:"
-msgstr ""
-
-msgid "Search for Location ID"
-msgstr ""
-
-msgid "T_ranslate weather conditions"
-msgstr ""
-
-msgid "Show s_unrise/sunset times"
-msgstr ""
-
-msgid "Use s_ymbolic icons"
-msgstr ""
-
-msgid "Show te_xt in panel"
-msgstr ""
-
-msgid "Include weather _conditions"
-msgstr ""
-
-msgid "Search for WOEID"
-msgstr ""
-
-msgid "Location:"
-msgstr ""
-
-msgid "_Search"
-msgstr ""
-
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "Whether to translate the weather condition"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
 "Whether to translate the weather condition. If enabled, the condition is "
 "translated based on the weather code. If disabled, the condition string from "
@@ -319,50 +69,499 @@ msgid ""
 "expressed in terms of weather codes."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to display sunrise / sunset times"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to use symbolic icons"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid "Whether to use symbolic icons instead of full-colored icons."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to show the text in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel (requires restart). If only weather condition text "
 "is undesired, consider show-comment-in-panel option."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the comment in the panel."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Position in panel"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right' (requires restart)."
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Refresh interval in seconds"
 msgstr ""
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid "The interval in seconds to refresh the weather information."
 msgstr ""
 
-#~ msgid "Schema \"%s\" not found."
-#~ msgstr "Schéma \"%s\" nebylo nalezeno."
+#: ../data/prefs.ui.h:1
+msgid "Center"
+msgstr ""
+
+#: ../data/prefs.ui.h:2
+msgid "Right"
+msgstr ""
+
+#: ../data/prefs.ui.h:3
+msgid "Left"
+msgstr ""
+
+#: ../data/prefs.ui.h:4
+msgid "Celsius"
+msgstr ""
+
+#: ../data/prefs.ui.h:5
+msgid "Farenheit"
+msgstr ""
+
+#: ../data/prefs.ui.h:6
+msgid "kph"
+msgstr ""
+
+#: ../data/prefs.ui.h:7
+msgid "mph"
+msgstr ""
+
+#: ../data/prefs.ui.h:8
+msgid "m/s"
+msgstr ""
+
+#: ../data/prefs.ui.h:9
+msgid "knots"
+msgstr ""
+
+#: ../data/prefs.ui.h:10
+msgid "<b>_Location ID:</b>"
+msgstr ""
+
+#: ../data/prefs.ui.h:11
+#, fuzzy
+msgid "_Temperature unit:"
+msgstr "Teplota:"
+
+#: ../data/prefs.ui.h:12
+msgid "Wind _speed unit:"
+msgstr ""
+
+#: ../data/prefs.ui.h:13
+msgid "_Position in panel:"
+msgstr ""
+
+#: ../data/prefs.ui.h:14
+msgid "_Override location label:"
+msgstr ""
+
+#: ../data/prefs.ui.h:15
+msgid "Search for Location ID"
+msgstr ""
+
+#: ../data/prefs.ui.h:16
+msgid "T_ranslate weather conditions"
+msgstr ""
+
+#: ../data/prefs.ui.h:17
+msgid "Show s_unrise/sunset times"
+msgstr ""
+
+#: ../data/prefs.ui.h:18
+msgid "Use s_ymbolic icons"
+msgstr ""
+
+#: ../data/prefs.ui.h:19
+msgid "Show te_xt in panel"
+msgstr ""
+
+#: ../data/prefs.ui.h:20
+msgid "Include weather _conditions"
+msgstr ""
+
+#: ../data/search.ui.h:1
+msgid "Search for WOEID"
+msgstr ""
+
+#: ../data/search.ui.h:2
+msgid "Location:"
+msgstr ""
+
+#: ../data/search.ui.h:3
+msgid "_Search"
+msgstr ""
+
+#. Label
+#: ../src/extension.js:191
+msgid "..."
+msgstr "..."
+
+#. tornado
+#: ../src/extension.js:407
+msgid "Tornado"
+msgstr "Tornádo"
+
+#. tropical storm
+#: ../src/extension.js:409
+msgid "Tropical storm"
+msgstr "Tropická bouře"
+
+#. hurricane
+#: ../src/extension.js:411
+msgid "Hurricane"
+msgstr "Hurikán"
+
+#. severe thunderstorms
+#: ../src/extension.js:413
+msgid "Severe thunderstorms"
+msgstr "Četné bouřky"
+
+#. thunderstorms
+#: ../src/extension.js:415
+msgid "Thunderstorms"
+msgstr "Bouřky"
+
+#. mixed rain and snow
+#: ../src/extension.js:417
+msgid "Mixed rain and snow"
+msgstr "Sníh s deštěm"
+
+#. mixed rain and sleet
+#: ../src/extension.js:419
+msgid "Mixed rain and sleet"
+msgstr "Déšť a plískanice"
+
+#. mixed snow and sleet
+#: ../src/extension.js:421
+msgid "Mixed snow and sleet"
+msgstr "Sníh a plískanice"
+
+#. freezing drizzle
+#: ../src/extension.js:423
+msgid "Freezing drizzle"
+msgstr "Namrzající mrholení"
+
+#. drizzle
+#: ../src/extension.js:425
+msgid "Drizzle"
+msgstr "Mrholení"
+
+#. freezing rain
+#: ../src/extension.js:427
+msgid "Freezing rain"
+msgstr "Namrzající déšť"
+
+#. showers
+#: ../src/extension.js:429 ../src/extension.js:431
+msgid "Showers"
+msgstr "Přeháňky"
+
+#. snow flurries
+#: ../src/extension.js:433
+msgid "Snow flurries"
+msgstr "Sněhové přívaly"
+
+#. light snow showers
+#: ../src/extension.js:435
+msgid "Light snow showers"
+msgstr "Mírné sněžení"
+
+#. blowing snow
+#: ../src/extension.js:437
+msgid "Blowing snow"
+msgstr "Husté sněžení"
+
+#. snow
+#: ../src/extension.js:439
+msgid "Snow"
+msgstr "Sněžení"
+
+#. hail
+#: ../src/extension.js:441
+msgid "Hail"
+msgstr "Kroupy"
+
+#. sleet
+#: ../src/extension.js:443
+msgid "Sleet"
+msgstr "Plískanice"
+
+#. dust
+#: ../src/extension.js:445
+msgid "Dust"
+msgstr "Prašno"
+
+#. foggy
+#: ../src/extension.js:447
+msgid "Foggy"
+msgstr "Mlha"
+
+#. haze
+#: ../src/extension.js:449
+msgid "Haze"
+msgstr "Opar"
+
+#. smoky
+#: ../src/extension.js:451
+msgid "Smoky"
+msgstr "Kouřmo"
+
+#. blustery
+#: ../src/extension.js:453
+msgid "Blustery"
+msgstr "Bouřlivě"
+
+#. windy
+#: ../src/extension.js:455
+msgid "Windy"
+msgstr "Větrno"
+
+#. cold
+#: ../src/extension.js:457
+msgid "Cold"
+msgstr "Chladno"
+
+#. cloudy
+#: ../src/extension.js:459
+msgid "Cloudy"
+msgstr "Zataženo"
+
+#. mostly cloudy (night)
+#. mostly cloudy (day)
+#: ../src/extension.js:462
+msgid "Mostly cloudy"
+msgstr "Oblačno"
+
+#. partly cloudy (night)
+#. partly cloudy (day)
+#. partly cloudy
+#: ../src/extension.js:465 ../src/extension.js:491
+msgid "Partly cloudy"
+msgstr "Polojasno"
+
+#. clear (night)
+#: ../src/extension.js:467
+msgid "Clear"
+msgstr "Jasno"
+
+#. sunny
+#: ../src/extension.js:469
+msgid "Sunny"
+msgstr "Slunečno"
+
+#. fair (night)
+#. fair (day)
+#: ../src/extension.js:472
+msgid "Fair"
+msgstr "Pěkně"
+
+#. mixed rain and hail
+#: ../src/extension.js:474
+msgid "Mixed rain and hail"
+msgstr "Déšť s kroupami"
+
+#. hot
+#: ../src/extension.js:476
+msgid "Hot"
+msgstr "Horko"
+
+#. isolated thunderstorms
+#: ../src/extension.js:478
+msgid "Isolated thunderstorms"
+msgstr "Osamocené bouřky"
+
+#. scattered thunderstorms
+#. scattered thunderstorms
+#: ../src/extension.js:481
+msgid "Scattered thunderstorms"
+msgstr "Občasné bouřky"
+
+#. scattered showers
+#: ../src/extension.js:483
+msgid "Scattered showers"
+msgstr "Občasné přeháňky"
+
+#. heavy snow
+#: ../src/extension.js:485 ../src/extension.js:489
+msgid "Heavy snow"
+msgstr "Husté sněžení"
+
+#. scattered snow showers
+#: ../src/extension.js:487
+msgid "Scattered snow showers"
+msgstr "Občasné sněžení"
+
+#. thundershowers
+#: ../src/extension.js:493
+msgid "Thundershowers"
+msgstr "Bouřky s přeháňkami"
+
+#. snow showers
+#: ../src/extension.js:495
+msgid "Snow showers"
+msgstr "Sněhové přeháňky"
+
+#. isolated thundershowers
+#: ../src/extension.js:497
+msgid "Isolated thundershowers"
+msgstr "Osamocené bouřky s deštěm"
+
+#: ../src/extension.js:500
+msgid "Not available"
+msgstr "Není k dispozici"
+
+#: ../src/extension.js:515
+msgid "Monday"
+msgstr "Pondělí"
+
+#: ../src/extension.js:515
+msgid "Tuesday"
+msgstr "Úterý"
+
+#: ../src/extension.js:515
+msgid "Wednesday"
+msgstr "Středa"
+
+#: ../src/extension.js:515
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+#: ../src/extension.js:515
+msgid "Friday"
+msgstr "Pátek"
+
+#: ../src/extension.js:515
+msgid "Saturday"
+msgstr "Sobota"
+
+#: ../src/extension.js:515
+msgid "Sunday"
+msgstr "Neděle"
+
+#: ../src/extension.js:520
+msgid "N"
+msgstr "S"
+
+#: ../src/extension.js:520
+msgid "NE"
+msgstr "SV"
+
+#: ../src/extension.js:520
+msgid "E"
+msgstr "V"
+
+#: ../src/extension.js:520
+msgid "SE"
+msgstr "JV"
+
+#: ../src/extension.js:520
+msgid "S"
+msgstr "J"
+
+#: ../src/extension.js:520
+msgid "SW"
+msgstr "JZ"
+
+#: ../src/extension.js:520
+msgid "W"
+msgstr "Z"
+
+#: ../src/extension.js:520
+msgid "NW"
+msgstr "SZ"
+
+#. Refresh forecast
+#: ../src/extension.js:654
+msgid "Today"
+msgstr "Dnes"
+
+#: ../src/extension.js:654
+msgid "Tomorrow"
+msgstr "Zítra"
+
+#: ../src/extension.js:706
+msgid "Loading current weather ..."
+msgstr "Načítá se aktuální počasí ..."
+
+#: ../src/extension.js:707
+msgid "Loading future weather ..."
+msgstr "Načítá se předpověď ..."
+
+#: ../src/extension.js:718
+msgid "Sunrise"
+msgstr "Východ"
+
+#: ../src/extension.js:720
+msgid "Sunset"
+msgstr "Západ"
+
+#: ../src/extension.js:743
+msgid "Loading ..."
+msgstr "Načítá se ..."
+
+#: ../src/extension.js:749
+msgid "Please wait"
+msgstr "Čekejte"
+
+#: ../src/extension.js:795
+#, fuzzy
+msgid "Wind chill:"
+msgstr "Vítr:"
+
+#: ../src/extension.js:797
+msgid "Humidity:"
+msgstr "Vlhkost:"
+
+#: ../src/extension.js:799
+msgid "Pressure:"
+msgstr "Tlak:"
+
+#: ../src/extension.js:801
+msgid "Wind:"
+msgstr "Vítr:"
+
+#: ../src/prefs.js:152
+msgid "Schema "
+msgstr ""
+
+#: ../src/prefs.js:152
+#, fuzzy
+msgid " not found."
+msgstr "Schéma \"%s\" nebylo nalezeno."
+
+#: ../src/prefs.js:159
+msgid "UI file '"
+msgstr ""
+
+#: ../src/prefs.js:159
+#, fuzzy
+msgid "' not found."
+msgstr "Schéma \"%s\" nebylo nalezeno."
