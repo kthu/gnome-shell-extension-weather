@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-02 00:34-0600\n"
+"POT-Creation-Date: 2013-02-02 01:05-0600\n"
 "PO-Revision-Date: 2011-06-09 17:43+0200\n"
 "Last-Translator: Mauricio Barraza <mauricio@barraza.se>\n"
 "Language: sv\n"
@@ -92,8 +92,8 @@ msgstr ""
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
-"temperature in the panel (requires restart). If only weather condition text "
-"is undesired, consider show-comment-in-panel option."
+"temperature in the panel. If only weather condition text is undesired, "
+"consider show-comment-in-panel option."
 msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
@@ -114,7 +114,7 @@ msgstr ""
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
-"'center', 'left' or 'right' (requires restart)."
+"'center', 'left' or 'right'."
 msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
@@ -182,7 +182,7 @@ msgstr ""
 msgid "_Override location label:"
 msgstr ""
 
-#: ../data/prefs.ui.h:15
+#: ../data/prefs.ui.h:15 ../data/search.ui.h:1
 msgid "Search for Location ID"
 msgstr ""
 
@@ -204,10 +204,6 @@ msgstr ""
 
 #: ../data/prefs.ui.h:20
 msgid "Include weather _conditions"
-msgstr ""
-
-#: ../data/search.ui.h:1
-msgid "Search for WOEID"
 msgstr ""
 
 #: ../data/search.ui.h:2
