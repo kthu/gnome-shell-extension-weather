@@ -20,47 +20,51 @@ msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
-msgstr ""
+msgstr "Unitats"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
-msgstr ""
+msgstr "Trieu el sistema d'unitats per temperatures, etc. Valors vàlids són «celsius» o "
+"«fahrenheit»."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
-msgstr ""
+msgstr "Unitats de la velocitat del vent"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
-msgstr ""
+msgstr "Trieu les unitats per a la velocitat del vent. Valors vàlids són «kph», «mph», «m/s»"
+"o «knots»."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
-msgstr ""
+msgstr "WOEID del Yahoo"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
-msgstr ""
+msgstr "Establiu l'identificador d'ubicació del Yahoo (WOEID, «Where On Earth Identifier), que es"
+"fa servir per obtenir la informació temps corresponent."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
-msgstr ""
+msgstr "Ciutat que es mostrarà"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
-msgstr ""
+msgstr "De forma opcional, podeu sobreescriure la ciutat que es mostra. Aquesta és la que"
+"es mostra en lloc de la que prové del servei del Yahoo."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "Whether to translate the weather condition"
-msgstr ""
+msgstr "Si es traduirà les condicions del temps"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
@@ -69,153 +73,162 @@ msgid ""
 "Yahoo is taken. Note: Enabling the translation sometimes results in loss of "
 "accuracy, e.g., the condition string \"PM Thunderstorms\" cannot be "
 "expressed in terms of weather codes."
-msgstr ""
+msgstr "Si es traduiran les condicions del temps. Si està habilitat, la condició es "
+"tradueix basant-se en el codi de temps. Si està inhabilitat, es mostrarà la traducció "
+"del Yahoo. Nota: Habilitar la traducció pot suposar pèrdua de precissió, per exemple "
+"la cadena de condició «PM Thunderstorms» no es pot expressar en codis de temps."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to display sunrise / sunset times"
-msgstr ""
+msgstr "Si es mostrarà l'hora de sortida/posta del sol"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
+"Si es mostrarà l'hora de sortida/posta del sol d'avui al temps actual"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to use symbolic icons"
-msgstr ""
+msgstr "Si es faran servir icones simbòliques"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid "Whether to use symbolic icons instead of full-colored icons."
-msgstr ""
+msgstr "Si es faran servir icones simbòliques en lloc d'icones amb color"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to show the text in the panel."
-msgstr ""
+msgstr "Si es mostrarà el text al plafó"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel. If only weather condition text is undesired, "
 "consider show-comment-in-panel option."
-msgstr ""
+msgstr "Si es mostrarà la condició del temps en text (comentari) conjuntament amb "
+"la temperatura al plafó. Si només voleu les condicions del temps, "
+"marqueu l'opció mostra-comentar-al-plafó."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the comment in the panel."
-msgstr ""
+msgstr "Si es mostrarà el comentari al plafó"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
-msgstr ""
+msgstr "Si es mostrarà el comentari (com per exemple el text de la condició del temps "
+"«Vent» o «Clar») al plafó. Tingueu en compte que la temperatura es continuarà mostrant "
+"(si no la voleu, marqueu l'opció mostra-text-al-plafó)."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Position in panel"
-msgstr ""
+msgstr "Posició al plafó"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right'."
 msgstr ""
+"Estableix la posició d'aquesta extensió del GNOME Shell al plafó a "
+"«centre», «esquerra» o «dreta»."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Refresh interval in seconds"
-msgstr ""
+msgstr "Interval d'actualització en segons"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid "The interval in seconds to refresh the weather information."
-msgstr ""
+msgstr "L'interval d'actualització en segons per actualitzar la informació del temps."
 
 #: ../data/prefs.ui.h:1
 msgid "Center"
-msgstr ""
+msgstr "Centre"
 
 #: ../data/prefs.ui.h:2
 msgid "Right"
-msgstr ""
+msgstr "Dreta"
 
 #: ../data/prefs.ui.h:3
 msgid "Left"
-msgstr ""
+msgstr "Esquerra"
 
 #: ../data/prefs.ui.h:4
 msgid "Celsius"
-msgstr ""
+msgstr "Celsius"
 
 #: ../data/prefs.ui.h:5
 msgid "Farenheit"
-msgstr ""
+msgstr "Farenheit"
 
 #: ../data/prefs.ui.h:6
 msgid "kph"
-msgstr ""
+msgstr "kph"
 
 #: ../data/prefs.ui.h:7
 msgid "mph"
-msgstr ""
+msgstr "mph"
 
 #: ../data/prefs.ui.h:8
 msgid "m/s"
-msgstr ""
+msgstr "m/s"
 
 #: ../data/prefs.ui.h:9
 msgid "knots"
-msgstr ""
+msgstr "nusos"
 
 #: ../data/prefs.ui.h:10
 msgid "<b>_Location ID:</b>"
-msgstr ""
+msgstr "<b>ID d'_Ubicació:</b>"
 
 #: ../data/prefs.ui.h:11
-#, fuzzy
 msgid "_Temperature unit:"
-msgstr "Temperatura:"
+msgstr "Unitats de _temperatura::"
 
 #: ../data/prefs.ui.h:12
 msgid "Wind _speed unit:"
-msgstr ""
+msgstr "Unitat_s de velocitat del vent:"
 
 #: ../data/prefs.ui.h:13
 msgid "_Position in panel:"
-msgstr ""
+msgstr "_Posició al plafó:"
 
 #: ../data/prefs.ui.h:14
 msgid "_Override location label:"
-msgstr ""
+msgstr "S_obreescriu l'etiqueta d'ubicació:"
 
 #: ../data/prefs.ui.h:15 ../data/search.ui.h:1
 msgid "Search for Location ID"
-msgstr ""
+msgstr "Cerca per ID d'ubicació"
 
 #: ../data/prefs.ui.h:16
 msgid "T_ranslate weather conditions"
-msgstr ""
+msgstr "T_radueix les condicions del temps"
 
 #: ../data/prefs.ui.h:17
 msgid "Show s_unrise/sunset times"
-msgstr ""
+msgstr "Mostra l'hora de la s_ortida/posta del sol"
 
 #: ../data/prefs.ui.h:18
 msgid "Use s_ymbolic icons"
-msgstr ""
+msgstr "Fes servir i_cones simbòliques"
 
 #: ../data/prefs.ui.h:19
 msgid "Show te_xt in panel"
-msgstr ""
+msgstr "Mostra el te_xt al plafó"
 
 #: ../data/prefs.ui.h:20
 msgid "Include weather _conditions"
-msgstr ""
+msgstr "Mostra les _condicions del temps"
 
 #: ../data/search.ui.h:2
 msgid "Location:"
-msgstr ""
+msgstr "Ubicació:"
 
 #: ../data/search.ui.h:3
 msgid "_Search"
-msgstr ""
+msgstr "_Cerca"
 
 #. Label
 #: ../src/extension.js:191
@@ -466,35 +479,35 @@ msgstr "Diumenge"
 
 #: ../src/extension.js:520
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: ../src/extension.js:520
 msgid "NE"
-msgstr ""
+msgstr "NE"
 
 #: ../src/extension.js:520
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../src/extension.js:520
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 #: ../src/extension.js:520
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: ../src/extension.js:520
 msgid "SW"
-msgstr ""
+msgstr "SO"
 
 #: ../src/extension.js:520
 msgid "W"
-msgstr ""
+msgstr "O"
 
 #: ../src/extension.js:520
 msgid "NW"
-msgstr ""
+msgstr "NO"
 
 #. Refresh forecast
 #: ../src/extension.js:654
@@ -515,11 +528,11 @@ msgstr "S'està carregant el temps futur..."
 
 #: ../src/extension.js:718
 msgid "Sunrise"
-msgstr ""
+msgstr "Sortida del sol"
 
 #: ../src/extension.js:720
 msgid "Sunset"
-msgstr ""
+msgstr "Posta del sol"
 
 #: ../src/extension.js:743
 msgid "Loading ..."
@@ -530,9 +543,8 @@ msgid "Please wait"
 msgstr "Espereu"
 
 #: ../src/extension.js:795
-#, fuzzy
 msgid "Wind chill:"
-msgstr "Vent:"
+msgstr "Vent fred:"
 
 #: ../src/extension.js:797
 msgid "Humidity:"
@@ -548,16 +560,16 @@ msgstr "Vent:"
 
 #: ../src/prefs.js:152
 msgid "Schema "
-msgstr ""
+msgstr "Esquema "
 
 #: ../src/prefs.js:152
 msgid " not found."
-msgstr ""
+msgstr " no s'ha trobat."
 
 #: ../src/prefs.js:159
 msgid "UI file '"
-msgstr ""
+msgstr "Fitxer UI «"
 
 #: ../src/prefs.js:159
 msgid "' not found."
-msgstr ""
+msgstr "» no s'ha trobat"
