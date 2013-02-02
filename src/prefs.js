@@ -37,8 +37,8 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 const Convenience = Me.imports.convenience;
 
-const WEATHER_PREFS_UI = Me.dir.get_path() + '/prefs.xml';
-const SEARCH_WOEID_UI = Me.dir.get_path() + '/search.xml';
+const WEATHER_PREFS_UI = Me.dir.get_path() + '/prefs.ui';
+const SEARCH_WOEID_UI = Me.dir.get_path() + '/search.ui';
 const WEATHER_SETTINGS_SCHEMA = 'org.gnome.shell.extensions.weather';
 
 // Placeholder string, so our combobox is never empty.
@@ -149,14 +149,14 @@ const Widget = new GObject.Class({
         try {
             this._settings = Convenience.getSettings(WEATHER_SETTINGS_SCHEMA);
         } catch (e) {
-            this.add(getErrorLabel(_('Schema ' + WEATHER_SETTINGS_SCHEMA + ' not found.')));
+            this.add(getErrorLabel(_("Schema ") + WEATHER_SETTINGS_SCHEMA + _(" not found.")));
             return;
         }
         let builder = new Gtk.Builder();
         try {
             builder.add_from_file(WEATHER_PREFS_UI);
         } catch (e) {
-            this.add(getErrorLabel(_('UI file "' + WEATHER_PREFS_UI + '" not found.')));
+            this.add(getErrorLabel(_("UI file '") + WEATHER_PREFS_UI + _("' not found.")));
             return;
         }
         this._topBox = builder.get_object('weather_top_box');
