@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 3.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-02 01:05-0600\n"
-"PO-Revision-Date: 2012-03-30 10:00+0200\n"
+"PO-Revision-Date: 2012-02-03 10:05+0200\n"
 "Last-Translator: Odysseus86 <hal8600@hotmail.it>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -19,47 +19,47 @@ msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
-msgstr ""
+msgstr "Unità di misura."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
-msgstr ""
+msgstr "Scegli l'unità di misura della temperatura. Valori ammessi sono 'celsius' e 'fahrenheit'."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
-msgstr ""
+msgstr "Unità di misura dell'intensità del vento."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
-msgstr ""
+msgstr "Scegli l'unità di misura dell'intensità del vento. Valori ammessi sono 'kph' (chilometri orari), 'mph' (miglia orarie), 'm/s' (metri al secondo) e 'knots' (nodi)."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
-msgstr ""
+msgstr "WOEID Yahoo!."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
-msgstr ""
+msgstr "Imposta l'identificatore di località di Yahoo! (o WOEID, Where On Earth Identifier), impiegato per ottenere le informazioni e le previsioni meteorologiche."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
-msgstr ""
+msgstr "Località da visualizzare."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
-msgstr ""
+msgstr "Puoi scegliere di sovrascrivere il nome della località. Anziché il nome ottenuto da Yahoo!, sarà visualizzato quello specificato."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "Whether to translate the weather condition"
-msgstr ""
+msgstr "Traduci o meno le informazioni meteorologiche."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
@@ -68,153 +68,153 @@ msgid ""
 "Yahoo is taken. Note: Enabling the translation sometimes results in loss of "
 "accuracy, e.g., the condition string \"PM Thunderstorms\" cannot be "
 "expressed in terms of weather codes."
-msgstr ""
+msgstr "Scegli se tradurre o meno le condizioni meteorologiche. Se l'opzione è attivata, le condizioni sono tradotte sulla base del codice meteorologico; altrimenti, viene visualizzata la stringa fornita da Yahoo!. Nota: Abilitare la traduzione può comportare una perdita di accuratezza."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to display sunrise / sunset times"
-msgstr ""
+msgstr "Mostra o meno gli orari di alba e tramonto."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
-msgstr ""
+msgstr "Scegli se visualizzare o meno gli orari odierni di alba e tramonto sul pannello."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to use symbolic icons"
-msgstr ""
+msgstr "Impiega le icone simboliche."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid "Whether to use symbolic icons instead of full-colored icons."
-msgstr ""
+msgstr "Scegli se visualizzare le icone simboliche anziché quelle colorate."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to show the text in the panel."
-msgstr ""
+msgstr "Mostrare o meno il testo sul pannello."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel. If only weather condition text is undesired, "
 "consider show-comment-in-panel option."
-msgstr ""
+msgstr "Scegli se visualizzare o meno il testo delle condizioni meteorologiche (o commento) sul pannello assieme alla temperatura. Se desideri non mostrare solo il testo delle condizioni meteorologiche, attiva l'opzione \"show-comment-in-panel\"."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the comment in the panel."
-msgstr ""
+msgstr "Mostrare o meno il commento sul pannello."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
-msgstr ""
+msgstr "Scegli se visualizzare il commento (o testo delle condizioni meteorologiche, ad es. \"Ventoso\" o \"Sereno\") sul pannello. Tieni presente che viene mostrata anche la temperatura (se non lo desideri, attiva l'opzione \"show-text-in-panel\")."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Position in panel"
-msgstr ""
+msgstr "Posizione sul pannello."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right'."
-msgstr ""
+msgstr "Scegli la posizione dell'estensione sul pannello tra 'center' (centro), 'left' (sinistra) o 'right' (destra)."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Refresh interval in seconds"
-msgstr ""
+msgstr "Intervallo in secondi tra un aggiornamento e il successivo."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid "The interval in seconds to refresh the weather information."
-msgstr ""
+msgstr "L'intervallo in secondi tra due aggiornamenti consecutivi delle informazioni meteorologiche."
 
 #: ../data/prefs.ui.h:1
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #: ../data/prefs.ui.h:2
 msgid "Right"
-msgstr ""
+msgstr "Destra"
 
 #: ../data/prefs.ui.h:3
 msgid "Left"
-msgstr ""
+msgstr "Sinistra"
 
 #: ../data/prefs.ui.h:4
 msgid "Celsius"
-msgstr ""
+msgstr "Celsius"
 
 #: ../data/prefs.ui.h:5
 msgid "Farenheit"
-msgstr ""
+msgstr "Farenheit"
 
 #: ../data/prefs.ui.h:6
 msgid "kph"
-msgstr ""
+msgstr "km/h"
 
 #: ../data/prefs.ui.h:7
 msgid "mph"
-msgstr ""
+msgstr "mi/h"
 
 #: ../data/prefs.ui.h:8
 msgid "m/s"
-msgstr ""
+msgstr "m/s"
 
 #: ../data/prefs.ui.h:9
 msgid "knots"
-msgstr ""
+msgstr "nodi"
 
 #: ../data/prefs.ui.h:10
 msgid "<b>_Location ID:</b>"
-msgstr ""
+msgstr "<b>Identificatore della località:</b>"
 
 #: ../data/prefs.ui.h:11
 #, fuzzy
 msgid "_Temperature unit:"
-msgstr "Temperatura:"
+msgstr "Unità di misura della temperatura:"
 
 #: ../data/prefs.ui.h:12
 msgid "Wind _speed unit:"
-msgstr ""
+msgstr "Unità di misura dell'intensità del vento:"
 
 #: ../data/prefs.ui.h:13
 msgid "_Position in panel:"
-msgstr ""
+msgstr "Posizione sul pannello:"
 
 #: ../data/prefs.ui.h:14
 msgid "_Override location label:"
-msgstr ""
+msgstr "Sovrascrivi l'etichetta della località:"
 
 #: ../data/prefs.ui.h:15 ../data/search.ui.h:1
 msgid "Search for Location ID"
-msgstr ""
+msgstr "Ricerca l'identificatore della località"
 
 #: ../data/prefs.ui.h:16
 msgid "T_ranslate weather conditions"
-msgstr ""
+msgstr "Traduci le condizioni meteorologiche"
 
 #: ../data/prefs.ui.h:17
 msgid "Show s_unrise/sunset times"
-msgstr ""
+msgstr "Visualizza gli orari di alba e tramonto"
 
 #: ../data/prefs.ui.h:18
 msgid "Use s_ymbolic icons"
-msgstr ""
+msgstr "Impiega le icone simboliche"
 
 #: ../data/prefs.ui.h:19
 msgid "Show te_xt in panel"
-msgstr ""
+msgstr "Visualizza il testo sul pannello"
 
 #: ../data/prefs.ui.h:20
 msgid "Include weather _conditions"
-msgstr ""
+msgstr "Includi le condizioni meteorologiche"
 
 #: ../data/search.ui.h:2
 msgid "Location:"
-msgstr ""
+msgstr "Località:"
 
 #: ../data/search.ui.h:3
 msgid "_Search"
-msgstr ""
+msgstr "Cerca"
 
 #. Label
 #: ../src/extension.js:191
@@ -531,7 +531,7 @@ msgstr "Attendere, prego"
 #: ../src/extension.js:795
 #, fuzzy
 msgid "Wind chill:"
-msgstr "Vento:"
+msgstr "Temperatura percepita:"
 
 #: ../src/extension.js:797
 msgid "Humidity:"
@@ -547,18 +547,18 @@ msgstr "Vento:"
 
 #: ../src/prefs.js:152
 msgid "Schema "
-msgstr ""
+msgstr "Schema "
 
 #: ../src/prefs.js:152
 #, fuzzy
 msgid " not found."
-msgstr "Schema \"%s\" non trovato."
+msgstr " non trovato."
 
 #: ../src/prefs.js:159
 msgid "UI file '"
-msgstr ""
+msgstr "File dell'interfaccia utente '"
 
 #: ../src/prefs.js:159
 #, fuzzy
 msgid "' not found."
-msgstr "Schema \"%s\" non trovato."
+msgstr "' non trovato."
