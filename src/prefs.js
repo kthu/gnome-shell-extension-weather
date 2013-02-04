@@ -168,6 +168,8 @@ const Widget = new GObject.Class({
     _fillData: function(builder) {
         this._city_entry = builder.get_object('city_entry');
         this._city_entry.set_text(this._settings.get_string('city'));
+        this._details_url_entry = builder.get_object('details_url_entry');
+        this._details_url_entry.set_text(this._settings.get_string('details-url'));
         this._include_condition_checkbutton =
             builder.get_object('include_condition_checkbutton');
         let b = this._settings.get_boolean('show-comment-in-panel')
@@ -334,6 +336,9 @@ const Widget = new GObject.Class({
         this._city_entry.connect('changed', Lang.bind(this, function() {
             this._settings.set_string('city', this._city_entry.get_text());
         }));
+        this._details_url_entry.connect('changed', Lang.bind(this, function() {
+            this._settings.set_string('details-url', this._details_url_entry.get_text());
+            }));
         this._include_condition_checkbutton.connect('toggled', Lang.bind(this, function() {
             let b = this._include_condition_checkbutton.get_active();
             this._settings.set_boolean('show-comment-in-panel', b);

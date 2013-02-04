@@ -35,6 +35,11 @@
       <_summary>City to be displayed</_summary>
       <_description>Optionally, you can override the displayed city. This one is displayed instead of the one from the Yahoo service.</_description>
     </key>
+    <key name="details-url" type="s">
+      <default>''</default>
+      <_summary>URL to load when clicking on location name</_summary>
+      <_description>Optionally, define the weather details URL to load when the city name is clicked. If not set, the default URL from Yahoo Weather is used.</_description>
+    </key>
     <key name="translate-condition" type="b">
       <default>true</default>
       <_summary>Whether to translate the weather condition</_summary>
