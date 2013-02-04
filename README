@@ -71,6 +71,24 @@ extension.
 You can see more screenshots of the gnome-shell-extension-prefs tool
 in action in the Screenshots page.
 
+There is an additional option available for the extension, not
+visible from the preferences dialog. It allows the user to override
+the weather details URL, which defaults to the one provided by
+Yahoo! You can set override the URL via gsettings if the extension
+is installed globally for all users:
+
+gsettings set org.gnome.shell.extensions.weather details-url \
+   "http://www.weather.com/weather/right-now/MXDF0132"
+
+or with dconf if the extension is installed for only one user in
+$HOME/.local/share:
+
+dconf write /org/gnome/shell/extensions/weather/details-url \
+   "'http://www.weather.com/weather/right-now/MXDF0132'"
+
+Note the single quotes inside the double quotes; they are necessary
+since dconf needs its values in GVariant format.
+
 Location
 --------
 
