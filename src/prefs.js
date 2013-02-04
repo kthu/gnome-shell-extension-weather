@@ -149,14 +149,14 @@ const Widget = new GObject.Class({
         try {
             this._settings = Convenience.getSettings(WEATHER_SETTINGS_SCHEMA);
         } catch (e) {
-            this.add(getErrorLabel(_("Schema ") + WEATHER_SETTINGS_SCHEMA + _(" not found.")));
+            this.add(getErrorLabel(_("Schema %s not found.").replace('%s', WEATHER_SETTINGS_SCHEMA));
             return;
         }
         let builder = new Gtk.Builder();
         try {
             builder.add_from_file(WEATHER_PREFS_UI);
         } catch (e) {
-            this.add(getErrorLabel(_("UI file '") + WEATHER_PREFS_UI + _("' not found.")));
+            this.add(getErrorLabel(_("UI file '%s' not found.").replace('%s', WEATHER_PREFS_UI));
             return;
         }
         this._topBox = builder.get_object('weather_top_box');
