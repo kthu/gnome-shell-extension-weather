@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: simon04-gnome-shell-extension-weather\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-02 01:05-0600\n"
-"PO-Revision-Date: 2013-02-02 10:46+0200\n"
+"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"PO-Revision-Date: 2013-02-04 01:39-0600\n"
 "Last-Translator: Marian Vasile <marianvasile1972@gmail.com>\n"
 "Language-Team: Romanian <kde-i18n-doc@kde.org>\n"
 "Language: ro\n"
@@ -16,8 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
-"== 0) && (n != 0))) ? 2: 1));\\n"
-"\"\n"
+"== 0) && (n != 0))) ? 2: 1));\\n\"\n"
 "X-Poedit-Language: Romanian\n"
 "X-Poedit-Country: ROMANIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -44,9 +43,8 @@ msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
 msgstr ""
-"Alegeți unitățile pentru viteza vântului. Valorile permise sunt „kph”, „mph”, "
-"„m/s” "
-"sau „noduri”."
+"Alegeți unitățile pentru viteza vântului. Valorile permise sunt „kph”, "
+"„mph”, „m/s” sau „noduri”."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
@@ -58,9 +56,8 @@ msgid ""
 "used to retrieve the corresponding weather+forecast information."
 msgstr ""
 "Introduce ID-ul Yahoo pentru localitate (WOEID, Where On Earth Identifier), "
-"care este "
-"folosit pentru obținerea informațiilor corespunzătoare despre vreme și "
-"prognoză."
+"care este folosit pentru obținerea informațiilor corespunzătoare despre "
+"vreme și prognoză."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
@@ -72,14 +69,23 @@ msgid ""
 "instead of the one from the Yahoo service."
 msgstr ""
 "Opțional, puteți suprascrie localitatea afișată. În locul celei afișate de "
-"Yahoo, "
-"va fi prezentată alegerea dumneavoastră."
+"Yahoo, va fi prezentată alegerea dumneavoastră."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
+msgid "URL to load when clicking on location name"
+msgstr ""
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
+msgid ""
+"Optionally, define the weather details URL to load when the city name is "
+"clicked. If not set, the default URL from Yahoo Weather is used."
+msgstr ""
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to translate the weather condition"
 msgstr "Dacă se traduc informațiile despre vreme"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to translate the weather condition. If enabled, the condition is "
 "translated based on the weather code. If disabled, the condition string from "
@@ -89,78 +95,75 @@ msgid ""
 msgstr ""
 "Dacă se traduc informațiile despre vreme. Dacă opțiunea este activată, "
 "informațiile sunt traduse pe baza codurilor de vreme. Dacă opțiunea este "
-"dezactivată, sunt preluate ca atare informațiile de pe Yahoo. Notă: activarea "
-"traducerii poate duce câteodată la o mai mică acuratețe, de ex. șirul PM "
-"Thunderstorms "
-"nu poate fi exprimat în coduri de vreme."
+"dezactivată, sunt preluate ca atare informațiile de pe Yahoo. Notă: "
+"activarea traducerii poate duce câteodată la o mai mică acuratețe, de ex. "
+"șirul PM Thunderstorms nu poate fi exprimat în coduri de vreme."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to display sunrise / sunset times"
 msgstr "Dacă se afișează orele pentru răsăritul / apusul soarelui"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
 "Dacă se afișează orele pentru răsăritul / apusul soarelui în informațiile "
 "despre vreme"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to use symbolic icons"
 msgstr "Dacă se folosesc iconițe simbolice"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid "Whether to use symbolic icons instead of full-colored icons."
 msgstr "Dacă se folosesc iconițe simbolice în locul iconițelor colorate"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the text in the panel."
 msgstr "Dacă se arată text în panou."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel. If only weather condition text is undesired, "
 "consider show-comment-in-panel option."
 msgstr ""
-"Dacă se folosește text în informațiile despre vreme (ex. comentarii) împreună "
-"cu "
-"temperatura, în panou. În cazul în care numai textul referitor la "
-"informațiile "
-"despre vreme nu este dorit, folosiți opțiunea arată-comentarii-în-panou. "
+"Dacă se folosește text în informațiile despre vreme (ex. comentarii) "
+"împreună cu temperatura, în panou. În cazul în care numai textul referitor "
+"la informațiile despre vreme nu este dorit, folosiți opțiunea arată-"
+"comentarii-în-panou. "
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Whether to show the comment in the panel."
 msgstr "Dacă se arată comentarii în panou."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
 msgstr ""
 "Dacă se arată comentarii în panou (de ex. informații despre vreme precum "
-"„Vânt”, "
-"„Senin”. Rețineți că temperatura este prezentă (dacă nu se dorește, "
+"„Vânt”, „Senin”. Rețineți că temperatura este prezentă (dacă nu se dorește, "
 "utilizați opțiunea arată-text-în-panou)."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Position in panel"
 msgstr "Poziția în panou"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right'."
 msgstr ""
-"Stabilește poziția acestei extensii GNOME în panou ca "
-"„centru”, „stânga” sau „dreapta”."
+"Stabilește poziția acestei extensii GNOME în panou ca „centru”, „stânga” sau "
+"„dreapta”."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:23
 msgid "Refresh interval in seconds"
 msgstr "Intervalul de actualizare, în secunde"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:24
 msgid "The interval in seconds to refresh the weather information."
 msgstr "Intervalul în secunde pentru actualizarea informațiilor despre vreme."
 
@@ -181,8 +184,8 @@ msgid "Celsius"
 msgstr "Celsius"
 
 #: ../data/prefs.ui.h:5
-msgid "Farenheit"
-msgstr "Farenheit"
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
 
 #: ../data/prefs.ui.h:6
 msgid "kph"
@@ -253,330 +256,330 @@ msgid "_Search"
 msgstr "Cău_tare"
 
 #. Label
-#: ../src/extension.js:191
+#: ../src/extension.js:194
 msgid "..."
 msgstr "..."
 
 #. tornado
-#: ../src/extension.js:407
+#: ../src/extension.js:410
 msgid "Tornado"
 msgstr "Tornadă"
 
 #. tropical storm
-#: ../src/extension.js:409
+#: ../src/extension.js:412
 msgid "Tropical storm"
 msgstr "Furtună tropicală"
 
 #. hurricane
-#: ../src/extension.js:411
+#: ../src/extension.js:414
 msgid "Hurricane"
 msgstr "Uragan"
 
 #. severe thunderstorms
-#: ../src/extension.js:413
+#: ../src/extension.js:416
 msgid "Severe thunderstorms"
 msgstr "Furtuni severe"
 
 #. thunderstorms
-#: ../src/extension.js:415
+#: ../src/extension.js:418
 msgid "Thunderstorms"
 msgstr "Furtuni"
 
 #. mixed rain and snow
-#: ../src/extension.js:417
+#: ../src/extension.js:420
 msgid "Mixed rain and snow"
 msgstr "Lapoviță"
 
 #. mixed rain and sleet
-#: ../src/extension.js:419
+#: ../src/extension.js:422
 msgid "Mixed rain and sleet"
 msgstr "Lapoviță"
 
 #. mixed snow and sleet
-#: ../src/extension.js:421
+#: ../src/extension.js:424
 msgid "Mixed snow and sleet"
 msgstr "Măzăriche"
 
 #. freezing drizzle
-#: ../src/extension.js:423
+#: ../src/extension.js:426
 msgid "Freezing drizzle"
 msgstr "Burniță rece"
 
 #. drizzle
-#: ../src/extension.js:425
+#: ../src/extension.js:428
 msgid "Drizzle"
 msgstr "Burniță"
 
 #. freezing rain
-#: ../src/extension.js:427
+#: ../src/extension.js:430
 msgid "Freezing rain"
 msgstr "Ploaie înghețată"
 
 #. showers
-#: ../src/extension.js:429 ../src/extension.js:431
+#: ../src/extension.js:432 ../src/extension.js:434
 msgid "Showers"
 msgstr "Averse"
 
 #. snow flurries
-#: ../src/extension.js:433
+#: ../src/extension.js:436
 msgid "Snow flurries"
 msgstr "Ninsoare ușoară"
 
 #. light snow showers
-#: ../src/extension.js:435
+#: ../src/extension.js:438
 msgid "Light snow showers"
 msgstr "Ninsoare ușoară în averse"
 
 #. blowing snow
-#: ../src/extension.js:437
+#: ../src/extension.js:440
 msgid "Blowing snow"
 msgstr "Ninsoare viscolită"
 
 #. snow
-#: ../src/extension.js:439
+#: ../src/extension.js:442
 msgid "Snow"
 msgstr "Ninsoare"
 
 #. hail
-#: ../src/extension.js:441
+#: ../src/extension.js:444
 msgid "Hail"
 msgstr "Grindină"
 
 #. sleet
-#: ../src/extension.js:443
+#: ../src/extension.js:446
 msgid "Sleet"
 msgstr "Lapoviță"
 
 #. dust
-#: ../src/extension.js:445
+#: ../src/extension.js:448
 msgid "Dust"
 msgstr "Praf"
 
 #. foggy
-#: ../src/extension.js:447
+#: ../src/extension.js:450
 msgid "Foggy"
 msgstr "Ceață"
 
 #. haze
-#: ../src/extension.js:449
+#: ../src/extension.js:452
 msgid "Haze"
 msgstr "Ceață ușoară"
 
 #. smoky
-#: ../src/extension.js:451
+#: ../src/extension.js:454
 msgid "Smoky"
 msgstr "Întunecat"
 
 #. blustery
-#: ../src/extension.js:453
+#: ../src/extension.js:456
 msgid "Blustery"
 msgstr "Zgomotos"
 
 #. windy
-#: ../src/extension.js:455
+#: ../src/extension.js:458
 msgid "Windy"
 msgstr "Vânt"
 
 #. cold
-#: ../src/extension.js:457
+#: ../src/extension.js:460
 msgid "Cold"
 msgstr "Rece"
 
 #. cloudy
-#: ../src/extension.js:459
+#: ../src/extension.js:462
 msgid "Cloudy"
 msgstr "Înnorat"
 
 #. mostly cloudy (night)
 #. mostly cloudy (day)
-#: ../src/extension.js:462
+#: ../src/extension.js:465
 msgid "Mostly cloudy"
 msgstr "Mai mult înnorat "
 
 #. partly cloudy (night)
 #. partly cloudy (day)
 #. partly cloudy
-#: ../src/extension.js:465 ../src/extension.js:491
+#: ../src/extension.js:468 ../src/extension.js:494
 msgid "Partly cloudy"
 msgstr "Parțial înnorat"
 
 #. clear (night)
-#: ../src/extension.js:467
+#: ../src/extension.js:470
 msgid "Clear"
 msgstr "Senin"
 
 #. sunny
-#: ../src/extension.js:469
+#: ../src/extension.js:472
 msgid "Sunny"
 msgstr "Însorit"
 
 #. fair (night)
 #. fair (day)
-#: ../src/extension.js:472
+#: ../src/extension.js:475
 msgid "Fair"
 msgstr "Vreme bună"
 
 #. mixed rain and hail
-#: ../src/extension.js:474
+#: ../src/extension.js:477
 msgid "Mixed rain and hail"
 msgstr "Ploaie cu grindină"
 
 #. hot
-#: ../src/extension.js:476
+#: ../src/extension.js:479
 msgid "Hot"
 msgstr "Foarte cald"
 
 #. isolated thunderstorms
-#: ../src/extension.js:478
+#: ../src/extension.js:481
 msgid "Isolated thunderstorms"
 msgstr "Furtuni izolate"
 
 #. scattered thunderstorms
 #. scattered thunderstorms
-#: ../src/extension.js:481
+#: ../src/extension.js:484
 msgid "Scattered thunderstorms"
 msgstr "Furtuni răzlețe"
 
 #. scattered showers
-#: ../src/extension.js:483
+#: ../src/extension.js:486
 msgid "Scattered showers"
 msgstr "Averse răzlețe"
 
 #. heavy snow
-#: ../src/extension.js:485 ../src/extension.js:489
+#: ../src/extension.js:488 ../src/extension.js:492
 msgid "Heavy snow"
 msgstr "Ninsoare abundentă"
 
 #. scattered snow showers
-#: ../src/extension.js:487
+#: ../src/extension.js:490
 msgid "Scattered snow showers"
 msgstr "Ninsori răzlețe"
 
 #. thundershowers
-#: ../src/extension.js:493
+#: ../src/extension.js:496
 msgid "Thundershowers"
 msgstr "Ploi abundente în averse"
 
 #. snow showers
-#: ../src/extension.js:495
+#: ../src/extension.js:498
 msgid "Snow showers"
 msgstr "Ninsori în averse"
 
 #. isolated thundershowers
-#: ../src/extension.js:497
+#: ../src/extension.js:500
 msgid "Isolated thundershowers"
 msgstr "Ploi izolate"
 
-#: ../src/extension.js:500
+#: ../src/extension.js:503
 msgid "Not available"
 msgstr "Indisponibil"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Monday"
 msgstr "Luni"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Tuesday"
 msgstr "Marți"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Wednesday"
 msgstr "Miercuri"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Thursday"
 msgstr "Joi"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Friday"
 msgstr "Vineri"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Saturday"
 msgstr "Sâmbătă"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Sunday"
 msgstr "Duminică"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "N"
 msgstr "N"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "NE"
 msgstr "NE"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "E"
 msgstr "E"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "SE"
 msgstr "SE"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "S"
 msgstr "S"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "SW"
 msgstr "SV"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "W"
 msgstr "V"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "NW"
 msgstr "NV"
 
 #. Refresh forecast
-#: ../src/extension.js:654
+#: ../src/extension.js:663
 msgid "Today"
 msgstr "Azi"
 
-#: ../src/extension.js:654
+#: ../src/extension.js:663
 msgid "Tomorrow"
 msgstr "Mâine"
 
-#: ../src/extension.js:706
+#: ../src/extension.js:715
 msgid "Loading current weather ..."
 msgstr "Se încarcă vremea curentă..."
 
-#: ../src/extension.js:707
+#: ../src/extension.js:716
 msgid "Loading future weather ..."
 msgstr "Se încarcă prognoza..."
 
-#: ../src/extension.js:718
+#: ../src/extension.js:727
 msgid "Sunrise"
 msgstr "Răsărit"
 
-#: ../src/extension.js:720
+#: ../src/extension.js:729
 msgid "Sunset"
 msgstr "Apus"
 
-#: ../src/extension.js:743
+#: ../src/extension.js:752
 msgid "Loading ..."
 msgstr "Se încarcă ..."
 
-#: ../src/extension.js:749
+#: ../src/extension.js:758
 msgid "Please wait"
 msgstr "Așteptați"
 
-#: ../src/extension.js:795
+#: ../src/extension.js:804
 msgid "Wind chill:"
 msgstr "Se simte:"
 
-#: ../src/extension.js:797
+#: ../src/extension.js:806
 msgid "Humidity:"
 msgstr "Umiditate:"
 
-#: ../src/extension.js:799
+#: ../src/extension.js:808
 msgid "Pressure:"
 msgstr "Presiune:"
 
-#: ../src/extension.js:801
+#: ../src/extension.js:810
 msgid "Wind:"
 msgstr "Vânt:"
 
@@ -595,4 +598,3 @@ msgstr "fișier interfață grafică '"
 #: ../src/prefs.js:159
 msgid "' not found."
 msgstr "' indisponibil"
-
