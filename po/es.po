@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-02 01:05-0600\n"
-"PO-Revision-Date: 2013-02-02 01:09-0600\n"
+"POT-Creation-Date: 2013-02-04 01:28-0600\n"
+"PO-Revision-Date: 2013-02-04 01:35-0600\n"
 "Last-Translator: Fitoschido <fitoschido@gmail.com>\n"
 "Language-Team: Español; Castellano <zodiac_es@yahoo.es>\n"
 "Language: es\n"
@@ -25,9 +25,7 @@ msgstr "Unidades"
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
-msgstr ""
-"Elija el sistema de unidades para temperaturas. Los valores permitidos son "
-"'celsius' o 'farenheit'."
+msgstr "Elija el sistema de unidades para temperaturas. Los valores permitidos son 'celsius' o 'fahrenheit'."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
@@ -66,48 +64,52 @@ msgstr ""
 "la que se obtiene de Yahoo."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
+msgid "URL to load when clicking on location name"
+msgstr "URL para cargar cuando se haga click en el nombre de la ubicación"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
+msgid ""
+"Optionally, define the weather details URL to load when the city name is "
+"clicked. If not set, the default URL from Yahoo Weather is used."
+msgstr "Opcional: define el URL con detalles del clima que se cargará cuando al nombre de la ciudad se le haga click. Si no se define, el URL por omisión usado es el de Yahoo! Weather."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to translate the weather condition"
 msgstr "Si se traduce o no las condiciones del clima"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
 "Whether to translate the weather condition. If enabled, the condition is "
 "translated based on the weather code. If disabled, the condition string from "
 "Yahoo is taken. Note: Enabling the translation sometimes results in loss of "
 "accuracy, e.g., the condition string \"PM Thunderstorms\" cannot be "
 "expressed in terms of weather codes."
-msgstr ""
-"Si se traduce o no la condición del clima. Si activado, la condición del "
-"clima es traducida basándose en el código del clima. Si desactivado, se usa "
-"la cadena de la condición del clima de Yahoo. Nota: Activar la traducción a "
-"veces resulta en pérdida de precisión, por ejemplo la cadena de la condición "
-"del clima \"PM Thunderstorms\" no se puede expresar en términos de códigos "
-"del clima."
+msgstr "Si se traduce o no la condición del clima. Si activado, la condición del clima es traducida basándose en el código del clima. Si desactivado, se usa la cadena de la condición del clima de Yahoo. Nota: Activar la traducción a veces resulta en pérdida de precisión, por ejemplo la cadena de la condición del clima «PM Thunderstorms» no se puede expresar en términos de códigos del clima."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to display sunrise / sunset times"
 msgstr "Si se muestra o no la hora de puesta / salida de sol"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
 msgstr ""
 "Si se muestra o no la hora de puesta y salida de sol para hoy en el clima "
 "actual"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to use symbolic icons"
 msgstr "Si se usan o no íconos simbólicos"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid "Whether to use symbolic icons instead of full-colored icons."
 msgstr "Si se usan íconos simbólicos o íconos a color."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the text in the panel."
 msgstr "Si se muestra o no texto en el panel."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
 "Whether to show the weather condition text (aka. comment) together with the "
 "temperature in the panel. If only weather condition text is undesired, "
@@ -118,26 +120,22 @@ msgstr ""
 "condición del clima es lo que no se desea, considere mejor la opción show-"
 "comment-in-panel."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Whether to show the comment in the panel."
 msgstr "Si se muestra o no el comentario en el panel."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
 "Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
-msgstr ""
-"Si se muestra el comentario (también conocido como texto de la condición del "
-"clima, por ejemplo \"Ventoso\", \"Claro\") en el panel. Note que la "
-"temperatura se muestra de cualquier forma (si esto no se desea, considere la "
-"opción show-text-in-panel)."
+msgstr "Si se muestra el comentario (también conocido como texto de la condición del clima, por ejemplo «Ventoso», «Claro») en el panel. Note que la temperatura se muestra de cualquier forma (si esto no se desea, considere la opción show-text-in-panel)."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Position in panel"
 msgstr "Posición en el panel"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right'."
@@ -145,11 +143,11 @@ msgstr ""
 "Cambia la posición de esta extensión del GNOME Shell en el panel a centro "
 "('center'), izquierda ('left') o derecha ('right')."
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:23
 msgid "Refresh interval in seconds"
 msgstr "Intervalo de recarga en segundos"
 
-#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:24
 msgid "The interval in seconds to refresh the weather information."
 msgstr "El inervalo en segundos para recargar la información del clima."
 
@@ -171,7 +169,7 @@ msgstr "Celsius"
 
 #: ../data/prefs.ui.h:5
 msgid "Farenheit"
-msgstr "Farenheit"
+msgstr "Fahrenheit"
 
 #: ../data/prefs.ui.h:6
 msgid "kph"
@@ -191,7 +189,7 @@ msgstr "nudos"
 
 #: ../data/prefs.ui.h:10
 msgid "<b>_Location ID:</b>"
-msgstr "<b>ID de _Ubicación:</b>"
+msgstr "<b>ID de _ubicación:</b>"
 
 #: ../data/prefs.ui.h:11
 msgid "_Temperature unit:"
@@ -215,7 +213,7 @@ msgstr "Buscar ID de ubicación"
 
 #: ../data/prefs.ui.h:16
 msgid "T_ranslate weather conditions"
-msgstr "Si se t_raduce o no las condiciones del clima"
+msgstr "T_raducir condiciones del clima"
 
 #: ../data/prefs.ui.h:17
 msgid "Show s_unrise/sunset times"
@@ -223,7 +221,7 @@ msgstr "Mostrar tiempos de _salida/puesta de sol"
 
 #: ../data/prefs.ui.h:18
 msgid "Use s_ymbolic icons"
-msgstr "Usar íconos s_imbólicos"
+msgstr "Usar íconos _monocromáticos"
 
 #: ../data/prefs.ui.h:19
 msgid "Show te_xt in panel"
@@ -242,330 +240,330 @@ msgid "_Search"
 msgstr "_Buscar"
 
 #. Label
-#: ../src/extension.js:191
+#: ../src/extension.js:194
 msgid "..."
 msgstr "..."
 
 #. tornado
-#: ../src/extension.js:407
+#: ../src/extension.js:410
 msgid "Tornado"
 msgstr "Tornado"
 
 #. tropical storm
-#: ../src/extension.js:409
+#: ../src/extension.js:412
 msgid "Tropical storm"
 msgstr "Tormenta tropical"
 
 #. hurricane
-#: ../src/extension.js:411
+#: ../src/extension.js:414
 msgid "Hurricane"
 msgstr "Huracán"
 
 #. severe thunderstorms
-#: ../src/extension.js:413
+#: ../src/extension.js:416
 msgid "Severe thunderstorms"
 msgstr "Tormentas severas"
 
 #. thunderstorms
-#: ../src/extension.js:415
+#: ../src/extension.js:418
 msgid "Thunderstorms"
 msgstr "Tormentas"
 
 #. mixed rain and snow
-#: ../src/extension.js:417
+#: ../src/extension.js:420
 msgid "Mixed rain and snow"
 msgstr "Lluvia y nieve"
 
 #. mixed rain and sleet
-#: ../src/extension.js:419
+#: ../src/extension.js:422
 msgid "Mixed rain and sleet"
 msgstr "Granizo y lluvia"
 
 #. mixed snow and sleet
-#: ../src/extension.js:421
+#: ../src/extension.js:424
 msgid "Mixed snow and sleet"
 msgstr "Granizo y nieve"
 
 #. freezing drizzle
-#: ../src/extension.js:423
+#: ../src/extension.js:426
 msgid "Freezing drizzle"
 msgstr "Lluvia con heladas"
 
 #. drizzle
-#: ../src/extension.js:425
+#: ../src/extension.js:428
 msgid "Drizzle"
 msgstr "Llovizna"
 
 #. freezing rain
-#: ../src/extension.js:427
+#: ../src/extension.js:430
 msgid "Freezing rain"
 msgstr "Lluvia con heladas"
 
 #. showers
-#: ../src/extension.js:429 ../src/extension.js:431
+#: ../src/extension.js:432 ../src/extension.js:434
 msgid "Showers"
 msgstr "Lluvias"
 
 #. snow flurries
-#: ../src/extension.js:433
+#: ../src/extension.js:436
 msgid "Snow flurries"
 msgstr "Nieve"
 
 #. light snow showers
-#: ../src/extension.js:435
+#: ../src/extension.js:438
 msgid "Light snow showers"
 msgstr "Nieve"
 
 #. blowing snow
-#: ../src/extension.js:437
+#: ../src/extension.js:440
 msgid "Blowing snow"
 msgstr "Nieve"
 
 #. snow
-#: ../src/extension.js:439
+#: ../src/extension.js:442
 msgid "Snow"
 msgstr "Nieve"
 
 #. hail
-#: ../src/extension.js:441
+#: ../src/extension.js:444
 msgid "Hail"
 msgstr "Granizo"
 
 #. sleet
-#: ../src/extension.js:443
+#: ../src/extension.js:446
 msgid "Sleet"
 msgstr "Granizo"
 
 #. dust
-#: ../src/extension.js:445
+#: ../src/extension.js:448
 msgid "Dust"
 msgstr "Niebla"
 
 #. foggy
-#: ../src/extension.js:447
+#: ../src/extension.js:450
 msgid "Foggy"
 msgstr "Bruma"
 
 #. haze
-#: ../src/extension.js:449
+#: ../src/extension.js:452
 msgid "Haze"
 msgstr "Neblina"
 
 #. smoky
-#: ../src/extension.js:451
+#: ../src/extension.js:454
 msgid "Smoky"
 msgstr "Niebla"
 
 #. blustery
-#: ../src/extension.js:453
+#: ../src/extension.js:456
 msgid "Blustery"
 msgstr "Ráfagas de viento"
 
 #. windy
-#: ../src/extension.js:455
+#: ../src/extension.js:458
 msgid "Windy"
 msgstr "Ventoso"
 
 #. cold
-#: ../src/extension.js:457
+#: ../src/extension.js:460
 msgid "Cold"
 msgstr "Fría"
 
 #. cloudy
-#: ../src/extension.js:459
+#: ../src/extension.js:462
 msgid "Cloudy"
 msgstr "Nublado"
 
 #. mostly cloudy (night)
 #. mostly cloudy (day)
-#: ../src/extension.js:462
+#: ../src/extension.js:465
 msgid "Mostly cloudy"
 msgstr "Muy nublado"
 
 #. partly cloudy (night)
 #. partly cloudy (day)
 #. partly cloudy
-#: ../src/extension.js:465 ../src/extension.js:491
+#: ../src/extension.js:468 ../src/extension.js:494
 msgid "Partly cloudy"
 msgstr "Parcialmente nublado"
 
 #. clear (night)
-#: ../src/extension.js:467
+#: ../src/extension.js:470
 msgid "Clear"
 msgstr "Despejado"
 
 #. sunny
-#: ../src/extension.js:469
+#: ../src/extension.js:472
 msgid "Sunny"
 msgstr "Soleado"
 
 #. fair (night)
 #. fair (day)
-#: ../src/extension.js:472
+#: ../src/extension.js:475
 msgid "Fair"
 msgstr "Despejado"
 
 #. mixed rain and hail
-#: ../src/extension.js:474
+#: ../src/extension.js:477
 msgid "Mixed rain and hail"
 msgstr "Lluvia y granizo"
 
 #. hot
-#: ../src/extension.js:476
+#: ../src/extension.js:479
 msgid "Hot"
 msgstr "Caluroso"
 
 #. isolated thunderstorms
-#: ../src/extension.js:478
+#: ../src/extension.js:481
 msgid "Isolated thunderstorms"
 msgstr "Tormentas locales"
 
 #. scattered thunderstorms
 #. scattered thunderstorms
-#: ../src/extension.js:481
+#: ../src/extension.js:484
 msgid "Scattered thunderstorms"
 msgstr "Tormentas aisladas"
 
 #. scattered showers
-#: ../src/extension.js:483
+#: ../src/extension.js:486
 msgid "Scattered showers"
 msgstr "Lluvias aisladas"
 
 #. heavy snow
-#: ../src/extension.js:485 ../src/extension.js:489
+#: ../src/extension.js:488 ../src/extension.js:492
 msgid "Heavy snow"
 msgstr "Fuerte nevada"
 
 #. scattered snow showers
-#: ../src/extension.js:487
+#: ../src/extension.js:490
 msgid "Scattered snow showers"
 msgstr "Nevadas aisladas"
 
 #. thundershowers
-#: ../src/extension.js:493
+#: ../src/extension.js:496
 msgid "Thundershowers"
 msgstr "Tormentas"
 
 #. snow showers
-#: ../src/extension.js:495
+#: ../src/extension.js:498
 msgid "Snow showers"
 msgstr "Nevadas"
 
 #. isolated thundershowers
-#: ../src/extension.js:497
+#: ../src/extension.js:500
 msgid "Isolated thundershowers"
 msgstr "Tormentas aisladas"
 
-#: ../src/extension.js:500
+#: ../src/extension.js:503
 msgid "Not available"
 msgstr "No disponible"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Monday"
 msgstr "Lunes"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Tuesday"
 msgstr "Martes"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Wednesday"
 msgstr "Miércoles"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Thursday"
 msgstr "Jueves"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Friday"
 msgstr "Viernes"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Saturday"
 msgstr "Sábado"
 
-#: ../src/extension.js:515
+#: ../src/extension.js:518
 msgid "Sunday"
 msgstr "Domingo"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "N"
 msgstr "N"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "NE"
 msgstr "NE"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "E"
 msgstr "E"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "SE"
 msgstr "SE"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "S"
 msgstr "S"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "SW"
-msgstr "SW"
+msgstr "SO"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "W"
-msgstr "W"
+msgstr "O"
 
-#: ../src/extension.js:520
+#: ../src/extension.js:523
 msgid "NW"
-msgstr "NW"
+msgstr "NO"
 
 #. Refresh forecast
-#: ../src/extension.js:654
+#: ../src/extension.js:663
 msgid "Today"
 msgstr "Hoy"
 
-#: ../src/extension.js:654
+#: ../src/extension.js:663
 msgid "Tomorrow"
 msgstr "Mañana"
 
-#: ../src/extension.js:706
+#: ../src/extension.js:715
 msgid "Loading current weather ..."
 msgstr "Cargando la meteorología actual..."
 
-#: ../src/extension.js:707
+#: ../src/extension.js:716
 msgid "Loading future weather ..."
 msgstr "Cargando la meteorología futura..."
 
-#: ../src/extension.js:718
+#: ../src/extension.js:727
 msgid "Sunrise"
 msgstr "Salida del sol"
 
-#: ../src/extension.js:720
+#: ../src/extension.js:729
 msgid "Sunset"
 msgstr "Puesta del sol"
 
-#: ../src/extension.js:743
+#: ../src/extension.js:752
 msgid "Loading ..."
 msgstr "Cargando..."
 
-#: ../src/extension.js:749
+#: ../src/extension.js:758
 msgid "Please wait"
 msgstr "Espere un momento"
 
-#: ../src/extension.js:795
+#: ../src/extension.js:804
 msgid "Wind chill:"
 msgstr "Con factor de viento:"
 
-#: ../src/extension.js:797
+#: ../src/extension.js:806
 msgid "Humidity:"
 msgstr "Humedad"
 
-#: ../src/extension.js:799
+#: ../src/extension.js:808
 msgid "Pressure:"
 msgstr "Presión:"
 
-#: ../src/extension.js:801
+#: ../src/extension.js:810
 msgid "Wind:"
 msgstr "Viento:"
 
