@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
 "PO-Revision-Date: 2013-02-02 16:58+0200\n"
 "Last-Translator: Yaron Sheffer <yaronf@gmx.com>\n"
 "Language-Team: Hebrew <none@example.com>\n"
@@ -573,17 +573,17 @@ msgid "Wind:"
 msgstr "רוח:"
 
 #: ../src/prefs.js:152
-msgid "Schema "
-msgstr "סכימה "
-
-#: ../src/prefs.js:152
-msgid " not found."
+#, fuzzy, c-format
+msgid "Schema %s not found."
 msgstr " לא נמצאה."
 
 #: ../src/prefs.js:159
-msgid "UI file '"
-msgstr "קובץ ממשק '"
-
-#: ../src/prefs.js:159
-msgid "' not found."
+#, fuzzy, c-format
+msgid "UI file '%s' not found."
 msgstr "' לא נמצא."
+
+#~ msgid "Schema "
+#~ msgstr "סכימה "
+
+#~ msgid "UI file '"
+#~ msgstr "קובץ ממשק '"

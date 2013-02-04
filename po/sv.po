@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
 "PO-Revision-Date: 2011-06-09 17:43+0200\n"
 "Last-Translator: Mauricio Barraza <mauricio@barraza.se>\n"
 "Language: sv\n"
@@ -554,17 +554,11 @@ msgid "Wind:"
 msgstr "Vind:"
 
 #: ../src/prefs.js:152
-msgid "Schema "
-msgstr ""
-
-#: ../src/prefs.js:152
-msgid " not found."
+#, c-format
+msgid "Schema %s not found."
 msgstr ""
 
 #: ../src/prefs.js:159
-msgid "UI file '"
-msgstr ""
-
-#: ../src/prefs.js:159
-msgid "' not found."
+#, c-format
+msgid "UI file '%s' not found."
 msgstr ""

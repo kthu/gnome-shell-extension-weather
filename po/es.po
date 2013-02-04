@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:38-0600\n"
-"PO-Revision-Date: 2013-02-04 01:35-0600\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
+"PO-Revision-Date: 2013-02-04 01:54-0600\n"
 "Last-Translator: Fitoschido <fitoschido@gmail.com>\n"
 "Language-Team: Español; Castellano <zodiac_es@yahoo.es>\n"
 "Language: es\n"
@@ -183,7 +183,6 @@ msgid "Celsius"
 msgstr "Celsius"
 
 #: ../data/prefs.ui.h:5
-#, fuzzy
 msgid "Fahrenheit"
 msgstr "Fahrenheit"
 
@@ -584,17 +583,11 @@ msgid "Wind:"
 msgstr "Viento:"
 
 #: ../src/prefs.js:152
-msgid "Schema "
-msgstr "Esquema"
-
-#: ../src/prefs.js:152
-msgid " not found."
-msgstr "no encontrado."
+#, c-format
+msgid "Schema %s not found."
+msgstr "Esquema %s no encontrado."
 
 #: ../src/prefs.js:159
-msgid "UI file '"
-msgstr "Archivo de interfaz de usuario '"
-
-#: ../src/prefs.js:159
-msgid "' not found."
-msgstr "' no encontrado."
+#, c-format
+msgid "UI file '%s' not found."
+msgstr "Archivo de interfaz de usuario '%s' no encontrado."

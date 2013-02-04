@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
 "PO-Revision-Date: 2013-02-04 01:38-0600\n"
 "Last-Translator: Pau Iranzo <paugnu@gmail.com>\n"
 "Language-Team: Softcatalà\n"
@@ -577,17 +577,17 @@ msgid "Wind:"
 msgstr "Vent:"
 
 #: ../src/prefs.js:152
-msgid "Schema "
-msgstr "Esquema "
-
-#: ../src/prefs.js:152
-msgid " not found."
+#, fuzzy, c-format
+msgid "Schema %s not found."
 msgstr " no s'ha trobat."
 
 #: ../src/prefs.js:159
-msgid "UI file '"
-msgstr "Fitxer UI «"
-
-#: ../src/prefs.js:159
-msgid "' not found."
+#, fuzzy, c-format
+msgid "UI file '%s' not found."
 msgstr "» no s'ha trobat"
+
+#~ msgid "Schema "
+#~ msgstr "Esquema "
+
+#~ msgid "UI file '"
+#~ msgstr "Fitxer UI «"

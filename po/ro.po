@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: simon04-gnome-shell-extension-weather\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
 "PO-Revision-Date: 2013-02-04 01:39-0600\n"
 "Last-Translator: Marian Vasile <marianvasile1972@gmail.com>\n"
 "Language-Team: Romanian <kde-i18n-doc@kde.org>\n"
@@ -584,17 +584,17 @@ msgid "Wind:"
 msgstr "Vânt:"
 
 #: ../src/prefs.js:152
-msgid "Schema "
-msgstr "Schemă"
-
-#: ../src/prefs.js:152
-msgid " not found."
+#, fuzzy, c-format
+msgid "Schema %s not found."
 msgstr "indisponibil"
 
 #: ../src/prefs.js:159
-msgid "UI file '"
-msgstr "fișier interfață grafică '"
-
-#: ../src/prefs.js:159
-msgid "' not found."
+#, fuzzy, c-format
+msgid "UI file '%s' not found."
 msgstr "' indisponibil"
+
+#~ msgid "Schema "
+#~ msgstr "Schemă"
+
+#~ msgid "UI file '"
+#~ msgstr "fișier interfață grafică '"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: simon 04-gnome-shell-extension-weather-452bcfe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
 "PO-Revision-Date: 2011-12-02 14:44+0800\n"
 "Last-Translator: Tao Zhu <bill_zt@sina.com>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -556,19 +556,11 @@ msgid "Wind:"
 msgstr "风力："
 
 #: ../src/prefs.js:152
-msgid "Schema "
-msgstr ""
-
-#: ../src/prefs.js:152
-#, fuzzy
-msgid " not found."
+#, fuzzy, c-format
+msgid "Schema %s not found."
 msgstr "未找到方案“%s”。"
 
 #: ../src/prefs.js:159
-msgid "UI file '"
-msgstr ""
-
-#: ../src/prefs.js:159
-#, fuzzy
-msgid "' not found."
+#, fuzzy, c-format
+msgid "UI file '%s' not found."
 msgstr "未找到方案“%s”。"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
 "PO-Revision-Date: 2011-05-27 09:44+0200\n"
 "Last-Translator: ecyrbe <ecyrbe@gmail.com>\n"
 "Language-Team: Français <ecyrbe@gmail.com>\n"
@@ -558,17 +558,11 @@ msgid "Wind:"
 msgstr "Vent :"
 
 #: ../src/prefs.js:152
-msgid "Schema "
-msgstr ""
-
-#: ../src/prefs.js:152
-msgid " not found."
+#, c-format
+msgid "Schema %s not found."
 msgstr ""
 
 #: ../src/prefs.js:159
-msgid "UI file '"
-msgstr ""
-
-#: ../src/prefs.js:159
-msgid "' not found."
+#, c-format
+msgid "UI file '%s' not found."
 msgstr ""
