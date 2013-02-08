@@ -1,11 +1,18 @@
 GNOME Shell Weather Extension
 =============================
 
-The GNOME Shell Weather Extension is a simple extension for
-displaying weather notifications in GNOME Shell.
+The GNOME Shell Weather Extension is a simple extension for displaying weather
+notifications in GNOME Shell.
 
-Currently, the weather report including forecast for today and
-tomorrow is fetched from Yahoo! Weather.
+Currently, the weather report including forecast for today and tomorrow is
+fetched from Yahoo! Weather.
+
+[This particular version](https://github.com/kthu/gnome-shell-extension-weather)
+has been extended to include information from Ricco Førgaards digital lithium
+[Hvor meget er dagen tiltaget?](http://sidensolhverv.dk). An extra line of text
+telling you how much longer or shorter the day has become since the last
+solstice and since yesterday will display if "Show sunrise/sunset times" is
+enabled.
 
 Installation
 ------------
