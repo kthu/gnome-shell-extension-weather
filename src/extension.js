@@ -54,6 +54,18 @@ const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
 const Convenience = Me.imports.convenience;
 
+const NetworkManagerInterface = <interface name="org.freedesktop.NetworkManager">
+  <method name="state">
+    <arg type="u" direction="out" />
+  </method>
+<signal name="StateChanged">
+    <arg type="u" direction="out" />
+</signal>
+
+</interface>;
+
+const NetworkManagerProxy = Gio.DBusProxy.makeProxyWrapper(NetworkManagerInterface);
+
 // Settings
 const WEATHER_SETTINGS_SCHEMA = 'org.gnome.shell.extensions.weather';
 const WEATHER_UNIT_KEY = 'unit';
@@ -92,6 +104,17 @@ const PressureTendency = {
     STEADY: 0,
     RISING: 1,
     FALLING: 2
+};
+
+const NMState = {
+    UNKNOWN: 0,
+    ASLEEP: 10,
+    DISCONNECTED: 20,
+    DISCONNECTING: 30,
+    CONNECTING: 40,
+    CONNECTED_LOCAL: 50,
+    CONNECTED_SITE: 60,
+    GLOBAL: 70
 };
 
 // Conversion Factors
@@ -257,6 +280,16 @@ const WeatherMenuButton = new Lang.Class({
 
         this.rebuildCurrentWeatherUi();
         this.rebuildFutureWeatherUi();
+
+        // NetworkManager proxy
+        this.nm_proxy = new NetworkManagerProxy(Gio.DBus.system,
+                                                'org.freedesktop.NetworkManager',
+                                                '/org/freedesktop/NetworkManager');
+        this.nm_proxy.connectSignal('StateChanged', Lang.bind(this, function(proxy, sender, [state]) {
+            // If we got a global connection, immediately refresh
+            if (state == NMState.GLOBAL)
+                this.refreshWeather(false);
+        }));
 
         // Show weather
         Mainloop.timeout_add_seconds(3, Lang.bind(this, function() {
@@ -554,6 +587,19 @@ const WeatherMenuButton = new Lang.Class({
     },
 
     refreshWeather: function(recurse) {
+        let state = this.nm_proxy.stateSync();
+        // No connection => no weather data. Don't even try. We keep recursing if requested, though
+        if (state != NMState.GLOBAL) {
+            // Repeatedly refresh weather if recurse is set
+            if (recurse) {
+                Mainloop.timeout_add_seconds(this._refresh_interval, Lang.bind(this, function() {
+                    this.refreshWeather(true);
+                }));
+            }
+            // Don't try to fetch data
+            return;
+        }
+
         this.load_json_async(this.get_weather_url(), function(json) {
 
             try {
