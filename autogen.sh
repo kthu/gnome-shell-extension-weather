@@ -6,6 +6,7 @@ test -z "$srcdir" && srcdir=.
 
 PKG_NAME="gnome-shell-extension-weather"
 
+mkdir -p m4 config
 touch ChangeLog
 
 test -f $srcdir/configure.ac || {
