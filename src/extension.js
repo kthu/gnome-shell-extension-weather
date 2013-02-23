@@ -58,10 +58,9 @@ const NetworkManagerInterface = <interface name="org.freedesktop.NetworkManager"
   <method name="state">
     <arg type="u" direction="out" />
   </method>
-<signal name="StateChanged">
+  <signal name="StateChanged">
     <arg type="u" direction="out" />
-</signal>
-
+  </signal>
 </interface>;
 
 const NetworkManagerProxy = Gio.DBusProxy.makeProxyWrapper(NetworkManagerInterface);
@@ -124,6 +123,8 @@ const WEATHER_CONV_KNOTS_IN_MPS = 1.94384449;
 
 // Soup session (see https://bugzilla.gnome.org/show_bug.cgi?id=661323#c64)
 const _httpSession = new Soup.SessionAsync();
+/* I believe 5 seconds should be enough time to retrieve the data.*/
+_httpSession.timeout = 5;
 Soup.Session.prototype.add_feature.call(_httpSession, new Soup.ProxyResolverDefault());
 
 /* New form of inheritance. */
