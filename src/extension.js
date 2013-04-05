@@ -582,8 +582,10 @@ const WeatherMenuButton = new Lang.Class({
         let message = Soup.Message.new('GET', url);
         _httpSession.queue_message(message, function(session, message) {
             let jp = new Json.Parser();
-            jp.load_from_data(message.response_body.data, -1);
-            fun.call(here, jp.get_root().get_object());
+            if (message.response_body.data != null) {
+                jp.load_from_data(message.response_body.data, -1);
+                fun.call(here, jp.get_root().get_object());
+            }
         });
     },
 
