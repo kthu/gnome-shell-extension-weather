@@ -1,231 +1,584 @@
 # Czech translation for gnome-shell-extension-weather
 # Copyright (C) 2011
 # This file is distributed under the same license as the gnome-shell-extension-weather package.
-# David Štancl <dstancl@dstancl.cz>, 2011.
+# David Štancl <dstancl@dstancl.cz>, 2011, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-30 16:08+0200\n"
-"PO-Revision-Date: 2012-03-29 13:43+0100\n"
+"POT-Creation-Date: 2013-02-04 01:53-0600\n"
+"PO-Revision-Date: 2013-02-18 13:37+0100\n"
 "Last-Translator: David Štancl <dstancl@dstancl.cz>\n"
 "Language-Team: cs_CZ <czech@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 2.91.5\n"
 
-#, python-format
-msgid "Schema \"%s\" not found."
-msgstr "Schéma \"%s\" nebylo nalezeno."
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
+msgid "Units"
+msgstr "Jednotky"
 
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
+msgid ""
+"Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
+"'fahrenheit'."
+msgstr ""
+"Vyberte měrný systém pro teploty atd. Povolené hodnoty jsou 'celsius' a "
+"'fahrenheit'."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
+msgid "Wind Speed Units"
+msgstr "Jednotka rychlosti větru"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
+msgid ""
+"Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
+"or 'knots'."
+msgstr ""
+"Vyberte jednotky pro rychlost větru. Povolené hodnoty jsou 'kph', 'mph', 'm/"
+"s' a 'knots'."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
+msgid "Yahoo WOEID"
+msgstr "Yahoo WOEID"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
+msgid ""
+"Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
+"used to retrieve the corresponding weather+forecast information."
+msgstr ""
+"Nastavte Yahoo ID místa (WOEID), které se použije pro získání informací o "
+"počasí a předpovědi."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
+msgid "City to be displayed"
+msgstr "Město, které se zobrazí"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
+msgid ""
+"Optionally, you can override the displayed city. This one is displayed "
+"instead of the one from the Yahoo service."
+msgstr ""
+"Volitelně můžete změnit zobrazený název města. Tento název bude použit místo "
+"názvu získaného přes Yahoo."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
+msgid "URL to load when clicking on location name"
+msgstr "Adresa, která se otevře při kliknutí na název místa"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
+msgid ""
+"Optionally, define the weather details URL to load when the city name is "
+"clicked. If not set, the default URL from Yahoo Weather is used."
+msgstr ""
+"Volitelně můžete změnit adresu, která se načte v prohlížeči při kliknutí na "
+"název města. Pokud není vyplněno, použije se výchozí z Yahoo."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
+msgid "Whether to translate the weather condition"
+msgstr "Překládat stav počasí"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
+msgid ""
+"Whether to translate the weather condition. If enabled, the condition is "
+"translated based on the weather code. If disabled, the condition string from "
+"Yahoo is taken. Note: Enabling the translation sometimes results in loss of "
+"accuracy, e.g., the condition string \"PM Thunderstorms\" cannot be "
+"expressed in terms of weather codes."
+msgstr ""
+"Zaškrtněte, pokud chcete překládat stav počasí. Stav je přeložen na základě "
+"kódu počasí. Pokud není zaškrtnuto, použije se text z Yahoo. Poznámka: při "
+"povolení překladu může dojít ke ztrátě přesnosti, např. řetězec \"PM "
+"Thunderstorms\" nemůže být vyjádřen v kódech počasí."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
+msgid "Whether to display sunrise / sunset times"
+msgstr "Zobrazit čas východu a západu Slunce"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
+msgid ""
+"Whether to display sunrise and sunset times for today in current weather"
+msgstr "Zaškrtněte, pokud chcete zobrazit čas východu a západu Slunce"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
+msgid "Whether to use symbolic icons"
+msgstr "Použít symbolické ikony"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
+msgid "Whether to use symbolic icons instead of full-colored icons."
+msgstr "Zaškrtněte, pokud chcete použít symbolické ikony namísto barevných."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
+msgid "Whether to show the text in the panel."
+msgstr "Zobrazit text v panelu"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
+msgid ""
+"Whether to show the weather condition text (aka. comment) together with the "
+"temperature in the panel. If only weather condition text is undesired, "
+"consider show-comment-in-panel option."
+msgstr ""
+"Zaškrtněte, pokud chcete zobrazit v panelu stav počasí textově (jako "
+"poznámku) společně s teplotou."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
+msgid "Whether to show the comment in the panel."
+msgstr "Zobrazit poznámku v panelu"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
+msgid ""
+"Whether to show the comment (aka. weather condition text, e.g. \"Windy\", "
+"\"Clear\") in the panel. Note that the temperature is still shown (if "
+"undesired, consider show-text-in-panel option)."
+msgstr ""
+"Zaškrtněte, pokud chcete zobrazit poznámku (stav počasí, např. \"Větrno\", "
+"\"Jasno\") v panelu. Teplota je zobrazena nezávisle na tomto nastavení."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
+msgid "Position in panel"
+msgstr "Pozice v panelu"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
+msgid ""
+"Set the position of this GNOME Shell extension in the panel to either "
+"'center', 'left' or 'right'."
+msgstr ""
+"Nastavte pozici tohoto rozšíření v panelu - možné hodnoty jsou 'center', "
+"'left' a 'right'."
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:23
+msgid "Refresh interval in seconds"
+msgstr "Interval obnovy ve vteřinách"
+
+#: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:24
+msgid "The interval in seconds to refresh the weather information."
+msgstr "Interval ve vteřinách pro aktualizaci informací o počasí."
+
+#: ../data/prefs.ui.h:1
+msgid "Center"
+msgstr "uprostřed"
+
+#: ../data/prefs.ui.h:2
+msgid "Right"
+msgstr "vpravo"
+
+#: ../data/prefs.ui.h:3
+msgid "Left"
+msgstr "vlevo"
+
+#: ../data/prefs.ui.h:4
+msgid "Celsius"
+msgstr "st. Celsia"
+
+#: ../data/prefs.ui.h:5
+msgid "Fahrenheit"
+msgstr "st. Fahrenheita"
+
+#: ../data/prefs.ui.h:6
+msgid "kph"
+msgstr "km/h"
+
+#: ../data/prefs.ui.h:7
+msgid "mph"
+msgstr "míle/h"
+
+#: ../data/prefs.ui.h:8
+msgid "m/s"
+msgstr "m/s"
+
+#: ../data/prefs.ui.h:9
+msgid "knots"
+msgstr "uzly"
+
+#: ../data/prefs.ui.h:10
+msgid "<b>_Location ID:</b>"
+msgstr "<b>ID _místa:</b>"
+
+#: ../data/prefs.ui.h:11
+msgid "_Temperature unit:"
+msgstr "Jednotka _teploty:"
+
+#: ../data/prefs.ui.h:12
+msgid "Wind _speed unit:"
+msgstr "Jednotka _rychlosti větru:"
+
+#: ../data/prefs.ui.h:13
+msgid "_Position in panel:"
+msgstr "_Pozice v panelu:"
+
+#: ../data/prefs.ui.h:14
+msgid "_Override location label:"
+msgstr "Přepsat _název místa:"
+
+#: ../data/prefs.ui.h:15 ../data/search.ui.h:1
+msgid "Search for Location ID"
+msgstr "Najít ID místa"
+
+#: ../data/prefs.ui.h:16
+msgid "T_ranslate weather conditions"
+msgstr "Pře_kládat stav počasí"
+
+#: ../data/prefs.ui.h:17
+msgid "Show s_unrise/sunset times"
+msgstr "Zobrazit _východ a západ Slunce"
+
+#: ../data/prefs.ui.h:18
+msgid "Use s_ymbolic icons"
+msgstr "Použít s_ymbolické ikony"
+
+#: ../data/prefs.ui.h:19
+msgid "Show te_xt in panel"
+msgstr "Zobrazit te_xt v panelu"
+
+#: ../data/prefs.ui.h:20
+msgid "Include weather _conditions"
+msgstr "Včetně _stavu počasí"
+
+#: ../data/search.ui.h:2
+msgid "Location:"
+msgstr "Místo:"
+
+#: ../data/search.ui.h:3
+msgid "_Search"
+msgstr "_Najít"
+
+#. Label
+#: ../src/extension.js:194
 msgid "..."
 msgstr "..."
 
+#. tornado
+#: ../src/extension.js:410
 msgid "Tornado"
 msgstr "Tornádo"
 
+#. tropical storm
+#: ../src/extension.js:412
 msgid "Tropical storm"
 msgstr "Tropická bouře"
 
+#. hurricane
+#: ../src/extension.js:414
 msgid "Hurricane"
 msgstr "Hurikán"
 
+#. severe thunderstorms
+#: ../src/extension.js:416
 msgid "Severe thunderstorms"
 msgstr "Četné bouřky"
 
+#. thunderstorms
+#: ../src/extension.js:418
 msgid "Thunderstorms"
 msgstr "Bouřky"
 
+#. mixed rain and snow
+#: ../src/extension.js:420
 msgid "Mixed rain and snow"
 msgstr "Sníh s deštěm"
 
+#. mixed rain and sleet
+#: ../src/extension.js:422
 msgid "Mixed rain and sleet"
 msgstr "Déšť a plískanice"
 
+#. mixed snow and sleet
+#: ../src/extension.js:424
 msgid "Mixed snow and sleet"
 msgstr "Sníh a plískanice"
 
+#. freezing drizzle
+#: ../src/extension.js:426
 msgid "Freezing drizzle"
 msgstr "Namrzající mrholení"
 
+#. drizzle
+#: ../src/extension.js:428
 msgid "Drizzle"
 msgstr "Mrholení"
 
+#. freezing rain
+#: ../src/extension.js:430
 msgid "Freezing rain"
 msgstr "Namrzající déšť"
 
+#. showers
+#: ../src/extension.js:432 ../src/extension.js:434
 msgid "Showers"
 msgstr "Přeháňky"
 
+#. snow flurries
+#: ../src/extension.js:436
 msgid "Snow flurries"
 msgstr "Sněhové přívaly"
 
+#. light snow showers
+#: ../src/extension.js:438
 msgid "Light snow showers"
 msgstr "Mírné sněžení"
 
+#. blowing snow
+#: ../src/extension.js:440
 msgid "Blowing snow"
 msgstr "Husté sněžení"
 
+#. snow
+#: ../src/extension.js:442
 msgid "Snow"
 msgstr "Sněžení"
 
+#. hail
+#: ../src/extension.js:444
 msgid "Hail"
 msgstr "Kroupy"
 
+#. sleet
+#: ../src/extension.js:446
 msgid "Sleet"
 msgstr "Plískanice"
 
+#. dust
+#: ../src/extension.js:448
 msgid "Dust"
 msgstr "Prašno"
 
+#. foggy
+#: ../src/extension.js:450
 msgid "Foggy"
 msgstr "Mlha"
 
+#. haze
+#: ../src/extension.js:452
 msgid "Haze"
 msgstr "Opar"
 
+#. smoky
+#: ../src/extension.js:454
 msgid "Smoky"
 msgstr "Kouřmo"
 
+#. blustery
+#: ../src/extension.js:456
 msgid "Blustery"
 msgstr "Bouřlivě"
 
+#. windy
+#: ../src/extension.js:458
 msgid "Windy"
 msgstr "Větrno"
 
+#. cold
+#: ../src/extension.js:460
 msgid "Cold"
 msgstr "Chladno"
 
+#. cloudy
+#: ../src/extension.js:462
 msgid "Cloudy"
 msgstr "Zataženo"
 
+#. mostly cloudy (night)
+#. mostly cloudy (day)
+#: ../src/extension.js:465
 msgid "Mostly cloudy"
 msgstr "Oblačno"
 
+#. partly cloudy (night)
+#. partly cloudy (day)
+#. partly cloudy
+#: ../src/extension.js:468 ../src/extension.js:494
 msgid "Partly cloudy"
 msgstr "Polojasno"
 
+#. clear (night)
+#: ../src/extension.js:470
 msgid "Clear"
 msgstr "Jasno"
 
+#. sunny
+#: ../src/extension.js:472
 msgid "Sunny"
 msgstr "Slunečno"
 
+#. fair (night)
+#. fair (day)
+#: ../src/extension.js:475
 msgid "Fair"
 msgstr "Pěkně"
 
+#. mixed rain and hail
+#: ../src/extension.js:477
 msgid "Mixed rain and hail"
 msgstr "Déšť s kroupami"
 
+#. hot
+#: ../src/extension.js:479
 msgid "Hot"
 msgstr "Horko"
 
+#. isolated thunderstorms
+#: ../src/extension.js:481
 msgid "Isolated thunderstorms"
 msgstr "Osamocené bouřky"
 
+#. scattered thunderstorms
+#. scattered thunderstorms
+#: ../src/extension.js:484
 msgid "Scattered thunderstorms"
 msgstr "Občasné bouřky"
 
+#. scattered showers
+#: ../src/extension.js:486
 msgid "Scattered showers"
 msgstr "Občasné přeháňky"
 
+#. heavy snow
+#: ../src/extension.js:488 ../src/extension.js:492
 msgid "Heavy snow"
 msgstr "Husté sněžení"
 
+#. scattered snow showers
+#: ../src/extension.js:490
 msgid "Scattered snow showers"
 msgstr "Občasné sněžení"
 
+#. thundershowers
+#: ../src/extension.js:496
 msgid "Thundershowers"
 msgstr "Bouřky s přeháňkami"
 
+#. snow showers
+#: ../src/extension.js:498
 msgid "Snow showers"
 msgstr "Sněhové přeháňky"
 
+#. isolated thundershowers
+#: ../src/extension.js:500
 msgid "Isolated thundershowers"
 msgstr "Osamocené bouřky s deštěm"
 
+#: ../src/extension.js:503
 msgid "Not available"
 msgstr "Není k dispozici"
 
+#: ../src/extension.js:518
 msgid "Monday"
 msgstr "Pondělí"
 
+#: ../src/extension.js:518
 msgid "Tuesday"
 msgstr "Úterý"
 
+#: ../src/extension.js:518
 msgid "Wednesday"
 msgstr "Středa"
 
+#: ../src/extension.js:518
 msgid "Thursday"
 msgstr "Čtvrtek"
 
+#: ../src/extension.js:518
 msgid "Friday"
 msgstr "Pátek"
 
+#: ../src/extension.js:518
 msgid "Saturday"
 msgstr "Sobota"
 
+#: ../src/extension.js:518
 msgid "Sunday"
 msgstr "Neděle"
 
+#: ../src/extension.js:523
 msgid "N"
 msgstr "S"
 
+#: ../src/extension.js:523
 msgid "NE"
 msgstr "SV"
 
+#: ../src/extension.js:523
 msgid "E"
 msgstr "V"
 
+#: ../src/extension.js:523
 msgid "SE"
 msgstr "JV"
 
+#: ../src/extension.js:523
 msgid "S"
 msgstr "J"
 
+#: ../src/extension.js:523
 msgid "SW"
 msgstr "JZ"
 
+#: ../src/extension.js:523
 msgid "W"
 msgstr "Z"
 
+#: ../src/extension.js:523
 msgid "NW"
 msgstr "SZ"
 
+#. Refresh forecast
+#: ../src/extension.js:663
 msgid "Today"
 msgstr "Dnes"
 
+#: ../src/extension.js:663
 msgid "Tomorrow"
 msgstr "Zítra"
 
+#: ../src/extension.js:715
 msgid "Loading current weather ..."
 msgstr "Načítá se aktuální počasí ..."
 
+#: ../src/extension.js:716
 msgid "Loading future weather ..."
 msgstr "Načítá se předpověď ..."
 
-msgid "Loading ..."
-msgstr "Načítá se ..."
-
-msgid "Please wait"
-msgstr "Čekejte"
-
+#: ../src/extension.js:727
 msgid "Sunrise"
 msgstr "Východ"
 
+#: ../src/extension.js:729
 msgid "Sunset"
 msgstr "Západ"
 
-msgid "Temperature:"
-msgstr "Teplota:"
+#: ../src/extension.js:752
+msgid "Loading ..."
+msgstr "Načítá se ..."
 
+#: ../src/extension.js:758
+msgid "Please wait"
+msgstr "Čekejte"
+
+#: ../src/extension.js:804
+msgid "Wind chill:"
+msgstr "Pocitově:"
+
+#: ../src/extension.js:806
 msgid "Humidity:"
 msgstr "Vlhkost:"
 
+#: ../src/extension.js:808
 msgid "Pressure:"
 msgstr "Tlak:"
 
+#: ../src/extension.js:810
 msgid "Wind:"
 msgstr "Vítr:"
+
+#: ../src/prefs.js:152
+#, c-format
+msgid "Schema %s not found."
+msgstr "Schéma \"%s\" nebylo nalezeno."
+
+#: ../src/prefs.js:159
+#, c-format
+msgid "UI file '%s' not found."
+msgstr "UI soubor \"%s\" nebyl nalezen."

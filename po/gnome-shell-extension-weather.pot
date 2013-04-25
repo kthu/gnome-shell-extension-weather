@@ -1,87 +1,75 @@
-# Catalan translation for gnome-shell-extension-weather
-# Copyright (C) 2011
-# This file is distributed under the same license as the gnome-shell-extension-weather package.
-# Pau Iranzo <paugnu@gmail.com>, 2011.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.0\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-04 01:53-0600\n"
-"PO-Revision-Date: 2013-04-12 07:33-0600\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
-"Language-Team: Softcatalà\n"
-"Language: ca\n"
+"POT-Creation-Date: 2013-02-04 01:38-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Project-Style: default\n"
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:1
 msgid "Units"
-msgstr "Unitats"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:2
 msgid ""
 "Choose the unit system for temperatures etc. Allowed values are 'celsius' or "
 "'fahrenheit'."
 msgstr ""
-"Trieu el sistema d'unitats per temperatures, etc. Valors vàlids són "
-"«celsius» o «fahrenheit»."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:3
 msgid "Wind Speed Units"
-msgstr "Unitats de la velocitat del vent"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:4
 msgid ""
 "Choose the units used for wind speed. Allowed values are 'kph', 'mph', 'm/s' "
 "or 'knots'."
 msgstr ""
-"Trieu les unitats per a la velocitat del vent. Valors vàlids són «kph», "
-"«mph», «m/s»o «knots»."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:5
 msgid "Yahoo WOEID"
-msgstr "WOEID del Yahoo"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:6
 msgid ""
 "Set the Yahoo location ID (aka. WOEID, Where On Earth Identifier), which is "
 "used to retrieve the corresponding weather+forecast information."
 msgstr ""
-"Establiu l'identificador d'ubicació del Yahoo (WOEID, «Where On Earth "
-"Identifier»), que esfa servir per obtenir la informació temps corresponent."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:7
 msgid "City to be displayed"
-msgstr "Ciutat que es mostrarà"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:8
 msgid ""
 "Optionally, you can override the displayed city. This one is displayed "
 "instead of the one from the Yahoo service."
 msgstr ""
-"De forma opcional, podeu sobreescriure la ciutat que es mostra. Aquesta és "
-"la quees mostra en lloc de la que prové del servei del Yahoo."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:9
 msgid "URL to load when clicking on location name"
-msgstr "URL a carregar quan feu clic en el nom de la ubicació"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:10
 msgid ""
 "Optionally, define the weather details URL to load when the city name is "
 "clicked. If not set, the default URL from Yahoo Weather is used."
 msgstr ""
-"Opcionalment, definiu la URL de detalls del pronòstic a carregar quan feu "
-"clic en el nom de la ubicació. Si no es defineix aquest paràmetre, s’usarà "
-"la URL predeterminada del Yahoo Weather."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:11
 msgid "Whether to translate the weather condition"
-msgstr "Si es traduirà les condicions del temps"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:12
 msgid ""
@@ -91,32 +79,27 @@ msgid ""
 "accuracy, e.g., the condition string \"PM Thunderstorms\" cannot be "
 "expressed in terms of weather codes."
 msgstr ""
-"Si es traduiran les condicions del temps. Si està habilitat, la condició es "
-"tradueix basant-se en el codi de temps. Si està inhabilitat, es mostrarà la "
-"traducció del Yahoo. Nota: Habilitar la traducció pot suposar pèrdua de "
-"precissió, per exemple la cadena de condició «PM Thunderstorms» no es pot "
-"expressar en codis de temps."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:13
 msgid "Whether to display sunrise / sunset times"
-msgstr "Si es mostrarà l'hora de sortida/posta del sol"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:14
 msgid ""
 "Whether to display sunrise and sunset times for today in current weather"
-msgstr "Si es mostrarà l'hora de sortida/posta del sol d'avui al temps actual"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:15
 msgid "Whether to use symbolic icons"
-msgstr "Si es faran servir icones simbòliques"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:16
 msgid "Whether to use symbolic icons instead of full-colored icons."
-msgstr "Si es faran servir icones simbòliques en lloc d'icones amb color"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:17
 msgid "Whether to show the text in the panel."
-msgstr "Si es mostrarà el text al plafó"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:18
 msgid ""
@@ -124,13 +107,10 @@ msgid ""
 "temperature in the panel. If only weather condition text is undesired, "
 "consider show-comment-in-panel option."
 msgstr ""
-"Si es mostrarà la condició del temps en text (comentari) conjuntament amb la "
-"temperatura al plafó. Si només voleu les condicions del temps, marqueu "
-"l'opció mostra-comentar-al-plafó."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:19
 msgid "Whether to show the comment in the panel."
-msgstr "Si es mostrarà el comentari al plafó"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:20
 msgid ""
@@ -138,459 +118,453 @@ msgid ""
 "\"Clear\") in the panel. Note that the temperature is still shown (if "
 "undesired, consider show-text-in-panel option)."
 msgstr ""
-"Si es mostrarà el comentari (com per exemple el text de la condició del "
-"temps «Vent» o «Clar») al plafó. Tingueu en compte que la temperatura es "
-"continuarà mostrant (si no la voleu, marqueu l'opció mostra-text-al-plafó)."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:21
 msgid "Position in panel"
-msgstr "Posició al plafó"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:22
 msgid ""
 "Set the position of this GNOME Shell extension in the panel to either "
 "'center', 'left' or 'right'."
 msgstr ""
-"Estableix la posició d'aquesta extensió del GNOME Shell al plafó a «centre», "
-"«esquerra» o «dreta»."
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:23
 msgid "Refresh interval in seconds"
-msgstr "Interval d'actualització en segons"
+msgstr ""
 
 #: ../data/org.gnome.shell.extensions.weather.gschema.xml.in.h:24
 msgid "The interval in seconds to refresh the weather information."
 msgstr ""
-"L'interval d'actualització en segons per actualitzar la informació del temps."
 
 #: ../data/prefs.ui.h:1
 msgid "Center"
-msgstr "Centre"
+msgstr ""
 
 #: ../data/prefs.ui.h:2
 msgid "Right"
-msgstr "Dreta"
+msgstr ""
 
 #: ../data/prefs.ui.h:3
 msgid "Left"
-msgstr "Esquerra"
+msgstr ""
 
 #: ../data/prefs.ui.h:4
 msgid "Celsius"
-msgstr "Celsius"
+msgstr ""
 
 #: ../data/prefs.ui.h:5
 msgid "Fahrenheit"
-msgstr "Fahrenheit"
+msgstr ""
 
 #: ../data/prefs.ui.h:6
 msgid "kph"
-msgstr "kph"
+msgstr ""
 
 #: ../data/prefs.ui.h:7
 msgid "mph"
-msgstr "mph"
+msgstr ""
 
 #: ../data/prefs.ui.h:8
 msgid "m/s"
-msgstr "m/s"
+msgstr ""
 
 #: ../data/prefs.ui.h:9
 msgid "knots"
-msgstr "nusos"
+msgstr ""
 
 #: ../data/prefs.ui.h:10
 msgid "<b>_Location ID:</b>"
-msgstr "<b>ID d'_Ubicació:</b>"
+msgstr ""
 
 #: ../data/prefs.ui.h:11
 msgid "_Temperature unit:"
-msgstr "Unitats de _temperatura::"
+msgstr ""
 
 #: ../data/prefs.ui.h:12
 msgid "Wind _speed unit:"
-msgstr "Unitat_s de velocitat del vent:"
+msgstr ""
 
 #: ../data/prefs.ui.h:13
 msgid "_Position in panel:"
-msgstr "_Posició al plafó:"
+msgstr ""
 
 #: ../data/prefs.ui.h:14
 msgid "_Override location label:"
-msgstr "S_obreescriu l'etiqueta d'ubicació:"
+msgstr ""
 
 #: ../data/prefs.ui.h:15 ../data/search.ui.h:1
 msgid "Search for Location ID"
-msgstr "Cerca per ID d'ubicació"
+msgstr ""
 
 #: ../data/prefs.ui.h:16
 msgid "T_ranslate weather conditions"
-msgstr "T_radueix les condicions del temps"
+msgstr ""
 
 #: ../data/prefs.ui.h:17
 msgid "Show s_unrise/sunset times"
-msgstr "Mostra l'hora de la s_ortida/posta del sol"
+msgstr ""
 
 #: ../data/prefs.ui.h:18
 msgid "Use s_ymbolic icons"
-msgstr "Fes servir i_cones simbòliques"
+msgstr ""
 
 #: ../data/prefs.ui.h:19
 msgid "Show te_xt in panel"
-msgstr "Mostra el te_xt al plafó"
+msgstr ""
 
 #: ../data/prefs.ui.h:20
 msgid "Include weather _conditions"
-msgstr "Mostra les _condicions del temps"
+msgstr ""
 
 #: ../data/search.ui.h:2
 msgid "Location:"
-msgstr "Ubicació:"
+msgstr ""
 
 #: ../data/search.ui.h:3
 msgid "_Search"
-msgstr "_Cerca"
+msgstr ""
 
 #. Label
 #: ../src/extension.js:194
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #. tornado
 #: ../src/extension.js:410
 msgid "Tornado"
-msgstr "Tornado"
+msgstr ""
 
 #. tropical storm
 #: ../src/extension.js:412
 msgid "Tropical storm"
-msgstr "Tempesta tropical"
+msgstr ""
 
 #. hurricane
 #: ../src/extension.js:414
 msgid "Hurricane"
-msgstr "Huracà"
+msgstr ""
 
 #. severe thunderstorms
 #: ../src/extension.js:416
 msgid "Severe thunderstorms"
-msgstr "Tempestes elèctriques severes"
+msgstr ""
 
 #. thunderstorms
 #: ../src/extension.js:418
 msgid "Thunderstorms"
-msgstr "Tempestes"
+msgstr ""
 
 #. mixed rain and snow
 #: ../src/extension.js:420
 msgid "Mixed rain and snow"
-msgstr "Barreja de pluja i neu"
+msgstr ""
 
 #. mixed rain and sleet
 #: ../src/extension.js:422
 msgid "Mixed rain and sleet"
-msgstr "Barreja de pluja i calamarsa"
+msgstr ""
 
 #. mixed snow and sleet
 #: ../src/extension.js:424
 msgid "Mixed snow and sleet"
-msgstr "Barreja de neu i calamarsa"
+msgstr ""
 
 #. freezing drizzle
 #: ../src/extension.js:426
 msgid "Freezing drizzle"
-msgstr "Plugims gelats"
+msgstr ""
 
 #. drizzle
 #: ../src/extension.js:428
 msgid "Drizzle"
-msgstr "Plugim"
+msgstr ""
 
 #. freezing rain
 #: ../src/extension.js:430
 msgid "Freezing rain"
-msgstr "Pluja glaçada"
+msgstr ""
 
 #. showers
 #: ../src/extension.js:432 ../src/extension.js:434
 msgid "Showers"
-msgstr "Ruixats"
+msgstr ""
 
 #. snow flurries
 #: ../src/extension.js:436
 msgid "Snow flurries"
-msgstr "Ràfegues de neu"
+msgstr ""
 
 #. light snow showers
 #: ../src/extension.js:438
 msgid "Light snow showers"
-msgstr "Precipitacions lleugeres de neu"
+msgstr ""
 
 #. blowing snow
 #: ../src/extension.js:440
 msgid "Blowing snow"
-msgstr "Neu aixecada pel vent"
+msgstr ""
 
 #. snow
 #: ../src/extension.js:442
 msgid "Snow"
-msgstr "Neu"
+msgstr ""
 
 #. hail
 #: ../src/extension.js:444
 msgid "Hail"
-msgstr "Calamarsa"
+msgstr ""
 
 #. sleet
 #: ../src/extension.js:446
 msgid "Sleet"
-msgstr "Aiguaneu"
+msgstr ""
 
 #. dust
 #: ../src/extension.js:448
 msgid "Dust"
-msgstr "Pols"
+msgstr ""
 
 #. foggy
 #: ../src/extension.js:450
 msgid "Foggy"
-msgstr "Boirós"
+msgstr ""
 
 #. haze
 #: ../src/extension.js:452
 msgid "Haze"
-msgstr "Boirina"
+msgstr ""
 
 #. smoky
 #: ../src/extension.js:454
 msgid "Smoky"
-msgstr "Fumat"
+msgstr ""
 
 #. blustery
 #: ../src/extension.js:456
 msgid "Blustery"
-msgstr "Tempestuós"
+msgstr ""
 
 #. windy
 #: ../src/extension.js:458
 msgid "Windy"
-msgstr "Ventades"
+msgstr ""
 
 #. cold
 #: ../src/extension.js:460
 msgid "Cold"
-msgstr "Fred"
+msgstr ""
 
 #. cloudy
 #: ../src/extension.js:462
 msgid "Cloudy"
-msgstr "Ennuvolat"
+msgstr ""
 
 #. mostly cloudy (night)
 #. mostly cloudy (day)
 #: ../src/extension.js:465
 msgid "Mostly cloudy"
-msgstr "Majoritàriament ennuvolat"
+msgstr ""
 
 #. partly cloudy (night)
 #. partly cloudy (day)
 #. partly cloudy
 #: ../src/extension.js:468 ../src/extension.js:494
 msgid "Partly cloudy"
-msgstr "Parcialment ennuvolat"
+msgstr ""
 
 #. clear (night)
 #: ../src/extension.js:470
 msgid "Clear"
-msgstr "Clar"
+msgstr ""
 
 #. sunny
 #: ../src/extension.js:472
 msgid "Sunny"
-msgstr "Assolellat"
+msgstr ""
 
 #. fair (night)
 #. fair (day)
 #: ../src/extension.js:475
 msgid "Fair"
-msgstr "Bon temps"
+msgstr ""
 
 #. mixed rain and hail
 #: ../src/extension.js:477
 msgid "Mixed rain and hail"
-msgstr "Barreja de pluja i calamarsa"
+msgstr ""
 
 #. hot
 #: ../src/extension.js:479
 msgid "Hot"
-msgstr "Calor"
+msgstr ""
 
 #. isolated thunderstorms
 #: ../src/extension.js:481
 msgid "Isolated thunderstorms"
-msgstr "Tempestes aïllades"
+msgstr ""
 
 #. scattered thunderstorms
 #. scattered thunderstorms
 #: ../src/extension.js:484
 msgid "Scattered thunderstorms"
-msgstr "Tempestes elèctriques aïllades"
+msgstr ""
 
 #. scattered showers
 #: ../src/extension.js:486
 msgid "Scattered showers"
-msgstr "Pluges aïllades"
+msgstr ""
 
 #. heavy snow
 #: ../src/extension.js:488 ../src/extension.js:492
 msgid "Heavy snow"
-msgstr "Nevada forta"
+msgstr ""
 
 #. scattered snow showers
 #: ../src/extension.js:490
 msgid "Scattered snow showers"
-msgstr "Xàfecs de neu dispersos"
+msgstr ""
 
 #. thundershowers
 #: ../src/extension.js:496
 msgid "Thundershowers"
-msgstr "Tempestes"
+msgstr ""
 
 #. snow showers
 #: ../src/extension.js:498
 msgid "Snow showers"
-msgstr "Cobert"
+msgstr ""
 
 #. isolated thundershowers
 #: ../src/extension.js:500
 msgid "Isolated thundershowers"
-msgstr "Tempestes aïllades"
+msgstr ""
 
 #: ../src/extension.js:503
 msgid "Not available"
-msgstr "No disponible"
+msgstr ""
 
 #: ../src/extension.js:518
 msgid "Monday"
-msgstr "Dilluns"
+msgstr ""
 
 #: ../src/extension.js:518
 msgid "Tuesday"
-msgstr "Dimarts"
+msgstr ""
 
 #: ../src/extension.js:518
 msgid "Wednesday"
-msgstr "Dimecres"
+msgstr ""
 
 #: ../src/extension.js:518
 msgid "Thursday"
-msgstr "Dijous"
+msgstr ""
 
 #: ../src/extension.js:518
 msgid "Friday"
-msgstr "Divendres"
+msgstr ""
 
 #: ../src/extension.js:518
 msgid "Saturday"
-msgstr "Dissabte"
+msgstr ""
 
 #: ../src/extension.js:518
 msgid "Sunday"
-msgstr "Diumenge"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "N"
-msgstr "N"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "NE"
-msgstr "NE"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "E"
-msgstr "E"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "SE"
-msgstr "SE"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "S"
-msgstr "S"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "SW"
-msgstr "SO"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "W"
-msgstr "O"
+msgstr ""
 
 #: ../src/extension.js:523
 msgid "NW"
-msgstr "NO"
+msgstr ""
 
 #. Refresh forecast
 #: ../src/extension.js:663
 msgid "Today"
-msgstr "Avui"
+msgstr ""
 
 #: ../src/extension.js:663
 msgid "Tomorrow"
-msgstr "Demà"
+msgstr ""
 
 #: ../src/extension.js:715
 msgid "Loading current weather ..."
-msgstr "S'està carregant el temps actual..."
+msgstr ""
 
 #: ../src/extension.js:716
 msgid "Loading future weather ..."
-msgstr "S'està carregant el temps futur..."
+msgstr ""
 
 #: ../src/extension.js:727
 msgid "Sunrise"
-msgstr "Sortida del sol"
+msgstr ""
 
 #: ../src/extension.js:729
 msgid "Sunset"
-msgstr "Posta del sol"
+msgstr ""
 
 #: ../src/extension.js:752
 msgid "Loading ..."
-msgstr "S'està carregant..."
+msgstr ""
 
 #: ../src/extension.js:758
 msgid "Please wait"
-msgstr "Espereu"
+msgstr ""
 
 #: ../src/extension.js:804
 msgid "Wind chill:"
-msgstr "Vent fred:"
+msgstr ""
 
 #: ../src/extension.js:806
 msgid "Humidity:"
-msgstr "Humitat:"
+msgstr ""
 
 #: ../src/extension.js:808
 msgid "Pressure:"
-msgstr "Pressió:"
+msgstr ""
 
 #: ../src/extension.js:810
 msgid "Wind:"
-msgstr "Vent:"
+msgstr ""
 
 #: ../src/prefs.js:152
-#, c-format
-msgid "Schema %s not found."
-msgstr "No s’ha trobat l’esquema %s."
+msgid "Schema "
+msgstr ""
+
+#: ../src/prefs.js:152
+msgid " not found."
+msgstr ""
 
 #: ../src/prefs.js:159
-#, c-format
-msgid "UI file '%s' not found."
-msgstr "No s’ha trobat el fitxer de interfície d’usuari «%s»."
+msgid "UI file '"
+msgstr ""
 
-#~ msgid "Schema "
-#~ msgstr "Esquema "
-
-#~ msgid "UI file '"
-#~ msgstr "Fitxer UI «"
+#: ../src/prefs.js:159
+msgid "' not found."
+msgstr ""

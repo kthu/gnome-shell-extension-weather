@@ -78,15 +78,34 @@ extension.
 You can see more screenshots of the gnome-shell-extension-prefs tool
 in action in the Screenshots page.
 
+There is an additional option available for the extension, not
+visible from the preferences dialog. It allows the user to override
+the weather details URL, which defaults to the one provided by
+Yahoo! You can override the URL via gsettings if the extension is
+installed globally for all users:
+
+gsettings set org.gnome.shell.extensions.weather details-url \
+   "http://www.weather.com/weather/right-now/MXDF0132"
+
+or with dconf if the extension is installed for only one user in
+$HOME/.local/share:
+
+dconf write /org/gnome/shell/extensions/weather/details-url \
+   "'http://www.weather.com/weather/right-now/MXDF0132'"
+
+Note the single quotes inside the double quotes; they are necessary
+since dconf needs its values in GVariant format.
+
 Location
 --------
 
-The GNOME Shell Weather Extension uses WOEIDs to know what weather
-data should be requested. The preferences for the extension includes
-a WOEID searcher: you only need to click in the "Search for WOEID"
-button, enter the name of your town or city, and press ENTER or
-click in the "Search" button. A list of locations that matches your
-search will fill the combo box so you can select the correct one.
+The GNOME Shell Weather Extension uses Yahoo!'s Location IDs to know
+what weather data should be requested. The preferences for the
+extension includes a Location ID searcher: you only need to click in
+the "Search for Location ID" button, enter the name of your town or
+city, and press ENTER or click in the "Search" button. A list of
+locations that matches your search will fill the combo box so you
+can select the correct one.
 
 License
 -------
